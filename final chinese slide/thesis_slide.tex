@@ -1,0 +1,131 @@
+% pdfLaTeX 编译两次才能解决书签中文乱码
+% !TEX TS-program = pdfLaTeX+MakeIndex+BibTeX
+% !TEX encoding = UTF-8
+
+\documentclass[CJKutf8,xcolor=x11names]{beamer}
+
+\usecolortheme{seahorse}
+\useinnertheme[shadow]{rounded}  
+\useoutertheme[subsection=false]{smoothbars}
+
+\usepackage{CJKutf8}
+\usepackage{times} % Times New Roman
+\graphicspath{{figures/}} % 图片路径
+\usepackage{ragged2e}
+\renewcommand{\raggedright}{\leftskip=0pt \rightskip=0pt plus 0cm} % 对齐
+\usepackage{calligra} % Thank you
+\usepackage{fontawesome} % 图标
+\usepackage{natbib} % 参考文献
+
+\title{空间广义线性混合效应模型及其应用}
+
+\subtitle{毕业答辩}
+\author{导师：李再兴\\学生：黄湘云}
+\institute{\includegraphics[width=10ex,interpolate=true]{logo} \\~~ \\ 
+理学院\\ 计算数学与统计系 \\ 中国矿业大学（北京）}
+\date{ 2018年6月}
+
+\keywords{广义线性模型，空间过程}
+\subject{毕业答辩}
+
+
+\begin{document}
+\begin{CJK*}{UTF8}{gkai}  
+
+\maketitle
+
+
+
+\begin{frame}
+
+\textbf{Outline 目录}
+\begin{enumerate}
+  \item Introduction (Motivations and goals)
+  \item Literature reviews  
+  \item Geostatistical model (SGLMM)
+  \item Computing details and simulations
+  \item Real data analysis (Applications)
+  \item Discussion
+\end{enumerate}
+\end{frame}
+
+\section{介绍}
+
+\begin{frame}
+\textbf{Outline 目录}
+\begin{enumerate}
+  \item Introduction (Motivations and goals)
+  \item Literature reviews  
+  \item Geostatistical model (SGLMM)
+  \item Computing details and simulations
+  \item Real data analysis (Applications)
+  \item Discussion
+\end{enumerate}
+\end{frame}
+
+\section{$\chi^2$极限分布}
+
+\begin{frame}
+\textbf{Outline }
+\begin{enumerate}
+  \item Introduction (Motivations and goals)
+  \item Literature reviews  
+  \item Geostatistical model (SGLMM)
+  \item Computing details and simulations
+  \item Real data analysis (Applications)
+  \item Discussion
+\end{enumerate}
+\end{frame}
+
+
+
+
+\begin{frame}[allowframebreaks]
+\frametitle{Frameworks, Packages and Softwares}
+
+\begin{description}
+\item[\textbf{R:}] geoR geoRglm spatial PrevMap \\
+\citet{R-geoR,R-geoRglm,R-spatial,Giorgi2016}
+
+\item[\textbf{Stan:}] Stan \footnote{\scriptsize \url{http://mc-stan.org/} }  
+interfaces with R (RStan) ,Python (PyStan) , MATLAB (MatlabStan) 
+and  more \\ \citet{Stan2015,Stan2017}
+
+\item[\textbf{PyMC3:}] Probabilistic programming in Python using PyMC3 \\ \citet{Salvatier2016}
+
+\item[\textbf{JAGS:}] \textbf{J}ust \textbf{A}nother \textbf{G}ibbs \textbf{S}ampler \footnote{\scriptsize \url{https://en.wikipedia.org/wiki/Just_another_Gibbs_sampler}} \\
+Bayesian hierarchical models using Markov chain Monte Carlo (MCMC)
+\item[\textbf{BUGS:}] \textbf{B}ayesian inference \textbf{U}sing \textbf{G}ibbs \textbf{S}ampling ,
+such as winBUGS, OpenBUGS 
+\item[\textbf{R-INLA:}] \textbf{I}ntegrated \textbf{N}ested \textbf{L}aplace \textbf{A}pproximations \\
+\citet{Rue2009,R-INLA,Rue2017arXiv}
+\end{description}
+
+
+\end{frame}
+
+\section*{致谢}
+
+\begin{frame}
+\centering
+\color{red}
+\Huge {\calligra{Thank You}}\\
+\bigskip
+\color{Blue4}
+\normalsize
+\faEnvelope{} \href{mailto:me@somewhere.com}{xiangyunfaith@outlook.com} \\
+\faGithub{} \href{https://github.com/Cloud2016}{https://github.com/Cloud2016} \\
+\bigskip
+\includegraphics[width=10ex,interpolate=true]{me}
+\end{frame}
+
+
+\begin{frame}[allowframebreaks]
+\bibliographystyle{authordate1}
+\bibliography{R-GLMM-pkgs}
+\end{frame}
+
+\end{CJK*}
+\end{document} 
+
+

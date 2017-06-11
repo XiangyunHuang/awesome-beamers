@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{介绍}{3}{0}{1}
+\beamer@sectionintoc {2}{$\chi ^2$极限分布}{4}{0}{2}
