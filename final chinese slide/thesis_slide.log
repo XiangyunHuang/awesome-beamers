@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.23)  11 JUN 2017 10:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.23)  11 JUN 2017 11:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1100,92 +1100,92 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 23.
+(hyperref)                removing `\\' on input line 25.
 
 (./thesis_slide.aux)
 \openout1 = `thesis_slide.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 34.
  (c:/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
@@ -1255,7 +1255,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 32.
+Package hyperref Info: Link coloring OFF on input line 34.
 
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1265,56 +1265,56 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count161
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
 
 (./thesis_slide.out) (./thesis_slide.out)
 \@outlinefile=\write5
 \openout5 = `thesis_slide.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 32.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 32.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 34.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/ptm/m/n on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 32.
+(Font)                  OT1/cmss/m/n --> OT1/ptm/m/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 32.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 32.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 32.
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 32.
+(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 32.
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 32.
+(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 32.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 32.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 32.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 32.
+(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/ptm/bx/n on input line 32.
+(Font)                  OT1/cmss/bx/n --> OT1/ptm/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 32.
+(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 32.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 32.
+(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 32.
+(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 34.
 
 (c:/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-
 dictionary/translator-basic-dictionary-English.dict
@@ -1340,25 +1340,25 @@ Dictionary: translator-numbers-dictionary, Language: English
 m-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 32.
+LaTeX Info: Redefining \includegraphics on input line 34.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 32.
+LaTeX Info: Redefining \selectfont on input line 34.
  (./thesis_slide.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 32.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 34.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 32.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 34.
 
 (c:/texlive/2016/texmf-dist/tex/latex/cjk/texinput/utf8/UTF8.bdg
 File: UTF8.bdg 2015/04/18 4.8.4
@@ -1369,7 +1369,7 @@ File: UTF8.enc 2015/04/18 4.8.4
 (c:/texlive/2016/texmf-dist/tex/latex/cjk/texinput/utf8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
 )
-LaTeX Font Info:    Try loading font information for C70+gkai on input line 35.
+LaTeX Font Info:    Try loading font information for C70+gkai on input line 37.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/cjk/texinput/utf8/c70gkai.fd
@@ -1381,13 +1381,13 @@ File: c70gkai.fdx 2015/04/18 4.8.4
 <figures/logo.pdf, id=59, 72.27pt x 72.27pt>
 File: figures/logo.pdf Graphic file (type pdf)
  <use figures/logo.pdf>
-Package pdftex.def Info: figures/logo.pdf used on input line 35.
+Package pdftex.def Info: figures/logo.pdf used on input line 37.
 (pdftex.def)             Requested size: 41.83975pt x 41.83942pt.
  [1{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./figures/logo.pdf>]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 50.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 52.
 
 [2
 
@@ -1396,35 +1396,35 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 66.
+(hyperref)                removing `math shift' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\chi' on input line 66.
+(hyperref)                removing `\chi' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 66.
+(hyperref)                removing `superscript' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 66.
+(hyperref)                removing `math shift' on input line 68.
 
 [4
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 105.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 107.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 105.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 107.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 105.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 105.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 107.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 107.
 
  (c:/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (5.41554pt too wide) in paragraph at lines 105--105
+Overfull \hbox (5.41554pt too wide) in paragraph at lines 107--107
 [][]\OT1/phv/m/n/10.95 Rue \OT1/phv/m/sl/10.95 et al.  \OT1/phv/m/n/10.95 (2009
 [], []2016[]); []G[]omez-Rubio & Rue (2017[]) 
  []
@@ -1436,17 +1436,17 @@ Overfull \hbox (5.41554pt too wide) in paragraph at lines 105--105
 
 ]
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 35.82726pt on input line 120.
+(Font)              scaled to size 35.82726pt on input line 122.
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 120.
+line 122.
  (c:/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
-<figures/me.jpg, id=359, interpolate=true, 401.5pt x 401.5pt>
+<figures/me.jpg, id=363, interpolate=true, 401.5pt x 401.5pt>
 File: figures/me.jpg Graphic file (type jpg)
 
 <use figures/me.jpg>
-Package pdftex.def Info: figures/me.jpg used on input line 120.
+Package pdftex.def Info: figures/me.jpg used on input line 122.
 (pdftex.def)             Requested size: 57.26822pt x 57.26335pt.
  [7
 
@@ -1465,21 +1465,21 @@ Package pdftex.def Info: figures/me.jpg used on input line 120.
 \tf@snm=\write8
 \openout8 = `thesis_slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
 
 (./thesis_slide.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
 Package rerunfilecheck Info: File `thesis_slide.out' has not changed.
 (rerunfilecheck)             Checksum: 1553DF4B1C506B10C8847CC3B8691907;139.
  ) 
 Here is how much of TeX's memory you used:
- 24436 strings out of 493013
- 418380 string characters out of 6136993
- 493889 words of memory out of 5000000
- 27328 multiletter control sequences out of 15000+600000
- 43333 words of font info for 118 fonts, out of 8000000 for 9000
+ 24452 strings out of 493013
+ 418592 string characters out of 6136993
+ 494888 words of memory out of 5000000
+ 27338 multiletter control sequences out of 15000+600000
+ 44502 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,55p,780b,1330s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{c
@@ -1502,26 +1502,28 @@ gkaiu65.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu67.pfb><c
 /texmf-dist/fonts/type1/arphic/gkaiu/gkaiu6b.pfb><c:/texlive/2016/texmf-dist/fo
 nts/type1/arphic/gkaiu/gkaiu6d.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arph
 ic/gkaiu/gkaiu6e.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu
-74.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu75.pfb><c:/tex
-live/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu76.pfb><c:/texlive/2016/texm
-f-dist/fonts/type1/arphic/gkaiu/gkaiu77.pfb><c:/texlive/2016/texmf-dist/fonts/t
-ype1/arphic/gkaiu/gkaiu7a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gk
-aiu/gkaiu7b.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu7c.pf
-b><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu7e.pfb><c:/texlive/
-2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu81.pfb><c:/texlive/2016/texmf-dis
-t/fonts/type1/arphic/gkaiu/gkaiu8b.pfb><c:/texlive/2016/texmf-dist/fonts/type1/
-arphic/gkaiu/gkaiu8c.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/g
-kaiu8f.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu95.pfb><c:
-/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu96.pfb><c:/texlive/2016/
-texmf-dist/fonts/type1/arphic/gkaiu/gkaiu9e.pfb><c:/texlive/2016/texmf-dist/fon
-ts/type1/arphic/gkaiu/gkaiuff.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/c
-ourier/ucrr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.p
-fb><c:/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/
-2016/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on thesis_slide.pdf (9 pages, 226782 bytes).
+73.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu74.pfb><c:/tex
+live/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu75.pfb><c:/texlive/2016/texm
+f-dist/fonts/type1/arphic/gkaiu/gkaiu76.pfb><c:/texlive/2016/texmf-dist/fonts/t
+ype1/arphic/gkaiu/gkaiu77.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gk
+aiu/gkaiu7a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu7b.pf
+b><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu7c.pfb><c:/texlive/
+2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu7e.pfb><c:/texlive/2016/texmf-dis
+t/fonts/type1/arphic/gkaiu/gkaiu80.pfb><c:/texlive/2016/texmf-dist/fonts/type1/
+arphic/gkaiu/gkaiu81.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/g
+kaiu8b.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu8c.pfb><c:
+/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu8f.pfb><c:/texlive/2016/
+texmf-dist/fonts/type1/arphic/gkaiu/gkaiu95.pfb><c:/texlive/2016/texmf-dist/fon
+ts/type1/arphic/gkaiu/gkaiu96.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arphi
+c/gkaiu/gkaiu9e.pfb><c:/texlive/2016/texmf-dist/fonts/type1/arphic/gkaiu/gkaiuf
+f.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texliv
+e/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2016/texmf-di
+st/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/
+urw/helvetic/uhvro8a.pfb>
+Output written on thesis_slide.pdf (9 pages, 233186 bytes).
 PDF statistics:
- 588 PDF objects out of 1000 (max. 8388607)
- 464 compressed objects within 5 object streams
+ 598 PDF objects out of 1000 (max. 8388607)
+ 470 compressed objects within 5 object streams
  33 named destinations out of 1000 (max. 500000)
- 247 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 255 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -12,20 +12,39 @@
 \usepackage[beamer,customcolors]{hf-tikz}
 \hfsetfillcolor{alerted text.fg!10}
 \hfsetbordercolor{alerted text.fg}
+\usepackage{xeCJK}
 \usepackage{natbib} % 参考文献
 % \setsansfont{Ubuntu}
 % \setsansfont{Fira Sans}
 \setsansfont{Roboto}
 
+\defaultfontfeatures{Mapping=tex-text}
+\setCJKmainfont[BoldFont=Noto Sans CJK SC, ItalicFont=Adobe Kaiti Std]{Source Han Serif SC}
+\setCJKmonofont[Scale=0.9]{Adobe Kaiti Std}
+\setCJKfamilyfont{song}[BoldFont=Noto Sans CJK SC]{Source Han Serif SC}
+\setCJKfamilyfont{sf}[BoldFont=Noto Sans CJK SC]{Noto Sans CJK SC}
+
+\renewcommand\contentsname{目录}
+\renewcommand\listfigurename{插图列表}
+\renewcommand\listtablename{表格列表}
+\renewcommand\refname{参考文献}
+\renewcommand\indexname{索引}
+\renewcommand\figurename{图}
+\renewcommand\tablename{表}
+\renewcommand\partname{部分}
+\renewcommand\appendixname{附录}
+\renewcommand\abstractname{摘要}
+
+
 \graphicspath{{figures/}} % 图片路径
 
-\author{Xiang-Yun Huang} % 答辩人
-\rel{Zai-Xing Li} % 导师
-\title[Spatial Generalized Linear Mixed Models]{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
-\ateneo{dissertation defense}
+\author{黄湘云} % 答辩人
+\rel{李再兴} % 导师
+\title{空间广义线性混合模型及其在预测流行病中的应用}
+\ateneo{硕士论文答辩}
 \date{\today}
 \keywords{SGLMM}
-\subject{dissertation defense}
+\subject{硕士论文答辩}
 
 \begin{document}
 \titlepageframe
