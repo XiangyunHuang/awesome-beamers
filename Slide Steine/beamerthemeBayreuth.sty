@@ -1,0 +1,276 @@
+%%
+%%	This is file 'beamerthemeBayreuth.sty'
+%%
+%%	The Bayreuth beamer theme a simple, neutral LaTeX beamer theme.
+%%	It uses the blue and green colors of the Bayreuth city logo.
+%%
+%%	THIS THEME IS NOT AN OFFICIAL ONE!!	
+%%
+%%	---------------------------------------------------------------------------
+%%	Copyright 2017 Sebastian Friedl
+%% 
+%%	This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+%%	International License (https://creativecommons.org/licenses/by-sa/4.0/).
+%%
+%%	This means that if you change the theme and re-distribute it, you must re-
+%%	tain the copyright notice header and license it under the same CC-BY-SA
+%%	license.
+%%	This does not affect any presentations that you create with the theme.
+%%
+%%	---------------------------------------------------------------------------
+%%	This theme is based on the metropolis theme:
+%%	Copyright 2015 Matthias Vogelgesang and the LaTeX community. A full list of
+%%	contributors can be found at
+%% 
+%%		https://github.com/matze/mtheme/graphs/contributors
+%% 
+%%	and the original template was based on the HSRM theme by Benjamin Weiss.
+%% 
+%%	This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+%%	International License (https://creativecommons.org/licenses/by-sa/4.0/).
+%% ---------------------------------------------------------------------------
+
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{beamerthemeBayreuth}[2017/03/13 Bayreuth beamer theme]
+\RequirePackage{appendixnumberbeamer}
+\RequirePackage{etoolbox}
+\RequirePackage{calc}
+\RequirePackage{pgfopts}
+\RequirePackage{keyval}
+\RequirePackage{tikz}
+
+
+
+% INNER THEME PART
+
+% Sets the item style for enumerations / itemizations
+\setbeamertemplate{items}[circle]
+\setbeamertemplate{sections/subsections in toc}[circle]
+
+% Title page template
+\setbeamertemplate{title page}{
+	\begin{minipage}[b][\paperheight]{\textwidth}
+		\ifx\inserttitlegraphic\@empty\else\usebeamertemplate*{title graphic}\fi
+		\vfill%
+		\ifx\inserttitle\@empty\else\usebeamertemplate*{title}\fi
+		\ifx\insertsubtitle\@empty\else\usebeamertemplate*{subtitle}\fi
+		\usebeamertemplate*{title separator}
+		\ifx\beamer@shortauthor\@empty\else\usebeamertemplate*{author}\fi
+		\ifx\insertdate\@empty\else\usebeamertemplate*{date}\fi
+		\ifx\insertinstitute\@empty\else\usebeamertemplate*{institute}\fi
+		\vfill
+		\vspace*{1mm}
+	\end{minipage}
+}
+
+% Defines the \maketitle command
+\def\maketitle{\ifbeamer@inframe
+		\titlepage
+	\else
+		\frame[plain,noframenumbering]{\titlepage}
+	\fi
+}
+
+% Defines a \titlepage command
+\def\titlepage{\usebeamertemplate{title page}}
+
+% Templates for title, subtitle, author, institute, date title graphic and title seperator
+\setbeamertemplate{title}{\raggedright\linespread{1.0}\inserttitle\par\vspace*{0.5em}}
+\setbeamertemplate{subtitle}{\insertsubtitle\par\vspace*{0.5em}}
+\setbeamertemplate{author}{\vspace*{2em}\insertauthor\par\vspace*{0.25em}}
+\setbeamertemplate{institute}{\vspace*{3mm}\insertinstitute\par}
+\setbeamertemplate{date}{\insertdate\par}
+\setbeamertemplate{title graphic}{\vbox to 0pt {\vspace*{2em}\inserttitlegraphic}\nointerlineskip}
+\setbeamertemplate{title separator}{
+	\begin{tikzpicture}
+		\draw[fg, fill=fg] (0,0) rectangle (\textwidth, 0.4pt);
+	\end{tikzpicture}%
+	\par%
+}
+
+
+
+% OUTER THEME PART
+
+% Setting keys for the frame numbering
+\pgfkeys{
+	/Bayreuth/themeopts/numbering/.cd, .is choice,
+	    none/.code=\setbeamertemplate{frame numbering}[none],
+	    counter/.code=\setbeamertemplate{frame numbering}[counter],
+	    fraction/.code=\setbeamertemplate{frame numbering}[fraction],
+	    appendix/.code=\setbeamertemplate{frame numbering}[appendix],
+}
+
+% Setting keys for the footline
+\pgfkeys{
+	/Bayreuth/themeopts/footline/.cd, .is choice,
+	 	none/.code={%
+			\setbeamertemplate{navigation symbols}{}%
+			\setbeamertemplate{footline}[none]%
+		},
+		standard/.code=\setbeamertemplate{footline}[standard],
+		smallcaps/.code=\setbeamertemplate{footline}[smallcaps],
+}
+
+% Template for the framenumbers:
+% none			no framenumbers are shown (not recommened!)
+% counter		a simple frame counter (Example: 1)
+% fraction		framenumbers are shown as  frame / currentframe  (Example:  1 / 10)
+% appendix		An "Appendix" remark instead of frame numbers on appendix frames
+\defbeamertemplate{frame numbering}{none}{}
+\defbeamertemplate{frame numbering}{counter}{\insertframenumber}
+\defbeamertemplate{frame numbering}{fraction}{\insertframenumber\ / \inserttotalframenumber}
+\defbeamertemplate{frame numbering}{appendix}{Anhang}
+\defbeamertemplate{headline}{plain}{}
+
+% Template for frames without footline
+\defbeamertemplate{footline}{none}{%
+	\begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm]{nofootline}
+		\hfill%
+		\usebeamertemplate*{frame numbering}
+	\end{beamercolorbox}
+}
+
+% Template for the footline
+\defbeamertemplate{footline}{standard}{%
+	\begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm]{footline}
+		\usebeamerfont{author in head/foot} \insertshortauthor:
+		\usebeamerfont{title in head/foot}\insertshorttitle \hfill%
+		\usebeamerfont{page number in head/foot}\usebeamertemplate*{frame numbering}
+	\end{beamercolorbox}
+}
+
+% Template for the footline using small caps
+\defbeamertemplate{footline}{smallcaps}{%
+	\scshape%
+	\begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm]{footline}
+		\usebeamerfont{author in head/foot}\insertshortauthor:
+		\usebeamerfont{title in head/foot}\insertshorttitle \hfill%
+		\usebeamerfont{page number in head/foot}\usebeamertemplate*{frame numbering}
+	\end{beamercolorbox}
+}
+
+% Lengths and commands for the frame title
+\newlength{\Bayreuth@frametitle@padding}
+\setlength{\Bayreuth@frametitle@padding}{2.2ex}
+\newcommand{\Bayreuth@frametitlestrut@start}{
+	\rule{0pt}{\Bayreuth@frametitle@padding + \totalheightof{\ifcsdef{Bayreuth@frametitleformat}{\Bayreuth@frametitleformat X}{X}}}}
+\newcommand{\Bayreuth@frametitlestrut@end}{\rule[-\Bayreuth@frametitle@padding]{0pt}{\Bayreuth@frametitle@padding}}
+
+% Frame title template
+\defbeamertemplate{frametitle}{Bayreuth theme}{%
+	\nointerlineskip%
+	\begin{beamercolorbox}[wd=\paperwidth,sep=0pt,leftskip=\Bayreuth@frametitle@padding,rightskip=\Bayreuth@frametitle@padding,]{frametitle}%
+		\Bayreuth@frametitlestrut@start\insertframetitle\Bayreuth@frametitlestrut@end%
+	\end{beamercolorbox}%
+}
+
+% Changes the frame numbering to "Anhang" when the command \appendix is used
+\AtBeginDocument{\apptocmd{\appendix}{\pgfkeys{/Bayreuth/themeopts/.cd, numbering=appendix}}{}{}}
+
+
+
+% FONT THEME PART
+
+% Font style definitions for the title frame
+\setbeamerfont*{title}{size=\Large,series=\bfseries}
+\setbeamerfont*{subtitle}{size=\large}
+\setbeamerfont*{author}{size=\small}
+\setbeamerfont*{date}{size=\small}
+
+% Font style definitions for frame items
+\setbeamerfont*{frametitle}{size=\large,series=\bfseries}
+\setbeamerfont*{caption}{size=\small}
+\setbeamerfont*{caption name}{series=\bfseries}
+\setbeamerfont*{description item}{series=\bfseries}
+
+% Font style defintions for the bibliography
+\setbeamerfont*{bibliography entry author}{size=\normalsize,series=\normalfont}
+\setbeamerfont*{bibliography entry title}{size=\normalsize,series=\bfseries}
+\setbeamerfont*{bibliography entry location}{size=\normalsize,series=\normalfont}
+\setbeamerfont*{bibliography entry note}{size=\small,series=\normalfont}
+
+% Option for selecting the shape of the presentation title on the title frame
+\pgfkeys{
+	/Bayreuth/themeopts/titleformat title/.cd, .is choice,
+		regular/.code={\let\Bayreuth@titleformat\@empty%
+			\setbeamerfont{title}{shape=\normalfont}},
+		smallcaps/.code={\let\Bayreuth@titleformat\@empty%
+			\setbeamerfont{title}{shape=\scshape}},
+}
+
+% Allows writing "titleformattitle" instead of "titleformat title"
+\pgfkeys{
+	/Bayreuth/themeopts/.cd,
+	titleformattitle/.code=\pgfkeysalso{titleformat title=#1},
+}
+
+
+
+% COLOR THEME PART
+
+% Defines the colors in the Bayreuth logo and a grey color
+\definecolor{BayreuthBlue1}{HTML}{0061A1}
+\definecolor{BayreuthBlue2}{HTML}{008BCB}
+\definecolor{BayreuthGreen}{HTML}{80BA26}
+\definecolor{BayreuthGrey}{HTML}{808080}
+
+% Sets the palette colors
+\setbeamercolor*{palette primary}{fg=white,bg=BayreuthBlue1}
+\setbeamercolor*{palette secondary}{fg=black,bg=BayreuthGreen}
+\setbeamercolor*{palette tertiary}{fg=black,bg=BayreuthBlue2}
+\setbeamercolor*{palette quaternary}{fg=black,bg=BayreuthGrey}
+
+% Sets the colors for structure and footlines
+\setbeamercolor*{structure}{fg=BayreuthBlue1,bg=white}
+\setbeamercolor*{footline}{fg=black,bg=BayreuthGreen}
+\setbeamercolor*{nofootline}{bg=white}
+
+% Sets the colors of title page and frame titles
+\setbeamercolor*{titlelike}{fg=black}
+\setbeamercolor*{frametitle}{parent=palette primary}
+
+% Sets the colors of the seperation items
+\setbeamercolor*{title separator}{fg=BayreuthBlue1}
+\setbeamercolor*{separation line}{parent=palette primary}
+\setbeamercolor*{fine separation line}{parent=palette primary}
+
+% Sets the colors for normal blocks
+\setbeamercolor*{block title}{parent=palette primary}
+\setbeamercolor*{block body}{parent=normal text,use=block title,bg=block title.bg!20!bg}
+
+% Sets the colors for alert blocks
+\setbeamercolor*{block title alerted}{use=alerted text,fg=white,bg=alerted text.fg!85!black!80!white}
+\setbeamercolor*{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!20!bg}
+
+% Sets the colors for example blocks
+\setbeamercolor*{block title example}{parent=palette secondary}
+\setbeamercolor*{block body example}{parent=normal text,use=block title example,bg=block title example.bg!20!bg}
+
+% Sets the colors for footnotes
+\setbeamercolor*{footnote}{fg=BayreuthBlue1}
+\setbeamercolor*{footnote mark}{fg=.}
+
+
+
+% APPLYING OPTIONS PASSED BY THE THEME
+
+% Default settings
+\newcommand{\Bayreuth@themeopts@setdefaults}{
+	\pgfkeys{/Bayreuth/themeopts/.cd,
+		numbering=fraction,
+		footline=standard,
+		titleformat title=regular,
+	}
+}
+
+\Bayreuth@themeopts@setdefaults
+\ProcessPgfPackageOptions{/Bayreuth/themeopts}
+
+
+
+% END OF THE STYLE FILE
+\endinput
+%%
+%% End of file `beamerthemeBayreuth.sty'.

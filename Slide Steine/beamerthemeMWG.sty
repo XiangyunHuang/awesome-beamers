@@ -1,0 +1,280 @@
+%%
+%%	This is file 'beamerthemeMWG.sty'
+%%
+%%	The MWG beamer theme is as a simple, neutral LaTeX beamer theme using the
+%%	colors of the Markgräfin Wilhelmine Gymnasium, Bayreuth.
+%%
+%%	THIS THEME IS NOT AN OFFICIAL ONE!!	
+%%
+%%	---------------------------------------------------------------------------
+%%	Copyright 2017 Sebastian Friedl
+%% 
+%%	This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+%%	International License (https://creativecommons.org/licenses/by-sa/4.0/).
+%%
+%%	This means that if you change the theme and re-distribute it, you must re-
+%%	tain the copyright notice header and license it under the same CC-BY-SA
+%%	license.
+%%	This does not affect any presentations that you create with the theme.
+%%
+%%	---------------------------------------------------------------------------
+%%	This theme is based on the metropolis theme:
+%%	Copyright 2015 Matthias Vogelgesang and the LaTeX community. A full list of
+%%	contributors can be found at
+%% 
+%%		https://github.com/matze/mtheme/graphs/contributors
+%% 
+%%	and the original template was based on the HSRM theme by Benjamin Weiss.
+%% 
+%%	This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+%%	International License (https://creativecommons.org/licenses/by-sa/4.0/).
+%% ---------------------------------------------------------------------------
+
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{beamerthemeMWG}[2017/03/06 MWG beamer theme]
+\RequirePackage{appendixnumberbeamer}
+\RequirePackage{etoolbox}
+\RequirePackage{calc}
+\RequirePackage{pgfopts}
+\RequirePackage{keyval}
+\RequirePackage{tikz}
+
+
+
+% INNER THEME PART
+
+% Sets the item style for enumerations / itemizations
+\setbeamertemplate{items}[circle]
+\setbeamertemplate{sections/subsections in toc}[circle]
+
+% Title page template
+\setbeamertemplate{title page}{
+	\begin{minipage}[b][\paperheight]{\textwidth}
+		\ifx\inserttitlegraphic\@empty\else\usebeamertemplate*{title graphic}\fi
+		\vfill%
+		\ifx\inserttitle\@empty\else\usebeamertemplate*{title}\fi
+		\ifx\insertsubtitle\@empty\else\usebeamertemplate*{subtitle}\fi
+		\usebeamertemplate*{title separator}
+		\ifx\beamer@shortauthor\@empty\else\usebeamertemplate*{author}\fi
+		\ifx\insertdate\@empty\else\usebeamertemplate*{date}\fi
+		\ifx\insertinstitute\@empty\else\usebeamertemplate*{institute}\fi
+		\vfill
+		\vspace*{1mm}
+	\end{minipage}
+}
+
+% Defines the \maketitle command
+\def\maketitle{\ifbeamer@inframe
+		\titlepage
+	\else
+		\frame[plain,noframenumbering]{\titlepage}
+	\fi
+}
+
+% Defines a \titlepage command
+\def\titlepage{\usebeamertemplate{title page}}
+
+% Templates for title, subtitle, author, institute, date title graphic and title seperator
+\setbeamertemplate{title}{\raggedright\linespread{1.0}\inserttitle\par\vspace*{0.5em}}
+\setbeamertemplate{subtitle}{\insertsubtitle\par\vspace*{0.5em}}
+\setbeamertemplate{author}{\vspace*{2em}\insertauthor\par\vspace*{0.25em}}
+\setbeamertemplate{institute}{\vspace*{3mm}\insertinstitute\par}
+\setbeamertemplate{date}{\insertdate\par}
+\setbeamertemplate{title graphic}{\vbox to 0pt {\vspace*{2em}\inserttitlegraphic}\nointerlineskip}
+\setbeamertemplate{title separator}{
+	\begin{tikzpicture}
+		\draw[fg, fill=fg] (0,0) rectangle (\textwidth, 0.4pt);
+	\end{tikzpicture}%
+	\par%
+}
+
+
+
+% OUTER THEME PART
+
+% Setting keys for the frame numbering
+\pgfkeys{
+	/MWG/themeopts/numbering/.cd, .is choice,
+	    none/.code=\setbeamertemplate{frame numbering}[none],
+	    counter/.code=\setbeamertemplate{frame numbering}[counter],
+	    fraction/.code=\setbeamertemplate{frame numbering}[fraction],
+	    appendix/.code=\setbeamertemplate{frame numbering}[appendix],
+}
+
+% Setting keys for the footline
+\pgfkeys{
+	/MWG/themeopts/footline/.cd, .is choice,
+	 	none/.code={%
+			\setbeamertemplate{navigation symbols}{}%
+			\setbeamertemplate{footline}[none]%
+		},
+		standard/.code=\setbeamertemplate{footline}[standard],
+		smallcaps/.code=\setbeamertemplate{footline}[smallcaps],
+}
+
+% Template for the framenumbers:
+% none			no framenumbers are shown (not recommened!)
+% counter		a simple frame counter (Example: 1)
+% fraction		framenumbers are shown as  frame / currentframe  (Example:  1 / 10)
+% appendix		An "Appendix" remark instead of frame numbers on appendix frames
+\defbeamertemplate{frame numbering}{none}{}
+\defbeamertemplate{frame numbering}{counter}{\insertframenumber}
+\defbeamertemplate{frame numbering}{fraction}{\insertframenumber\ / \inserttotalframenumber}
+\defbeamertemplate{frame numbering}{appendix}{Anhang}
+\defbeamertemplate{headline}{plain}{}
+
+% Template for frames without footline
+\defbeamertemplate{footline}{none}{%
+	\rmfamily%
+	\begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm]{nofootline}
+		\hfill%
+		\usebeamertemplate*{frame numbering}
+	\end{beamercolorbox}
+}
+
+% Template for the footline
+\defbeamertemplate{footline}{standard}{%
+	\rmfamily%
+	\begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm]{footline}
+		\usebeamerfont{author in head/foot} \insertshortauthor:
+		\usebeamerfont{title in head/foot}\insertshorttitle \hfill%
+		\usebeamerfont{page number in head/foot}\usebeamertemplate*{frame numbering}
+	\end{beamercolorbox}
+}
+
+% Template for the footline using small caps
+\defbeamertemplate{footline}{smallcaps}{%
+	\scshape\rmfamily%
+	\begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm]{footline}
+		\usebeamerfont{author in head/foot}\insertshortauthor:
+		\usebeamerfont{title in head/foot}\insertshorttitle \hfill%
+		\usebeamerfont{page number in head/foot}\usebeamertemplate*{frame numbering}
+	\end{beamercolorbox}
+}
+
+% Lengths and commands for the frame title
+\newlength{\MWG@frametitle@padding}
+\setlength{\MWG@frametitle@padding}{2.2ex}
+\newcommand{\MWG@frametitlestrut@start}{
+	\rule{0pt}{\MWG@frametitle@padding + \totalheightof{\ifcsdef{MWG@frametitleformat}{\MWG@frametitleformat X}{X}}}}
+\newcommand{\MWG@frametitlestrut@end}{\rule[-\MWG@frametitle@padding]{0pt}{\MWG@frametitle@padding}}
+
+% Frame title template
+\defbeamertemplate{frametitle}{MWG theme}{%
+	\nointerlineskip%
+	\begin{beamercolorbox}[wd=\paperwidth,sep=0pt,leftskip=\MWG@frametitle@padding,rightskip=\MWG@frametitle@padding,]{frametitle}%
+		\MWG@frametitlestrut@start\insertframetitle\MWG@frametitlestrut@end%
+	\end{beamercolorbox}%
+}
+
+% Changes the frame numbering to "Appendix" when the command \appendix is used
+\AtBeginDocument{\apptocmd{\appendix}{\pgfkeys{/MWG/themeopts/.cd, numbering=appendix}}{}{}}
+
+
+
+% FONT THEME PART
+
+% Font style definitions for the title frame
+\setbeamerfont*{title}{size=\Large,series=\bfseries,family=\rmfamily}
+\setbeamerfont*{subtitle}{size=\large,family=\rmfamily}
+\setbeamerfont*{author}{size=\small}
+\setbeamerfont*{date}{size=\small}
+
+% Font style definitions for frame items
+\setbeamerfont*{frametitle}{size=\large,series=\bfseries,family=\rmfamily}
+\setbeamerfont*{caption}{size=\small}
+\setbeamerfont*{caption name}{series=\bfseries}
+\setbeamerfont*{description item}{series=\bfseries,family=\rmfamily}
+\setbeamerfont*{block title}{family=\rmfamily}
+\setbeamerfont*{structure}{family=\rmfamily}
+\setbeamerfont*{tiny structure}{size=\tiny,family=\rmfamily}
+
+% Font style defintions for the bibliography
+\setbeamerfont*{bibliography entry author}{size=\normalsize,series=\normalfont}
+\setbeamerfont*{bibliography entry title}{size=\normalsize,series=\bfseries}
+\setbeamerfont*{bibliography entry location}{size=\normalsize,series=\normalfont}
+\setbeamerfont*{bibliography entry note}{size=\small,series=\normalfont}
+
+% Option for selecting the shape of the presentation title on the title frame
+\pgfkeys{
+	/MWG/themeopts/titleformat title/.cd, .is choice,
+		regular/.code={\let\MWG@titleformat\@empty%
+			\setbeamerfont{title}{shape=\normalfont}},
+		smallcaps/.code={\let\MWG@titleformat\@empty%
+			\setbeamerfont{title}{shape=\scshape}},
+}
+
+% Allows writing "titleformattitle" instead of "titleformat title"
+\pgfkeys{
+	/MWG/themeopts/.cd,
+	titleformattitle/.code=\pgfkeysalso{titleformat title=#1},
+}
+
+
+
+% COLOR THEME PART
+
+% Defines the colors in the MWG logo and a grey color
+\definecolor{MWGRed}{HTML}{641D1B}
+\definecolor{MWGGreen}{HTML}{A6D623}
+\definecolor{MWGGrey}{HTML}{808080}
+
+% Sets the palette colors
+\setbeamercolor*{palette primary}{fg=white,bg=MWGRed}
+\setbeamercolor*{palette secondary}{fg=black,bg=MWGGreen!83!black}
+\setbeamercolor*{palette tertiary}{fg=black,bg=MWGGrey}
+\setbeamercolor*{palette quaternary}{fg=black,bg=white}
+
+% Sets the colors for structure and footlines
+\setbeamercolor*{structure}{fg=MWGRed,bg=white}
+\setbeamercolor*{footline}{fg=white,bg=MWGRed}
+\setbeamercolor*{nofootline}{bg=white}
+
+% Sets the colors of title page and frame titles
+\setbeamercolor*{titlelike}{fg=black}
+\setbeamercolor*{frametitle}{parent=palette primary}
+
+% Sets the colors of the seperation items
+\setbeamercolor*{title separator}{fg=MWGRed}
+\setbeamercolor*{separation line}{parent=palette primary}
+\setbeamercolor*{fine separation line}{parent=palette primary}
+
+% Sets the colors for normal blocks
+\setbeamercolor*{block title}{parent=palette primary}
+\setbeamercolor*{block body}{parent=normal text,use=block title,bg=block title.bg!20!bg}
+
+% Sets the colors for alert blocks
+\setbeamercolor*{block title alerted}{use=alerted text,fg=white,bg=alerted text.fg!85!black!80!white}
+\setbeamercolor*{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!20!bg}
+
+% Sets the colors for example blocks
+\setbeamercolor*{block title example}{parent=palette secondary}
+\setbeamercolor*{block body example}{parent=normal text,use=block title example,bg=block title example.bg!20!bg}
+
+% Sets the colors for footnotes
+\setbeamercolor*{footnote}{fg=MWGRed}
+\setbeamercolor*{footnote mark}{fg=.}
+
+
+
+% APPLYING OPTIONS PASSED BY THE THEME
+
+% Default settings
+\newcommand{\MWG@themeopts@setdefaults}{
+	\pgfkeys{/MWG/themeopts/.cd,
+		numbering=fraction,
+		footline=standard,
+		titleformat title=regular,
+	}
+}
+
+\MWG@themeopts@setdefaults
+\ProcessPgfPackageOptions{/MWG/themeopts}
+
+
+
+% END OF THE STYLE FILE
+\endinput
+%%
+%% End of file `beamerthemeMWG.sty'.

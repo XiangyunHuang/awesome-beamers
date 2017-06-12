@@ -1,0 +1,148 @@
+
+% !TEX TS-program = xeLaTeX
+\documentclass[11pt,compress,xcolor=x11names,UTF8]{ctexbeamer}
+% \usetheme{Ulm}
+\usetheme{Bayreuth}
+% \usetheme{GYPT}
+% \usetheme{MWG}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{xeCJK}
+\defaultfontfeatures{Mapping=tex-text}
+\setCJKmainfont[BoldFont=Noto Sans CJK SC, ItalicFont=Adobe Kaiti Std]{Source Han Serif SC}
+\setCJKmonofont[Scale=0.9]{Adobe Kaiti Std}
+\setCJKfamilyfont{song}[BoldFont=Noto Sans CJK SC]{Source Han Serif SC}
+\setCJKfamilyfont{sf}[BoldFont=Noto Sans CJK SC]{Noto Sans CJK SC}
+
+\usepackage{appendixnumberbeamer}
+\usepackage{csquotes}
+\usepackage{hyperref}
+
+\usepackage[german]{babel}
+
+\usepackage[osf,scale=.92]{roboto}
+\usepackage[osf,slantedGreek]{mathpazo}
+
+\usepackage{ragged2e}
+\renewcommand{\raggedright}{\leftskip=0pt \rightskip=0pt plus 0cm} % 对齐
+\usepackage{natbib} % 参考文献
+\graphicspath{{figure/}} % 图片路径
+
+\usetheme{default}
+
+\title{空间广义线性混合模型及其在预测流行病中的应用}
+\subtitle{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
+
+\author{黄湘云\and 李再兴}
+\institute[CUMTB]{理学院\\ 中国矿业大学（北京）}
+\date{2018年5月}
+
+\begin{document}
+\frame{\maketitle}
+
+\begin{frame}{目录}
+  \tableofcontents  
+\end{frame}
+
+
+\section{引言}
+
+
+\subsection{研究意义}
+
+\begin{frame}
+\textbf{Examples}
+
+\begin{enumerate}
+\item radionuclide concentrations on Rongelap Island
+\item childhood malaria in the gambia
+\item Loa loa prevalence in Cameroon and surrounding areas
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}{Introduction}
+
+\citet{Diggle2002}
+\begin{itemize}
+\item the effects of child level covariates (age and bed net use)
+\item village level covariates (the primary health care and greenness of surrounding vegetation)
+\item separate components for residual spatial
+\item non-spatial extrabinomial variation
+\end{itemize}
+$\mathbb{R}^{n}$
+$$ \log \{p_{ij}/(1-p_{ij})\} =\alpha + \beta'z_{ij} + U_{i} + S(x_{i})$$
+
+\end{frame}
+
+\subsection{文献综述}
+
+\subsection{主要内容}
+
+
+\section{模型(SGLMM)}
+
+\subsection{模型结构}
+
+\begin{frame}{Intro}
+
+\end{frame}
+
+\subsection{计算方法}
+
+\subsection{数据分析}
+
+\section{结论与展望}
+
+
+
+\begin{frame}
+\textbf{疟疾流行度与植被关系}
+\begin{figure}
+\centering
+\includegraphics[width=.75\textwidth]{demo03}
+\end{figure}
+\end{frame}
+
+
+
+
+
+\begin{frame}
+
+  \centerline{\Huge\color{red} 谢谢！ }
+
+\end{frame}
+
+
+
+
+
+
+
+\begin{frame}{demo}
+\centering
+\includegraphics[width=.85\textheight]{demo03} \\
+
+\flushleft
+\textbf{\underline{\textsc{Merke:}}\hspace{1em} Steine sind Perfektionisten!}
+\end{frame}
+
+
+
+\begin{frame}{hah}
+\centering
+\includegraphics[width=.85\textheight]{zufriedenheit} \\
+
+\flushleft
+\textbf{\underline{\textsc{Merke:}}\hspace{1em} Steine sind Perfektionisten!}
+\end{frame}
+
+
+\begin{frame}[allowframebreaks]
+\frametitle{参考文献}
+\bibliographystyle{authordate1}
+\bibliography{R-GLMM-pkgs}
+\end{frame}
+
+\end{document}
