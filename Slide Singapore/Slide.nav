@@ -18,18 +18,20 @@
 \headcommand {\beamer@subsectionentry {0}{2}{1}{5}{模型结构}}\headcommand {\beamer@subsectionpages {5}{4}}
 \headcommand {\beamer@subsectionentry {0}{2}{2}{5}{计算方法}}\headcommand {\beamer@subsectionpages {5}{4}}
 \headcommand {\beamer@subsectionentry {0}{2}{3}{5}{数据分析}}\headcommand {\beamer@subsectionpages {5}{4}}
-\headcommand {\sectionentry {3}{结论与展望}{5}{结论与展望}{0}}
-\headcommand {\beamer@sectionpages {5}{4}}
-\headcommand {\beamer@subsectionpages {5}{4}}
-\headcommand {\slideentry {3}{0}{1}{5/5}{}{0}}
+\headcommand {\slideentry {2}{3}{1}{5/5}{数据分析}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\sectionentry {4}{参考文献}{6}{参考文献}{0}}
+\headcommand {\sectionentry {3}{结论与展望}{6}{结论与展望}{0}}
 \headcommand {\beamer@sectionpages {5}{5}}
 \headcommand {\beamer@subsectionpages {5}{5}}
-\headcommand {\slideentry {4}{0}{0}{6/6}{}{0}}
+\headcommand {\slideentry {3}{0}{1}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@partpages {1}{6}}
-\headcommand {\beamer@subsectionpages {5}{6}}
-\headcommand {\beamer@sectionpages {5}{6}}
-\headcommand {\beamer@documentpages {6}}
-\headcommand {\def \inserttotalframenumber {6}}
+\headcommand {\sectionentry {4}{参考文献}{7}{参考文献}{0}}
+\headcommand {\beamer@sectionpages {6}{6}}
+\headcommand {\beamer@subsectionpages {6}{6}}
+\headcommand {\slideentry {4}{0}{0}{7/7}{}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\beamer@partpages {1}{7}}
+\headcommand {\beamer@subsectionpages {6}{7}}
+\headcommand {\beamer@sectionpages {6}{7}}
+\headcommand {\beamer@documentpages {7}}
+\headcommand {\def \inserttotalframenumber {7}}

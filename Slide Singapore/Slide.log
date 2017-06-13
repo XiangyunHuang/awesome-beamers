@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2017.5.23)  13 JUN 2017 09:14
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/W32TeX)  (format=lualatex 2017.5.23)  13 JUN 2017 09:26
  restricted system commands enabled.
 **Slide.tex
 (./Slide.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.154 seconds
+luaotfload | main : initialization completed in 0.147 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (c:/texlive/2016/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2017/01/23 v3.41 A class for typesetting presentations
@@ -2086,9 +2086,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/lmtt/bx/n --> TU/lmtt/bx/n on input line 27.
  (./Slide.nav)
-[1{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+<figure/logo.pdf, id=57, 72.27pt x 72.27pt>
+File: figure/logo.pdf Graphic file (type pdf)
+ <use figure/logo.pdf>
+Package luatex.def Info: figure/logo.pdf used on input line 29.
+(luatex.def)             Requested size: 42.26563pt x 42.26508pt.
+ [1{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] (./Slide.toc) [2
+<./figure/logo.pdf>]
+(./Slide.toc) [2
 
 ] [3
 
@@ -2107,10 +2113,18 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 63.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [4
 
-] [5
+]
+<figure/demo03.pdf, id=253, 578.16pt x 433.62pt>
+File: figure/demo03.pdf Graphic file (type pdf)
+ <use figure/demo03.pdf>
+Package luatex.def Info: figure/demo03.pdf used on input line 83.
+(luatex.def)             Requested size: 245.83282pt x 184.36876pt.
 
-] (./Slide.bbl)
-[6
+[5
+
+<./figure/demo03.pdf>] [6
+
+] (./Slide.bbl) [7
 
 ]
 \tf@nav=\write6
@@ -2122,26 +2136,26 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@snm=\write8
 
 \openout8 = Slide.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./Slide.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: 89ED06FC256567E09B1553533CF7FE8B;776.
 )
 
 Here is how much of LuaTeX's memory you used:
- 37740 strings out of 494577
+ 37776 strings out of 494577
  100000,953878 words of node,token memory allocated
- 38325 words of node memory still in use:
-   55 hlist, 13 vlist, 22 rule, 21 disc, 7 local_par, 701 glue, 20 kern, 24 pena
-lty, 255 glyph, 14073 attribute, 57 glue_spec, 762 attribute_list, 6 write, 62 u
+ 39535 words of node memory still in use:
+   55 hlist, 13 vlist, 22 rule, 21 disc, 7 local_par, 771 glue, 20 kern, 24 pena
+lty, 255 glyph, 14415 attribute, 57 glue_spec, 780 attribute_list, 6 write, 62 u
 ser_defined, 28 pdf_literal, 6 pdf_start_link, 6 pdf_end_link, 2 pdf_dest, 6 pdf
 _action, 42 pdf_colorstack nodes
-   avail lists: 1:1,2:13088,3:379,4:559,5:152,6:739,7:383,8:222,9:358,10:21,11:6
+   avail lists: 1:1,2:12768,3:379,4:559,5:152,6:739,7:383,8:222,9:358,10:21,11:6
 0
- 40363 multiletter control sequences out of 65536+600000
+ 40371 multiletter control sequences out of 65536+600000
  75 fonts using 123357799 bytes
  57i,19n,81p,790b,954s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/t
@@ -2154,10 +2168,10 @@ pe/google/roboto/roboto-bold.ttf><c:/Windows/fonts/notosanscjksc-regular.otf><c:
 ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
 c/amsfonts/symbols/msbm10.pfb>
-Output written on Slide.pdf (6 pages, 96512 bytes).
+Output written on Slide.pdf (7 pages, 348384 bytes).
 
-PDF statistics: 331 PDF objects out of 1000 (max. 8388607)
- 284 compressed objects within 3 object streams
- 24 named destinations out of 1000 (max. 131072)
+PDF statistics: 415 PDF objects out of 1000 (max. 8388607)
+ 348 compressed objects within 4 object streams
+ 26 named destinations out of 1000 (max. 131072)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
