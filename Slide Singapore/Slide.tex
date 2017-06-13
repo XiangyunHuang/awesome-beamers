@@ -1,19 +1,27 @@
-% !TEX TS-program = pdfLaTeX
-\documentclass[12pt,compress,xcolor=x11names,UTF8]{beamer}
+% !TEX TS-program = LuaLaTeX
+\documentclass[11pt,compress,xcolor=x11names,UTF8]{beamer}
 \usetheme{Singapore}
 \usefonttheme{structurebold}
 \usecolortheme[named=SpringGreen4]{structure}
 \usepackage{gradientframe} % 图片立体感
 \graphicspath{{figure/}} % 图片路径
+%% 加入中文
+\usepackage{ctex}
+\setCJKsansfont[BoldFont=Noto Sans CJK SC, ItalicFont=Adobe Kaiti Std]{Source Han Serif SC}
+\setsansfont{Roboto}
+\usepackage{natbib} % 参考文献
+% 数学字体
+% \usepackage{mathptm}
+% \usepackage{mathptmx}
 
 \title{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
-
-\author{Xiang-Yun Huang \and Zai-Xing Li}
-
-\date{\today \\ ~~ \\ Department of Statistics, School of Science \\ China University of Mining and Technology,Beijing}
-\logo{\includegraphics[width=.15\textwidth]{CUMTB}}
-% \subject{prevalence mapping}
-% \keywords{Mixed models}
+\subtitle{空间广义线性混合模型及其在预测流行病中的应用}
+\author{黄湘云 \and 李再兴}
+\institute{理学院 \\ 中国矿业大学（北京）}
+\date{\today}
+% \logo{\includegraphics[width=.15\textwidth]{CUMTB}}
+\subject{硕士答辩}
+\keywords{混合效应模型}
 
 
 \begin{document}
@@ -21,54 +29,68 @@
 \maketitle
 
 \begin{frame}
-\textbf{Outline }
+  \frametitle{内容提要}
+  \tableofcontents  
+\end{frame}
+
+
+\section{引言}
+
+
+\subsection{研究意义}
+
+\begin{frame}{Examples}
+
 \begin{enumerate}
-  \item Introduction (Motivations and goals)
-  \item Literature reviews  
-  \item Geostatistical model (SGLMM)
-  \item Computing details and simulations
-  \item Real data analysis (Applications)
-  \item Discussion
+\item radionuclide concentrations on Rongelap Island
+\item childhood malaria in the gambia
+\item Loa loa prevalence in Cameroon and surrounding areas
 \end{enumerate}
+
 \end{frame}
 
-\section{Introduction}
+\begin{frame}{Introduction}
+\citet{Diggle2002}
+\begin{itemize}
+\item the effects of child level covariates (age and bed net use)
+\item village level covariates (the primary health care and greenness of surrounding vegetation)
+\item separate components for residual spatial
+\item non-spatial extrabinomial variation
+\end{itemize}
+$\mathbb{R}^{n}$
+$$ \log \{p_{ij}/(1-p_{ij})\} =\alpha + \beta'z_{ij} + U_{i} + S(x_{i})$$
 
-\begin{frame}{simulations }
-\gradientframe[padding =.5mm]{\includegraphics[width=.4\textwidth]{CUMTB}} 
 \end{frame}
 
-\subsection{Intro1}
-\begin{frame}{Results }
-\begin{enumerate}
-  \item Introduction (Motivations and goals)
-  \item Literature reviews  
-  \item Geostatistical model (SGLMM)
-  \item Computing details and simulations
-  \item Real data analysis (Applications)
-  \item Discussion
-\end{enumerate}
-\end{frame}
+\subsection{文献综述}
+
+\subsection{主要内容}
+
+
+\section{模型(SGLMM)}
+
+\subsection{模型结构}
+
+\subsection{计算方法}
+
+\subsection{数据分析}
+
+\section{结论与展望}
+
+
 
 \begin{frame}
-\textbf{Outline }
-\begin{enumerate}
-  \item Introduction (Motivations and goals)
-  \item Literature reviews  
-  \item Geostatistical model (SGLMM)
-  \item Computing details and simulations
-  \item Real data analysis (Applications)
-  \item Discussion
-\end{enumerate}
+
+  \centerline{\Huge\color{red} 谢谢！ }
+
 \end{frame}
 
 
 
-\section{SGLMM}
-\subsection{algorithm}
-
-\begin{frame}{simulations }
-\gradientframe[padding =.5mm]{\includegraphics[width=.65\textwidth]{haroop}} 
+\begin{frame}[allowframebreaks]
+\frametitle{参考文献}
+\bibliographystyle{authordate1}
+\bibliography{R-GLMM-pkgs}
 \end{frame}
 
 \end{document} 
