@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% filename: soton-palette.sty
+%   author: Max Blanco
+%  contact: m.blanco 
+%     date: October 2009
+%  version: 0.1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% description - University of Southampton palette translation from
+%                 rgb = {0,255} integer 
+%               to postscript/xcolor format 
+%                 rgb = {0.,-1.} real
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% palette from University of Southampton document (ref SES728235.pdf)
+%
+%      `Working with the new brand. Guidelines for designers' 
+%
+% font `Freight' is unavailable to non-professionals
+% substitute font `Georgia' for academic presentations
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Corrections, suggestions and contributions by:
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \NeedsTexFormat{LaTeX2e}
+\ProvidesPackage{soton-palette}[2009/10/13]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage{xcolor}
+
+
+%primary palette:           RED    GREEN  BLUE
+\definecolor{sotonblu}{rgb}{.00392 .26275 .34902} % soton blue
+\definecolor{sotongrn}{rgb}{.00000 .44706 .45882} % soton green
+\definecolor{sotoncya}{rgb}{.03922 .58824 .66275} % soton cyan
+\definecolor{sotongry}{rgb}{.19608 .23922 .26275} % soton grey
+\definecolor{sotonbei}{rgb}{.59216 .61961 .27059} % soton beige
+\definecolor{sotonmet}{rgb}{.73333 .73333 .73333} % soton metal
+
+%some secondary colors:
+\definecolor{sotonyel}{rgb}{.99999 .70196 .00000} % soton yellow
+\definecolor{sotonora}{rgb}{.99608 .24314 .07843} % soton orange
+\definecolor{sotonred}{rgb}{.94118 .05882 .17255} % soton red
+\definecolor{sotonrus}{rgb}{.67059 .07059 .06275} % soton russet
+\definecolor{sotonbrn}{rgb}{.54118 .25490 .16863} % soton brown
+\definecolor{sotonpnk}{rgb}{.88627 .41176 .62353} % soton pink
+\definecolor{sotonppl}{rgb}{.32549 .12157 .26667} % soton purple

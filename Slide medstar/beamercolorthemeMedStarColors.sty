@@ -1,0 +1,41 @@
+%%%%%%%%% MedStar Beamer Template %%%%%%%%%
+%%%%%%%% Written By: Anagha Kumar %%%%%
+%%%%%%%% License: lppl1.3  %%%%%%%%%%%%%%%%
+%%%%%%%% Version: 2015-11-12 %%%%%%%%%%%%%%%%
+%%%%%%%% Colortheme: MedStarColors %%%%%%%%%%%%
+
+\ProvidesPackage{beamercolorthemeMedStarColors}
+
+\definecolor{medstaryellow}{rgb}{0.91, 0.78, 0.04} % define your own colors 
+\definecolor{medstarblue}{rgb}{0.0, 0.18, 0.33} % define your own colors 
+\definecolor{medstarred}{rgb}{0.8, 0.0, 0.0} % taken from http://latexcolor.com/
+
+\setbeamercolor*{date in head/foot}{parent=palette primary} % see below
+\setbeamercolor{author in head/foot}{parent=palette secondary}
+\setbeamercolor{title in head/foot}{parent=palette tertiary}
+
+\setbeamercolor{frametitle}{fg=medstarblue, bg=medstaryellow}
+\setbeamercolor{title}{fg=medstarblue} % controls the color of the title on the front page 
+\setbeamercolor{subtitle}{fg=medstarblue}
+\setbeamercolor{palette primary}{fg=white, bg=medstarblue} % controls the foreground and background colors for the strip at the bottom right 
+\setbeamercolor{palette secondary}{fg=white, bg=medstarblue} % controls the foreground and background colors for the bottom left strip and the second strip at the top
+\setbeamercolor{palette tertiary}{fg=medstarblue, bg=medstaryellow} %controls the foreground and background colors for the middle strip at the bottom and the top strip
+\setbeamercolor{author}{fg=medstarblue}
+\setbeamercolor{date}{fg=medstarblue}
+\setbeamercolor{normal text}{fg=medstarblue} % controls the font color on each slide - can be altered to something other than black 
+\setbeamercolor{alerted text}{fg=medstarred}
+\setbeamercolor{caption}{fg=medstarblue} % because I want my captions in the medstar colors - this is an improvement over the default! 
+\setbeamercolor{caption name}{fg=medstarblue} 
+\setbeamercolor{item}{fg=medstarblue} % NOTE: works for other environments like enumerate. I think medstaryellow looks garish. 
+\setbeamercolor{section in toc}{fg = medstarblue}
+\setbeamercolor{section in toc shaded}{fg = medstaryellow}
+\setbeamercolor{subsection in toc}{fg = medstarblue}
+\setbeamercolor{subsection in toc shaded}{fg = medstaryellow}
+\setbeamercolor{subsubsection in toc}{fg = medstarblue}
+\setbeamercolor{subsubsection in toc shaded}{fg = medstaryellow}
+
+% Can also set background color to something other than white if needed
+% \setbeamercolor{background canvas}{bg = blue!5}
+
+
+

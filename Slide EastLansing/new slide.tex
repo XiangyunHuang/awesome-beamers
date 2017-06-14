@@ -1,0 +1,21 @@
+\documentclass {beamer}
+\usepackage[shadow,roundedcorners,getthemecolors,customcolors]{dynblocks}
+\usetheme{EastLansing}
+
+\setbeamercolor*{structure}{parent = palette primary}
+\begin{document}
+
+\begin{frame}{ The frame title }
+\begin{dynblock}
+\opaqueblock <1>{ hello this is a
+dynamic block with an
+itemize environment :
+\begin{itemize}
+\item hello
+\item hello again
+\end{itemize}
+}
+\end{dynblock}
+\end{frame}
+
+\end{document}
