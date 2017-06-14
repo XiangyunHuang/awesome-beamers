@@ -1,0 +1,4 @@
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{First Subsection Name}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Second Subsection}{11}{0}{1}
