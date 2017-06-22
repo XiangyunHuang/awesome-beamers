@@ -1,0 +1,21 @@
+\frametitle{Solve Equations}
+\begin{knitrout}\scriptsize
+\definecolor{shadecolor}{rgb}{0.973, 0.973, 0.973}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{library}\hlstd{(rootSolve)}
+\hlstd{(root1} \hlkwb{<-} \hlkwd{multiroot}\hlstd{(}\hlkwc{f} \hlstd{= equations,} \hlkwc{start} \hlstd{=} \hlkwd{c}\hlstd{(}\hlnum{0}\hlstd{,} \hlnum{0}\hlstd{,}\hlnum{0}\hlstd{)))}
+\hlstd{(root2} \hlkwb{<-} \hlkwd{multiroot}\hlstd{(}\hlkwc{f} \hlstd{= equations,} \hlkwc{start} \hlstd{=} \hlkwd{c}\hlstd{(}\hlnum{2}\hlstd{,} \hlopt{-}\hlnum{0.8}\hlstd{,}\hlnum{0.05}\hlstd{)))}
+
+\hlkwd{library}\hlstd{(BB)}
+\hlstd{p0} \hlkwb{<-} \hlkwd{c}\hlstd{(}\hlnum{2}\hlstd{,} \hlopt{-}\hlnum{0.8}\hlstd{,}\hlnum{0.05}\hlstd{)}
+\hlkwd{BBsolve}\hlstd{(}\hlkwc{par} \hlstd{= p0,} \hlkwc{fn} \hlstd{= equations)} \hlcom{# BBsolve is better than dfsane}
+
+\hlkwd{library}\hlstd{(nleqslv)}
+\hlstd{N}\hlkwb{<-} \hlnum{90} \hlcom{# at least to find all 36 roots}
+\hlkwd{set.seed}\hlstd{(}\hlnum{123}\hlstd{)}
+\hlstd{xstart} \hlkwb{<-} \hlkwd{matrix}\hlstd{(}\hlkwd{runif}\hlstd{(}\hlnum{3}\hlopt{*}\hlstd{N,}\hlkwc{min}\hlstd{=}\hlopt{-}\hlnum{2}\hlstd{,}\hlkwc{max}\hlstd{=}\hlnum{7}\hlstd{), N,} \hlnum{3}\hlstd{)} \hlcom{# N initial guesses}
+\hlstd{ans} \hlkwb{<-} \hlkwd{searchZeros}\hlstd{(xstart,equations,} \hlkwc{method}\hlstd{=}\hlstr{"Broyden"}\hlstd{,}\hlkwc{global}\hlstd{=}\hlstr{"dbldog"}\hlstd{)}
+\hlstd{ans}\hlopt{$}\hlstd{x}
+\end{alltt}
+\end{kframe}
+\end{knitrout}

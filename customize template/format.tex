@@ -1,0 +1,70 @@
+\setbeamercolor*{lower separation line head}{bg=DeepSkyBlue4} 
+\setbeamercolor*{normal text}{fg=black,bg=white} 
+\setbeamercolor*{alerted text}{fg=red} 
+\setbeamercolor*{example text}{fg=black} 
+\setbeamercolor*{structure}{fg=DeepSkyBlue4,bg=white} 
+
+\setbeamercolor*{palette tertiary}{fg=black,bg=black!10} 
+\setbeamercolor*{palette quaternary}{fg=black,bg=black!10} 
+
+%footline
+\setbeamercolor{author in head/foot}{fg=white,bg=}
+\setbeamercolor{title in head/foot}{fg=white,bg=}
+\setbeamercolor{date in head/foot}{fg=black,bg=}
+
+
+\makeatletter
+\setbeamertemplate{footline}
+{%
+    \setbox\beamer@tempbox=\hbox{%
+        \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+            \usebeamerfont{author in head/foot}\insertshortauthor
+        \end{beamercolorbox}%
+        \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+            \usebeamerfont{title in head/foot}\insertshorttitle
+        \end{beamercolorbox}%
+        \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+            \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+            \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+        \end{beamercolorbox}%
+    }%
+    \vskip0pt%
+        \begin{pgfpicture}{0pt}{0pt}{\paperwidth}{0cm}%
+            \usebeamercolor{frametitle right}%
+            \pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{3.5ex}}%
+            \pgfusepath{clip}%
+            \pgftext[left,base]{\pgfuseshading{beamer@frametitleshade}}%
+        \end{pgfpicture}%
+    \beamer@tempdim=\ht\beamer@tempbox%
+    \advance\beamer@tempdim by 0.95ex%
+    \vskip-\beamer@tempdim%
+    \box\beamer@tempbox%
+    }  
+\makeatother
+
+
+\colorlet{titleright}{yellow!10!white}
+\colorlet{titleleft}{DeepSkyBlue4}
+\colorlet{titlemid}{green!60!blue}
+
+\makeatletter
+
+\pgfdeclarehorizontalshading[titleleft,titleright]{beamer@frametitleshade}{\paperheight}{%
+        color(0pt)=(titleleft);
+        color(.5\paperwidth)=(titlemid);
+        color(\paperwidth)=(titleright)
+}
+
+\AtBeginDocument{
+    \pgfdeclareverticalshading{beamer@topshade}{\paperwidth}{%
+        color(0pt)=(bg);
+        color(4pt)=(black!50!bg)    
+    }
+}
+
+
+\renewcommand{\(}{\begin{columns}}
+\renewcommand{\)}{\end{columns}}
+\newcommand{\<}[1]{\begin{column}{#1}}
+\renewcommand{\>}{\end{column}}
+

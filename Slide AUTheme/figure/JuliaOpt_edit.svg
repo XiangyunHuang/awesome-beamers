@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3336"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   xml:space="preserve"
+   width="739.87872"
+   height="300.9075"
+   viewBox="0 0 739.87872 300.9075"
+   sodipodi:docname="JuliaOpt_edit.svg"><metadata
+     id="metadata3342"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs3340"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3350"><path
+         d="m 568,29 -539,0 0,785 539,0 0,-785 z"
+         id="path3352"
+         inkscape:connector-curvature="0"
+         style="clip-rule:evenodd" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5526"><path
+         d="m 558.17615,185.52612 -519.352336,0 0,183.37793 519.352336,0 0,-183.37793 z"
+         id="path5528"
+         inkscape:connector-curvature="0"
+         style="clip-rule:evenodd" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6248"><path
+         d="m 568,29 -539,0 0,785 539,0 0,-785 z"
+         id="path6250"
+         inkscape:connector-curvature="0"
+         style="clip-rule:evenodd" /></clipPath></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1536"
+     inkscape:window-height="801"
+     id="namedview3338"
+     showgrid="false"
+     inkscape:zoom="1.3150519"
+     inkscape:cx="410.08326"
+     inkscape:cy="159.3627"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3344" /><g
+     id="g3344"
+     inkscape:groupmode="layer"
+     inkscape:label="JuliaOpt"
+     transform="matrix(1.25,0,0,1.25,-1.1800387,-158.12375)"><g
+       id="g16996"><g
+         clip-path="url(#clipPath5526)"
+         id="g16998"><g
+           transform="matrix(0.654921,0,0,0.654921,38.823814,185.52612)"
+           id="g17000"><path
+             inkscape:connector-curvature="0"
+             id="path17002"
+             style="fill:#ddaaaa;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 7.9299998,1 237.8999902,0 0,30 -237.8999902,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17004"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 7.9299998,1 237.8999902,0 0,30 -237.8999902,0 0,-30 z" /><text
+             id="text17006"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(94.928093,23)"><tspan
+               id="tspan17008"
+               y="0"
+               x="0">J</tspan></text>
+<text
+             id="text17010"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(107.42809,23)"><tspan
+               id="tspan17012"
+               y="0"
+               x="0">u</tspan></text>
+<text
+             id="text17014"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(121.3319,23)"><tspan
+               id="tspan17016"
+               y="0"
+               x="0">M</tspan></text>
+<text
+             id="text17018"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(142.1571,23)"><tspan
+               id="tspan17020"
+               y="0"
+               x="0">P</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17022"
+             style="fill:#ddaaaa;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 277.54999,1 237.89996,0 0,30 -237.89996,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17024"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 277.54999,1 237.89996,0 0,30 -237.89996,0 0,-30 z" /><text
+             id="text17026"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(345.09009,23)"><tspan
+               id="tspan17028"
+               y="0"
+               x="0">C</tspan></text>
+<text
+             id="text17030"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(363.14429,23)"><tspan
+               id="tspan17032"
+               y="0"
+               x="0">o</tspan></text>
+<text
+             id="text17034"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(377.04809,23)"><tspan
+               id="tspan17036"
+               y="0"
+               x="0">n</tspan></text>
+<text
+             id="text17038"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(390.9519,23)"><tspan
+               id="tspan17040"
+               y="0"
+               x="0">v</tspan></text>
+<text
+             id="text17042"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(403.4519,23)"><tspan
+               id="tspan17044"
+               y="0"
+               x="0">e</tspan></text>
+<text
+             id="text17046"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(417.35571,23)"><tspan
+               id="tspan17048"
+               y="0"
+               x="0">x</tspan></text>
+<text
+             id="text17050"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(429.85571,23)"><tspan
+               id="tspan17052"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17054"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(436.80151,23)"><tspan
+               id="tspan17056"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17058"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(442.35571,23)"><tspan
+               id="tspan17060"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17062"
+             style="fill:#99dd99;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 7.9299998,50 507.5200202,0 0,30 -507.5200202,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17064"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 7.9299998,50 507.5200202,0 0,30 -507.5200202,0 0,-30 z" /><text
+             id="text17066"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(169.97858,73)"><tspan
+               id="tspan17068"
+               y="0"
+               x="0">M</tspan></text>
+<text
+             id="text17070"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(190.80377,73)"><tspan
+               id="tspan17072"
+               y="0"
+               x="0">a</tspan></text>
+<text
+             id="text17074"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(204.70758,73)"><tspan
+               id="tspan17076"
+               y="0"
+               x="0">t</tspan></text>
+<text
+             id="text17078"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(211.65338,73)"><tspan
+               id="tspan17080"
+               y="0"
+               x="0">h</tspan></text>
+<text
+             id="text17082"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(225.55719,73)"><tspan
+               id="tspan17084"
+               y="0"
+               x="0">P</tspan></text>
+<text
+             id="text17086"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(242.23199,73)"><tspan
+               id="tspan17088"
+               y="0"
+               x="0">r</tspan></text>
+<text
+             id="text17090"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(250.55719,73)"><tspan
+               id="tspan17092"
+               y="0"
+               x="0">o</tspan></text>
+<text
+             id="text17094"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(264.461,73)"><tspan
+               id="tspan17096"
+               y="0"
+               x="0">g</tspan></text>
+<text
+             id="text17098"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(278.36481,73)"><tspan
+               id="tspan17100"
+               y="0"
+               x="0">B</tspan></text>
+<text
+             id="text17102"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(295.03961,73)"><tspan
+               id="tspan17104"
+               y="0"
+               x="0">a</tspan></text>
+<text
+             id="text17106"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(308.94342,73)"><tspan
+               id="tspan17108"
+               y="0"
+               x="0">s</tspan></text>
+<text
+             id="text17110"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(321.44342,73)"><tspan
+               id="tspan17112"
+               y="0"
+               x="0">e</tspan></text>
+<text
+             id="text17114"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(335.34723,73)"><tspan
+               id="tspan17116"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17118"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(342.29303,73)"><tspan
+               id="tspan17120"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17122"
+             style="font-variant:normal;font-weight:normal;font-size:25px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(347.84723,73)"><tspan
+               id="tspan17124"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17126"
+             style="fill:#ddaadd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 7.9299998,100 158.6000102,0 0,30 -158.6000102,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17128"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 7.9299998,100 158.6000102,0 0,30 -158.6000102,0 0,-30 z" /><text
+             id="text17130"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(62.225121,121)"><tspan
+               id="tspan17132"
+               y="0"
+               x="0">C</tspan></text>
+<text
+             id="text17134"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(76.66848,121)"><tspan
+               id="tspan17136"
+               y="0"
+               x="0">b</tspan></text>
+<text
+             id="text17138"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(87.791527,121)"><tspan
+               id="tspan17140"
+               y="0"
+               x="0">c</tspan></text>
+<text
+             id="text17142"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(97.791527,121)"><tspan
+               id="tspan17144"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17146"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(103.34817,121)"><tspan
+               id="tspan17148"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17150"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(107.79153,121)"><tspan
+               id="tspan17152"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17154"
+             style="fill:#ddaadd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 182.39,100 158.59999,0 0,30 -158.59999,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17156"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 182.39,100 158.59999,0 0,30 -158.59999,0 0,-30 z" /><text
+             id="text17158"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(239.46344,121)"><tspan
+               id="tspan17160"
+               y="0"
+               x="0">C</tspan></text>
+<text
+             id="text17162"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(253.9068,121)"><tspan
+               id="tspan17164"
+               y="0"
+               x="0">l</tspan></text>
+<text
+             id="text17166"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(258.35016,121)"><tspan
+               id="tspan17168"
+               y="0"
+               x="0">p</tspan></text>
+<text
+             id="text17170"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(269.4732,121)"><tspan
+               id="tspan17172"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17174"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(275.02985,121)"><tspan
+               id="tspan17176"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17178"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(279.4732,121)"><tspan
+               id="tspan17180"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17182"
+             style="fill:#ddaadd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 356.85001,100 158.6,0 0,30 -158.6,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17184"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 356.85001,100 158.6,0 0,30 -158.6,0 0,-30 z" /><text
+             id="text17186"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(396.13534,121)"><tspan
+               id="tspan17188"
+               y="0"
+               x="0">C</tspan></text>
+<text
+             id="text17190"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(410.5787,121)"><tspan
+               id="tspan17192"
+               y="0"
+               x="0">P</tspan></text>
+<text
+             id="text17194"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(423.91855,121)"><tspan
+               id="tspan17196"
+               y="0"
+               x="0">L</tspan></text>
+<text
+             id="text17198"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(435.04159,121)"><tspan
+               id="tspan17200"
+               y="0"
+               x="0">E</tspan></text>
+<text
+             id="text17202"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(448.38144,121)"><tspan
+               id="tspan17204"
+               y="0"
+               x="0">X</tspan></text>
+<text
+             id="text17206"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(461.72128,121)"><tspan
+               id="tspan17208"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17210"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(467.27792,121)"><tspan
+               id="tspan17212"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17214"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(471.72128,121)"><tspan
+               id="tspan17216"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17218"
+             style="fill:#ddaadd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 7.9299998,140 158.6000102,0 0,30 -158.6000102,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17220"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 7.9299998,140 158.6000102,0 0,30 -158.6000102,0 0,-30 z" /><text
+             id="text17222"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(51.66848,161)"><tspan
+               id="tspan17224"
+               y="0"
+               x="0">E</tspan></text>
+<text
+             id="text17226"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(65.008324,161)"><tspan
+               id="tspan17228"
+               y="0"
+               x="0">C</tspan></text>
+<text
+             id="text17230"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(79.451683,161)"><tspan
+               id="tspan17232"
+               y="0"
+               x="0">O</tspan></text>
+<text
+             id="text17234"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(95.008324,161)"><tspan
+               id="tspan17236"
+               y="0"
+               x="0">S</tspan></text>
+<text
+             id="text17238"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(108.34817,161)"><tspan
+               id="tspan17240"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17242"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(113.90481,161)"><tspan
+               id="tspan17244"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17246"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(118.34817,161)"><tspan
+               id="tspan17248"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17250"
+             style="fill:#ddaadd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 182.39,140 158.59999,0 0,30 -158.59999,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17252"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 182.39,140 158.59999,0 0,30 -158.59999,0 0,-30 z" /><text
+             id="text17254"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(227.78863,161)"><tspan
+               id="tspan17256"
+               y="0"
+               x="0">G</tspan></text>
+<text
+             id="text17258"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(243.34527,161)"><tspan
+               id="tspan17260"
+               y="0"
+               x="0">L</tspan></text>
+<text
+             id="text17262"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(254.46832,161)"><tspan
+               id="tspan17264"
+               y="0"
+               x="0">P</tspan></text>
+<text
+             id="text17266"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(267.80817,161)"><tspan
+               id="tspan17268"
+               y="0"
+               x="0">K</tspan></text>
+<text
+             id="text17270"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(281.14801,161)"><tspan
+               id="tspan17272"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17274"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(286.70465,161)"><tspan
+               id="tspan17276"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17278"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(291.14801,161)"><tspan
+               id="tspan17280"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17282"
+             style="fill:#ddaadd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 356.85001,140 158.6,0 0,30 -158.6,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17284"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 356.85001,140 158.6,0 0,30 -158.6,0 0,-30 z" /><text
+             id="text17286"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(398.91366,161)"><tspan
+               id="tspan17288"
+               y="0"
+               x="0">G</tspan></text>
+<text
+             id="text17290"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(414.47031,161)"><tspan
+               id="tspan17292"
+               y="0"
+               x="0">u</tspan></text>
+<text
+             id="text17294"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(425.59335,161)"><tspan
+               id="tspan17296"
+               y="0"
+               x="0">r</tspan></text>
+<text
+             id="text17298"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(432.25351,161)"><tspan
+               id="tspan17300"
+               y="0"
+               x="0">o</tspan></text>
+<text
+             id="text17302"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(443.37656,161)"><tspan
+               id="tspan17304"
+               y="0"
+               x="0">b</tspan></text>
+<text
+             id="text17306"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(454.4996,161)"><tspan
+               id="tspan17308"
+               y="0"
+               x="0">i</tspan></text>
+<text
+             id="text17310"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(458.94296,161)"><tspan
+               id="tspan17312"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17314"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(464.4996,161)"><tspan
+               id="tspan17316"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17318"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(468.94296,161)"><tspan
+               id="tspan17320"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17322"
+             style="fill:#ddaadd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 7.9299998,180 158.6000102,0 0,30 -158.6000102,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17324"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 7.9299998,180 158.6000102,0 0,30 -158.6000102,0 0,-30 z" /><text
+             id="text17326"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(57.767113,201)"><tspan
+               id="tspan17328"
+               y="0"
+               x="0">I</tspan></text>
+<text
+             id="text17330"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(63.323753,201)"><tspan
+               id="tspan17332"
+               y="0"
+               x="0">p</tspan></text>
+<text
+             id="text17334"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(74.4468,201)"><tspan
+               id="tspan17336"
+               y="0"
+               x="0">o</tspan></text>
+<text
+             id="text17338"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(85.569847,201)"><tspan
+               id="tspan17340"
+               y="0"
+               x="0">p</tspan></text>
+<text
+             id="text17342"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(96.692894,201)"><tspan
+               id="tspan17344"
+               y="0"
+               x="0">t</tspan></text>
+<text
+             id="text17346"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(102.24953,201)"><tspan
+               id="tspan17348"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17350"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(107.80617,201)"><tspan
+               id="tspan17352"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17354"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(112.24953,201)"><tspan
+               id="tspan17356"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17358"
+             style="fill:#ddaadd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 182.39,180 158.59999,0 0,30 -158.59999,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17360"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 182.39,180 158.59999,0 0,30 -158.59999,0 0,-30 z" /><text
+             id="text17362"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(216.69,201)"><tspan
+               id="tspan17364"
+               y="0"
+               x="0">K</tspan></text>
+<text
+             id="text17366"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(230.02985,201)"><tspan
+               id="tspan17368"
+               y="0"
+               x="0">N</tspan></text>
+<text
+             id="text17370"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(244.4732,201)"><tspan
+               id="tspan17372"
+               y="0"
+               x="0">I</tspan></text>
+<text
+             id="text17374"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(250.02985,201)"><tspan
+               id="tspan17376"
+               y="0"
+               x="0">T</tspan></text>
+<text
+             id="text17378"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(262.24664,201)"><tspan
+               id="tspan17380"
+               y="0"
+               x="0">R</tspan></text>
+<text
+             id="text17382"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(276.69,201)"><tspan
+               id="tspan17384"
+               y="0"
+               x="0">O</tspan></text>
+<text
+             id="text17386"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(292.24664,201)"><tspan
+               id="tspan17388"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17390"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(297.80328,201)"><tspan
+               id="tspan17392"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17394"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(302.24664,201)"><tspan
+               id="tspan17396"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17398"
+             style="fill:#ddaadd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 356.85001,180 158.6,0 0,30 -158.6,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17400"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 356.85001,180 158.6,0 0,30 -158.6,0 0,-30 z" /><text
+             id="text17402"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(399.47519,201)"><tspan
+               id="tspan17404"
+               y="0"
+               x="0">M</tspan></text>
+<text
+             id="text17406"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(416.13534,201)"><tspan
+               id="tspan17408"
+               y="0"
+               x="0">o</tspan></text>
+<text
+             id="text17410"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(427.25839,201)"><tspan
+               id="tspan17412"
+               y="0"
+               x="0">s</tspan></text>
+<text
+             id="text17414"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(437.25839,201)"><tspan
+               id="tspan17416"
+               y="0"
+               x="0">e</tspan></text>
+<text
+             id="text17418"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(448.38144,201)"><tspan
+               id="tspan17420"
+               y="0"
+               x="0">k</tspan></text>
+<text
+             id="text17422"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(458.38144,201)"><tspan
+               id="tspan17424"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17426"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(463.93808,201)"><tspan
+               id="tspan17428"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17430"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(468.38144,201)"><tspan
+               id="tspan17432"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17434"
+             style="fill:#ddaadd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 87.230003,220 158.600007,0 0,30 -158.600007,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17436"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 87.230003,220 158.600007,0 0,30 -158.600007,0 0,-30 z" /><text
+             id="text17438"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(132.62375,241)"><tspan
+               id="tspan17440"
+               y="0"
+               x="0">N</tspan></text>
+<text
+             id="text17442"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(147.06711,241)"><tspan
+               id="tspan17444"
+               y="0"
+               x="0">L</tspan></text>
+<text
+             id="text17446"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(158.19015,241)"><tspan
+               id="tspan17448"
+               y="0"
+               x="0">o</tspan></text>
+<text
+             id="text17450"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(169.3132,241)"><tspan
+               id="tspan17452"
+               y="0"
+               x="0">p</tspan></text>
+<text
+             id="text17454"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(180.43625,241)"><tspan
+               id="tspan17456"
+               y="0"
+               x="0">t</tspan></text>
+<text
+             id="text17458"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(185.99289,241)"><tspan
+               id="tspan17460"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17462"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(191.54953,241)"><tspan
+               id="tspan17464"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17466"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(195.99289,241)"><tspan
+               id="tspan17468"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17470"
+             style="fill:#ddaadd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 261.69,220 158.60001,0 0,30 -158.60001,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17472"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 261.69,220 158.60001,0 0,30 -158.60001,0 0,-30 z" /><text
+             id="text17474"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(313.20679,241)"><tspan
+               id="tspan17476"
+               y="0"
+               x="0">S</tspan></text>
+<text
+             id="text17478"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(326.54663,241)"><tspan
+               id="tspan17480"
+               y="0"
+               x="0">C</tspan></text>
+<text
+             id="text17482"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(340.98999,241)"><tspan
+               id="tspan17484"
+               y="0"
+               x="0">S</tspan></text>
+<text
+             id="text17486"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(354.32983,241)"><tspan
+               id="tspan17488"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17490"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(359.88647,241)"><tspan
+               id="tspan17492"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17494"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(364.32983,241)"><tspan
+               id="tspan17496"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17498"
+             style="fill:#bbbbee;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 547.16998,20 237.89996,0 0,30 -237.89996,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17500"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 547.16998,20 237.89996,0 0,30 -237.89996,0 0,-30 z" /><text
+             id="text17502"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(632.22839,41)"><tspan
+               id="tspan17504"
+               y="0"
+               x="0">O</tspan></text>
+<text
+             id="text17506"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(647.78503,41)"><tspan
+               id="tspan17508"
+               y="0"
+               x="0">p</tspan></text>
+<text
+             id="text17510"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(658.90808,41)"><tspan
+               id="tspan17512"
+               y="0"
+               x="0">t</tspan></text>
+<text
+             id="text17514"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(664.46472,41)"><tspan
+               id="tspan17516"
+               y="0"
+               x="0">i</tspan></text>
+<text
+             id="text17518"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(668.90808,41)"><tspan
+               id="tspan17520"
+               y="0"
+               x="0">m</tspan></text>
+<text
+             id="text17522"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(685.56824,41)"><tspan
+               id="tspan17524"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17526"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(691.12488,41)"><tspan
+               id="tspan17528"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17530"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(695.56824,41)"><tspan
+               id="tspan17532"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17534"
+             style="fill:#bbbbee;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 547.16998,80 237.89996,0 0,30 -237.89996,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17536"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 547.16998,80 237.89996,0 0,30 -237.89996,0 0,-30 z" /><text
+             id="text17538"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(631.66687,101)"><tspan
+               id="tspan17540"
+               y="0"
+               x="0">L</tspan></text>
+<text
+             id="text17542"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(642.78992,101)"><tspan
+               id="tspan17544"
+               y="0"
+               x="0">s</tspan></text>
+<text
+             id="text17546"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(652.78992,101)"><tspan
+               id="tspan17548"
+               y="0"
+               x="0">q</tspan></text>
+<text
+             id="text17550"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(663.91296,101)"><tspan
+               id="tspan17552"
+               y="0"
+               x="0">F</tspan></text>
+<text
+             id="text17554"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(676.12976,101)"><tspan
+               id="tspan17556"
+               y="0"
+               x="0">i</tspan></text>
+<text
+             id="text17558"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(680.57312,101)"><tspan
+               id="tspan17560"
+               y="0"
+               x="0">t</tspan></text>
+<text
+             id="text17562"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(686.12976,101)"><tspan
+               id="tspan17564"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17566"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(691.6864,101)"><tspan
+               id="tspan17568"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17570"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(696.12976,101)"><tspan
+               id="tspan17572"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17574"
+             style="fill:#eecc99;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 547.16998,140 237.89996,0 0,30 -237.89996,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17576"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 547.16998,140 237.89996,0 0,30 -237.89996,0 0,-30 z" /><text
+             id="text17578"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(583.86902,161)"><tspan
+               id="tspan17580"
+               y="0"
+               x="0">C</tspan></text>
+<text
+             id="text17582"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(598.31238,161)"><tspan
+               id="tspan17584"
+               y="0"
+               x="0">o</tspan></text>
+<text
+             id="text17586"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(609.43542,161)"><tspan
+               id="tspan17588"
+               y="0"
+               x="0">i</tspan></text>
+<text
+             id="text17590"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(613.87878,161)"><tspan
+               id="tspan17592"
+               y="0"
+               x="0">n</tspan></text>
+<text
+             id="text17594"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(625.00183,161)"><tspan
+               id="tspan17596"
+               y="0"
+               x="0">O</tspan></text>
+<text
+             id="text17598"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(640.55847,161)"><tspan
+               id="tspan17600"
+               y="0"
+               x="0">p</tspan></text>
+<text
+             id="text17602"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(651.68152,161)"><tspan
+               id="tspan17604"
+               y="0"
+               x="0">t</tspan></text>
+<text
+             id="text17606"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(657.23816,161)"><tspan
+               id="tspan17608"
+               y="0"
+               x="0">S</tspan></text>
+<text
+             id="text17610"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(670.578,161)"><tspan
+               id="tspan17612"
+               y="0"
+               x="0">e</tspan></text>
+<text
+             id="text17614"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(681.70105,161)"><tspan
+               id="tspan17616"
+               y="0"
+               x="0">r</tspan></text>
+<text
+             id="text17618"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(688.36121,161)"><tspan
+               id="tspan17620"
+               y="0"
+               x="0">v</tspan></text>
+<text
+             id="text17622"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(698.36121,161)"><tspan
+               id="tspan17624"
+               y="0"
+               x="0">i</tspan></text>
+<text
+             id="text17626"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(702.80456,161)"><tspan
+               id="tspan17628"
+               y="0"
+               x="0">c</tspan></text>
+<text
+             id="text17630"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(712.80456,161)"><tspan
+               id="tspan17632"
+               y="0"
+               x="0">e</tspan></text>
+<text
+             id="text17634"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(723.92761,161)"><tspan
+               id="tspan17636"
+               y="0"
+               x="0">s</tspan></text>
+<text
+             id="text17638"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(733.92761,161)"><tspan
+               id="tspan17640"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17642"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(739.48425,161)"><tspan
+               id="tspan17644"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17646"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(743.92761,161)"><tspan
+               id="tspan17648"
+               y="0"
+               x="0">l</tspan></text>
+<path
+             inkscape:connector-curvature="0"
+             id="path17650"
+             style="fill:#eecc99;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 547.16998,180 237.89996,0 0,30 -237.89996,0 0,-30 z" /><path
+             inkscape:connector-curvature="0"
+             id="path17652"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 547.16998,180 237.89996,0 0,30 -237.89996,0 0,-30 z" /><text
+             id="text17654"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(598.14636,201)"><tspan
+               id="tspan17656"
+               y="0"
+               x="0">A</tspan></text>
+<text
+             id="text17658"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(611.48621,201)"><tspan
+               id="tspan17660"
+               y="0"
+               x="0">m</tspan></text>
+<text
+             id="text17662"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(628.14636,201)"><tspan
+               id="tspan17664"
+               y="0"
+               x="0">p</tspan></text>
+<text
+             id="text17666"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(639.26941,201)"><tspan
+               id="tspan17668"
+               y="0"
+               x="0">l</tspan></text>
+<text
+             id="text17670"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(643.71277,201)"><tspan
+               id="tspan17672"
+               y="0"
+               x="0">N</tspan></text>
+<text
+             id="text17674"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(658.15613,201)"><tspan
+               id="tspan17676"
+               y="0"
+               x="0">L</tspan></text>
+<text
+             id="text17678"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(667.7948,201)"><tspan
+               id="tspan17680"
+               y="0"
+               x="0">W</tspan></text>
+<text
+             id="text17682"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(686.31042,201)"><tspan
+               id="tspan17684"
+               y="0"
+               x="0">r</tspan></text>
+<text
+             id="text17686"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(692.97058,201)"><tspan
+               id="tspan17688"
+               y="0"
+               x="0">i</tspan></text>
+<text
+             id="text17690"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(697.41394,201)"><tspan
+               id="tspan17692"
+               y="0"
+               x="0">t</tspan></text>
+<text
+             id="text17694"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(702.97058,201)"><tspan
+               id="tspan17696"
+               y="0"
+               x="0">e</tspan></text>
+<text
+             id="text17698"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(714.09363,201)"><tspan
+               id="tspan17700"
+               y="0"
+               x="0">r</tspan></text>
+<text
+             id="text17702"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(719.65027,201)"><tspan
+               id="tspan17704"
+               y="0"
+               x="0">.</tspan></text>
+<text
+             id="text17706"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(725.20691,201)"><tspan
+               id="tspan17708"
+               y="0"
+               x="0">j</tspan></text>
+<text
+             id="text17710"
+             style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="translate(729.65027,201)"><tspan
+               id="tspan17712"
+               y="0"
+               x="0">l</tspan></text>
+</g></g></g><text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="193.65663"
+       y="157.30592"
+       id="text39943"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan39945"
+         x="193.65663"
+         y="157.30592"
+         style="-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:24px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">JuliaOpt Project</tspan></text>
+</g></svg>

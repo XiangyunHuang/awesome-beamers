@@ -1,0 +1,301 @@
+\ProvidesPackageRCS $Header:
+/cvsroot/latex-beamer/latex-beamer/themes/theme/beamerthemeAUTheme.sty,v
+1.10 2004/10/07 20:53:10 bourke Exp $
+
+% BEGIN sidebar dimension setup
+\newdimen\beamer@sidebarwidth
+\newdimen\beamer@headheight
+\usebeamerfont{frametitle}
+\beamer@sidebarwidth=2.0\baselineskip
+\beamer@headheight=2.0\baselineskip
+\reset@font
+
+\def\beamer@lefttext{left}
+\definecolor{AU@Orange}{RGB}{247, 87, 0}
+
+% Package options
+
+\DeclareOptionBeamer{hideothersubsections}[]{\beamer@nav@subsectionstyle{show/show/hide}}
+\DeclareOptionBeamer{hideallsubsections}[]{\beamer@nav@subsectionstyle{hide}}
+
+\DeclareOptionBeamer{width}{\beamer@sidebarwidth=#1}
+\DeclareOptionBeamer{height}{\beamer@headheight=#1}
+\DeclareOptionBeamer{left}{\def\beamer@sidebarside{left}}
+\DeclareOptionBeamer{right}{\def\beamer@sidebarside{right}}
+\ExecuteOptionsBeamer{left}
+\ProcessOptionsBeamer
+
+
+\mode<beamer>
+\useinnertheme[shadow=true]{rounded}
+
+\ifdim\beamer@headheight>0pt
+
+\setbeamercolor*{frametitle}{parent=sidebar}
+
+  \defbeamertemplate*{frametitle}{sidebar theme}
+  {%
+    \nointerlineskip%
+    \vskip-\beamer@headheight%
+    \vbox to \beamer@headheight{%
+      \vfil
+      \leftskip=-\beamer@leftmargin%
+      \advance\leftskip by0.3cm%
+      \rightskip=-\beamer@rightmargin%
+      \advance\rightskip by0.3cm plus1fil%
+      {\usebeamercolor[fg]{frametitle}\usebeamerfont{frametitle}\insertframetitle\par}%
+      {\usebeamercolor[fg]{framesubtitle}\usebeamerfont{framesubtitle}\insertframesubtitle\par}%
+      \vbox{}%
+      \vskip-1em%
+      \vfil
+    }%
+  }
+
+  \defbeamertemplate*{headline}{sidebar theme}
+  {%
+    \begin{beamercolorbox}[wd=\paperwidth]{frametitle}
+      \ifx\beamer@sidebarside\beamer@lefttext%
+      \else%
+        \hfill%
+      \fi%
+      \ifdim\beamer@sidebarwidth>0pt%
+        \usebeamercolor[bg]{logo}%
+        \vrule width\beamer@sidebarwidth height \beamer@headheight%
+        \hskip-\beamer@sidebarwidth%
+        \hbox to \beamer@sidebarwidth{\hss\vbox to
+          \beamer@headheight{\vss\hbox{\color{fg}\insertlogo}\vss}\hss}%
+      \else%
+        \vrule width0pt height \beamer@headheight%
+      \fi%
+    \end{beamercolorbox}
+  }
+\fi
+
+
+\def\beamer@sidebarformat#1#2#3{%
+  \begin{beamercolorbox}[wd=\beamer@sidebarwidth,leftskip=#1,rightskip=1ex plus1fil,vmode]{#2}
+    \vbox{}%
+    #3\par%
+    \vbox{}%
+    \vskip-1.5ex%
+  \end{beamercolorbox}
+}
+
+\defbeamertemplate*{section in sidebar}{sidebar theme}
+{%
+  \vbox{%
+    \vskip1ex%
+    \beamer@sidebarformat{3pt}{section in sidebar}{\insertsectionhead}%
+  }%
+}
+
+\defbeamertemplate*{section in sidebar shaded}{sidebar theme}
+{%
+  \vbox{%
+    \vskip1ex%
+    \beamer@sidebarformat{3pt}{section in sidebar shaded}{\insertsectionhead}%
+  }%
+}
+
+\defbeamertemplate*{subsection in sidebar}{sidebar theme}
+{%
+  \beamer@sidebarformat{5pt}{subsection in sidebar}{\insertsubsectionhead}%
+}
+
+\defbeamertemplate*{subsection in sidebar shaded}{sidebar theme}
+{%
+  \beamer@sidebarformat{5pt}{subsection in sidebar shaded}{\insertsubsectionhead}%
+}
+
+
+\ifdim\beamer@sidebarwidth>0pt
+
+                                % Sidebar
+  \setbeamersize{sidebar width \beamer@sidebarside=\beamer@sidebarwidth}
+  \defbeamertemplate*{sidebar \beamer@sidebarside}{sidebar theme}
+  {
+    \beamer@tempdim=\beamer@sidebarwidth%
+    \advance\beamer@tempdim by -6pt%
+    {\usebeamerfont{title in sidebar}%
+      \vskip1.5em%
+      \hskip3pt%
+      \usebeamercolor[fg]{title in sidebar}%
+      \insertshorttitle[width=\beamer@tempdim,center,respectlinebreaks]\par%
+      \vskip1.25em%
+    }%
+    {%
+      \hskip3pt%
+      \usebeamercolor[fg]{author in sidebar}%
+      \usebeamerfont{author in sidebar}%
+      \insertshortauthor[width=\beamer@tempdim,center,respectlinebreaks]\par%
+      \vskip1.25em%
+    }%
+    \insertverticalnavigation{\beamer@sidebarwidth}%
+    \vfill
+    \ifx\beamer@sidebarside\beamer@lefttext%
+    \else%
+      \usebeamercolor{normal text}%
+      \llap{\usebeamertemplate***{navigation symbols}\hskip0.1cm}%
+      \vskip2pt%
+    \fi%
+  }%
+
+  \ifx\beamer@sidebarside\beamer@lefttext%
+    \defbeamertemplate*{sidebar right}{sidebar theme}
+    {%
+      \vfill%
+      \llap{\usebeamertemplate***{navigation symbols}\hskip0.1cm}%
+      \vskip2pt}
+  \fi
+                                % Margins
+  \setbeamersize{text margin left=0.5cm,text margin right=0.5cm}
+\fi
+
+%\usecolortheme{sidebartab} cut-pasted-n-hacked:
+\setbeamercolor*{section in sidebar shaded}{parent=palette sidebar secondary}
+\setbeamercolor*{section in sidebar}
+  {parent=section in sidebar shaded,use={sidebar,section in sidebar shaded},%
+   fg=AU@Orange,bg=AU@Blue}
+
+\setbeamercolor*{subsection in sidebar shaded}{parent=palette sidebar primary}
+\setbeamercolor*{subsection in sidebar}
+  {parent=subsection in sidebar shaded,use=section in sidebar,%
+   bg=section in sidebar.bg, % We simply inherit the section properties
+   fg=section in sidebar.fg} % Here too.
+
+\pgfdeclarehorizontalshading[frametitle.bg,frametitle right.bg]{beamer@frametitleshade}{\paperheight}{%
+  color(0pt)=(frametitle.bg);
+  color(\paperwidth)=(frametitle right.bg)}
+
+\AtBeginDocument{
+  %
+  \pgfdeclareverticalshading{beamer@topborder}{\paperwidth}{%
+    color(0pt)=(black);
+    color(1pt)=(black)}
+  \pgfdeclarehorizontalshading{beamer@sideborder}{\paperheight}{%
+    color(0pt)=(black);
+    color(1pt)=(black)}
+
+  \pgfdeclareverticalshading{beamer@topshade}{\paperwidth}{%
+    color(0pt)=(bg);
+    color(4pt)=(black!50!bg)}
+  \pgfdeclareverticalshading{beamer@topshadesidebarcover}{\beamer@sidebarwidth}{%
+    color(0pt)=(AU@Orange);
+    color(4pt)=(AU@Orange)}
+  \pgfdeclareverticalshading{beamer@topshadesidebarcoverwhite}{6pt}{%
+    color(0pt)=(white);
+    color(4pt)=(white)}
+
+  \pgfdeclarehorizontalshading{beamer@sideshade}{\paperheight}{%
+    color(0pt)=(black!50!bg);
+    color(4pt)=(bg)}
+}
+
+\addtobeamertemplate{headline}
+{}
+{%
+  \vskip-4pt
+  \pgfuseshading{beamer@topshadesidebarcover}
+  \vskip-2pt
+}
+
+% Add page numbering to bottom left.
+\addtobeamertemplate{footline}
+{%
+   \usebeamercolor[fg]{author in sidebar}
+   \vskip-1cm\hskip10pt
+   \insertpagenumber\, / \,$\inserttotalframenumber$\kern1em\vskip2pt%
+}
+
+\addtobeamertemplate{sidebar \beamer@sidebarside}
+{}
+{
+\vskip-\paperwidth\hskip\beamer@sidebarwidth\pgfuseshading{beamer@sideshade}
+}
+
+
+\usecolortheme[RGB={17,17,140}]{structure}
+
+
+\usecolortheme{orchid} % Establishes inner, dark colors
+\usecolortheme{whale}  % Establishes outer, dark colors
+
+% Customized Various Color elements:
+\setbeamercolor{titlelike}{fg=white,bg=AU@Orange} %
+\setbeamercolor{sidebar}{fg=AU@Blue}              %
+\setbeamercolor{frametitle}{fg=AU@Blue, bg=white}           %
+\setbeamercolor{title in sidebar}{fg=white}      %
+\setbeamercolor{author in sidebar}{fg=white}    %
+
+\setbeamercolor{section in sidebar shaded}{fg=white}
+\setbeamercolor{subsection in sidebar shaded}{fg=AU@Blue}
+
+%\setbeamertemplate{blocks}[rounded]{shadow=true}
+\setbeamercolor{block title}{fg=white,bg=black}
+\setbeamercolor{block body}{fg=black,bg=AU@VeryLightGrey}
+
+% Set the AU logo, file must be in the latex path or working directory
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setbeamercolor{logo}{fg=black,bg=white}
+\logo{\includegraphics[height=1.0cm]{figure/CUMTB}}
+
+% Handout Mode - Using the default layouts, no menus, etc.
+\mode
+<handout>
+\usetheme{default}
+\usecolortheme{default}
+\setbeamertemplate{navigation symbols}{}
+\useinnertheme{default}
+%reset shadow boxes to very light grey
+\setbeamercolor{block title}{fg=black,bg=AU@LightGrey} %
+\setbeamercolor{block body}{fg=black,bg=AU@VeryLightGrey} %
+
+% Settings for every mode
+\mode
+<all>
+%Two horrible hacks to get a "note page" after every slide.
+\newcommand{\noteframe}{
+\only<handout>{ %
+  \begin{frame}
+   \frametitle{Notes}
+   \begin{center}
+   \begin{tikzpicture}
+    \foreach \y in {0,1,2,3,4,5,6}
+     \draw[thick] (0,\y) -- (11,\y);
+   \end{tikzpicture}
+   \end{center}
+  \end{frame}
+  }%
+}
+
+\newcommand{\noteslide}{%to be used after every \framebreak
+\only<handout>{ %
+   \begin{center}
+   \begin{tikzpicture}
+    \foreach \y in {0,1,2,3,4,5,6}
+     \draw[thick] (0,\y) -- (11,\y);
+   \end{tikzpicture}
+   \end{center}
+   \framebreak
+   }%
+}
+
+
+\definecolor{AU@Orange}{RGB}{247, 87, 0}
+%	\definecolor{AU@Orange}{RGB}{255, 150, 0}
+\definecolor{AU@Blue}{RGB}{17,17,175}
+
+\definecolor{AU@DarkGrey}{RGB}{35,35,35}
+\definecolor{AU@Grey}{RGB}{100,100,100}
+\definecolor{AU@LightGrey}{RGB}{200,200,200}
+\definecolor{AU@VeryLightGrey}{RGB}{225,225,225}
+
+
+\setbeamercolor{block title example}{fg=block title.fg,bg=block title.bg} %
+\setbeamercolor{block body example}{fg=block body.fg,bg=block body.bg} %
+\setbeamercolor{block title alerted}{fg=block title.fg,bg=block title.bg} %
+\setbeamercolor{block body alerted}{fg=block body.fg,bg=block body.bg} %
+\setlength{\parskip}{.25cm}
+
+\beamertemplatetheoremsunnumbered  %This suppresses theorem numbers
+

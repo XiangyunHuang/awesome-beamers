@@ -1,0 +1,100 @@
+\documentclass[10pt,UTF8]{beamer}
+\usepackage{xeCJK}
+
+\usetheme{AUTheme}
+\usefonttheme[onlymath]{serif}
+\usecolortheme{rose}
+% \setCJKmainfont{STKaiti} 
+\setCJKmainfont{KaiTi} 
+
+\punctstyle{banjiao} % 半角标点符号
+
+\title{优化建模与开源工具}
+\author{黄湘云}
+\institute{Department of Statistics}
+\date{\today}
+
+<<include=FALSE>>=
+library(knitr)
+knit_theme$set("fruit")
+opts_chunk$set(size="scriptsize")
+@
+
+
+\begin{document}
+
+\frame{\titlepage}
+
+\section{非线性规划}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Tools for Optimization}
+
+\begin{frame}
+\frametitle{Julia Language}
+\begin{figure}[htbp]
+  \centering
+\includegraphics[width=\textwidth]{figure/JuliaOpt.pdf}
+  \caption{JuliaOpt\footnote{图片来自\url{http://www.juliaopt.org/}}}\label{fig:JuliaOpt}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{R Language}
+{\color{blue}\textsf{DMLC}}\footnote{\url{http://dmlc.ml/}} for Scalable and Reliable Machine Learning 
+
+MXNet
+XGBoost
+
+h2o
+caret
+nnet
+e1071
+rpart
+randomForest
+RWeka RWekajars
+
+Caffe
+TensorFlow
+Tourch
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
