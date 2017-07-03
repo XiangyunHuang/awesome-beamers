@@ -1,0 +1,53 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Bates {\em et~al.\ }\relax, }2014]{pyne_progress}
+Bates, Cameron, Biondo, Elliott, Huff, Kathryn, \& et~al. 2014 (Nov.).
+\newblock {PyNE Progress Report}.
+\newblock {\em In:} {\em Am. Nuc. Soc. Winter Meeting 2014},  vol. 111.
+
+\bibitem[\protect\citename{Biondo {\em et~al.\ }\relax, }2014a]{Biondo2014}
+Biondo, E., Davis, A., Scopatz, A., \& Wilson, P. P.~H. 2014a.
+\newblock {Rigorous Two-Step Activation for Fusion Systems with PyNE}.
+\newblock {\em In:} {\em Proc. of the 18th Topical Meeting of the Radiation
+  Protection \& Shielding Division of ANS}.
+
+\bibitem[\protect\citename{Biondo {\em et~al.\ }\relax, }2014b]{pyne_vnv}
+Biondo, Elliott, Scopatz, Anthony, Gidden, Matthew, Slaybaugh, Rachel, \&
+  Bates, Cameron. 2014b (Nov.).
+\newblock {Quality Assurance within the PyNE Open Source Toolkit}.
+\newblock {\em In:} {\em Am. Nuc. Soc. Winter Meeting 2014},  vol. 111.
+
+\bibitem[\protect\citename{Damián {\em et~al.\ }\relax,
+  }2014]{MarquezDamian2014280}
+Damián, J.I.~Márquez, Granada, J.R., \& Malaspina, D.C. 2014.
+\newblock \{CAB\} models for water: A new evaluation of the thermal neutron
+  scattering laws for light and heavy water in ENDF-6 format.
+\newblock {\em Annals of Nuclear Energy}, {\bf 65}(0), 280 -- 289.
+
+\bibitem[\protect\citename{Scopatz, }2013]{Scopatz2013a}
+Scopatz, Anthony. 2013 (May).
+\newblock {First \& second order approximations to stage numbers in
+  multicomponent enrichment cascades}.
+\newblock {\em In:} {\em {International Conference on Mathematics and
+  Computational Methods Applied to Nuclear Science \& Engineering (M\&C
+  2013)}}.
+
+\bibitem[\protect\citename{Scopatz {\em et~al.\ }\relax, }2012a]{pyne_intro}
+Scopatz, Anthony, Romano, Paul~K., Wilson, Paul~P.H., \& Huff, Kathryn~D. 2012a
+  (Nov.).
+\newblock {PyNE: Python for Nuclear Engineering}.
+\newblock {\em In:} {\em Am. Nuc. Soc. Winter Meeting 2012},  vol. 107.
+
+\bibitem[\protect\citename{Scopatz {\em et~al.\ }\relax, }2012b]{scipy}
+Scopatz, Anthony, Romano, Paul, Wilson, Paul, Slaybaugh, Rachel, Huff, Katy, \&
+  Relson, Eric. 2012b (July).
+\newblock {PyNE: Python for Nuclear Engineering}.
+\newblock {\em In:} {\em SciPy 2012}.
+
+\bibitem[\protect\citename{Scopatz {\em et~al.\ }\relax, }2013]{scopatz_pyne}
+Scopatz, Anthony, Biondo, Elliott~D., Brachem, Carsten, Xia, John, \& Wilson,
+  Paul P.~H. 2013 (Nov.).
+\newblock {PyNE Progress Report}.
+\newblock {\em In:} {\em {Am. Nuc. Soc. Winter Meeting 2013}},  vol. 109.
+
+\end{thebibliography}

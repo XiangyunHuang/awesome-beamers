@@ -1,0 +1,10 @@
+\frametitle{PyNE In the Literature}
+
+    \begin{itemize}
+    \item Intro: ``PyNE: Python For Nuclear Engineering'' \cite{pyne_intro}
+    \item Progress reports: \cite{scopatz_pyne}, \cite{pyne_progress}
+    \item In research: \cite{Biondo2014}, \cite{MarquezDamian2014280}, \cite{Scopatz2013a}
+    \item V\&V: ``Quality Assurance within the PyNE Open Source \\Toolkit'' \cite{pyne_vnv}
+    \item Poster at SciPy: \cite{scipy}
+    \end{itemize}
+
