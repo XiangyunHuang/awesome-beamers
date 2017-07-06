@@ -1,0 +1,55 @@
+---
+title: "gambia数据分析"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 描述分析
+
+数据集大小
+```{r}
+data(gambia,package = "geoR")
+dim(gambia)
+```
+
+查看数据集
+```{r}
+head(gambia)
+```
+
+村子数目
+```{r}
+length(table(gambia$x))
+# table(gambia$x)
+as.vector(table(gambia$x)[order(table(gambia$x))])
+barplot(table(gambia$x)[order(table(gambia$x))]  )
+
+length(table(gambia$y))
+# table(gambia$y)
+as.vector(table(gambia$y)[order(table(gambia$y))] )
+barplot(table(gambia$y)[order(table(gambia$y))]  )
+```
+
+健康中心个数
+```{r}
+table(gambia$phc)
+plot(y~x,data = gambia,col=c("green","red")[phc])
+```
+
+没有健康中心的村子，且发现疟疾
+```{r}
+subset(gambia,phc==0 & pos==1)
+```
+
+
+## 软件信息
+
+```{r}
+sessionInfo()
+```
+
+
+
