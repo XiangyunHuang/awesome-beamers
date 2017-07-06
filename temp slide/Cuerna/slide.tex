@@ -1,0 +1,79 @@
+% \documentclass[11pt,UTF8]{beamer}
+\documentclass[11pt,UTF8]{ctexbeamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usetheme{Cuerna}
+\usecolortheme{brick}
+\graphicspath{{figure/}}
+% \usepackage{xeCJK}
+% Windows中文字体
+% \setCJKsansfont{KaiTi}%
+
+\logo{\includegraphics[width=1.7cm]{cumtb}}
+
+\title{Model-Based Geostatistics}
+\subtitle{Generalized Linear Geostatistical Models and Its Applications}
+\author{Xiangyun~Huang \and Zaixing~Li \\
+\texttt{xiangyunfaith@outlook.com} }
+\institute[China University of Mining and Technology,Beijing]
+{
+Department of Statistics\\ % Computational mathematics
+China University of Mining and Technology,Beijing
+}
+\date{\today}
+
+\begin{document}
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Outline}
+\begin{itemize}
+  \item Motivation
+  \item Introduction 
+  \item Geostatistical model
+  \item Real data analysis (Applications)
+  \item Discussion
+\end{itemize}
+\end{frame}
+
+\section{Introduction}
+\subsection{Motivation}
+  \begin{frame}
+    \frametitle{Title of the slide}
+    \framesubtitle{Subtitle}
+    Some text on top of this slide
+    \[
+    \int_{0}^{\infty} \frac{5x^2}{\sqrt{a+b}}\, dx
+    \]
+    \begin{itemize}
+    \item[\checkmark] Fist item in the list
+    \item Second item
+    \item Another item
+    \item And finally, the last item
+  \end{itemize}
+  \end{frame}
+ 
+\begin{frame}{预测任务}
+\begin{itemize}
+\item 重金属浓度最高的位置 （最大值）
+\item 重金属浓度超过给定值的区域  （区间估计）
+\item 重金属在某个区域的含量 （积分）
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{figure}
+\centering
+\includegraphics[width=.7\textwidth]{cumtb}
+\end{figure}
+\end{frame} 
+ 
+ 
+\end{document}
+
