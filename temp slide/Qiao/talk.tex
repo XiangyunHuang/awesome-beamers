@@ -1,0 +1,397 @@
+\documentclass[cjk]{beamer}
+
+\usepackage[]{xeCJK}
+\setCJKmainfont{SimHei}%{SimSun}
+%\setCJKmainfont{叶根友疾风劲草}
+\usefonttheme[onlymath]{serif}
+\usepackage{indentfirst}
+
+%\usepackage[screen,panelright,gray,paneltoc,sectionbreak]{pdfscreen}
+  %缺省状态为Blue,学术报告推荐采用"gray"。
+%\usepackage{amsmath,amssymb,amsfonts}
+%\usepackage[indentfirst]{titlesec}
+%\usepackage{fancyvrb}
+%\usepackage{graphicx}
+%\usepackage{times}
+%\usepackage{type1cm}
+%\usepackage{geometry}
+%\usepackage{hyperref}
+%\usepackage[display]{texpower}
+%\usepackage{hypbmsec}
+%\usepackage{manfnt}
+%\usepackage{pause}
+%\usepackage{bbding}
+%\usepackage{beamerthemeshadow} %该为一现成的模板，在 MiKTeX\texmf\tex\latex\beamer\themes\theme下面有很多
+
+%\paneloverlay{./Overlays/but.pdf} 
+\usetheme{Warsaw} %{Madrid}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{ amssymb }
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{manfnt}
+\newcommand{\chuhao}{\fontsize{52pt}{\baselineskip}\selectfont} 
+
+\mode<article> % 仅应用于article版本
+{
+  \usepackage{beamerbasearticle}
+  \usepackage{fullpage}
+  \usepackage{hyperref}
+}
+
+
+
+\usefoottemplate{\vbox{%
+\tinycolouredline{structure!120}%
+ {\color{white}\textbf{\insertshortauthor\hfil%
+ \insertshorttitle}\hfil   \insertframenumber{} / \inserttotalframenumber}%\hfil
+}}
+\makeatother
+\newtheorem{原因}{{原因}}[section]
+\newtheorem{定义2.2}{{定义2.2}}[section]
+\newtheorem{引理2.1}{{引理2.1}}[section]
+\newtheorem{引理2.2}{{引理2.2}}[section]
+\newtheorem{定理2.1}{{定理2.1}}[section]
+\newtheorem{定理2.2}{{定理2.2}}[section]
+\newtheorem{为什么追求高精度？}{{为什么追求高精度？}}[section]
+%\newtheorem{definition}{{definition}}[section]
+\newtheorem{lem}{{引理}}[section]
+\newtheorem{remark}{{注记}}[section]
+\newtheorem{dingyi}{{定义}}[section]
+\renewcommand{\figurename}{图}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                           定制幻灯片---幅面、标志、底板、主页、按钮行距等             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\margins{15mm}{15mm}{15mm}{15mm}            %定义页边的空白尺寸，\margins{left}{right}{top}{bottom}。
+%\screensize{180mm}{240mm}                   %定义屏幕尺寸，\screensize{height}{width}，通常为180mm*240mm。
+%\panelwidth=36mm                           %定义导航面板的宽度，缺省为幻灯片宽度的15%。
+%\emblema{./Images/ecnu.png}                   %在导航面板加入图片。
+%\overlay{./Overlays/overlay\theslideoverlay}  %多种overlay图形切换。注释该行，将得到无框SLIDE效果。
+%\overlay{./Overlays/overlay1.pdf}            %在幻灯片中只用一种图片，\overlay{hgraphic file namei}，是上一行的变体。
+%\backgroundcolor{white}                    %\overlay被注视后的背景颜色。
+%\paneloverlay{./Overlays/but.pdf}             %加入导航面板*.pdf。
+%\urlid{math.ecnu.edu.cn/~latex}             %主页链接。
+%\def\pfill{\vskip8pt}                       %导航面板项目行行距。
+%\bottombuttons  %\nobottombuttons          %底部按钮开关。
+%\topbuttons  %\notopbuttons                %顶部按钮开关。
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                           定制幻灯片---导航面板目录中文化                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\title{Symplectic Methods for the Nonlinear Schr\"{o}dinger Equation}
+\author{Miao Xu\\Advisor:Quandong Feng}
+\date{\footnotesize \vspace{5mm}April 27,2016}
+
+
+\begin{document} %申明文档的开始
+%\begin{CJK*}{GBK}{li}
+%\begin{CJK*}{GBK}{song}     %CJK:支持中文
+
+    \begin{frame} %beamer里重要的概念，每个frame定义一张page
+
+        \titlepage 
+
+    \end{frame}
+
+    \begin{frame}
+     \frametitle{目录}
+     \begin{enumerate}
+\normalsize
+
+%     \item \href{./figure/com.pdf}{导心系统回顾}\\
+     \item 介绍\\
+非线性薛定谔方程(NLSE)\\
+NLSE的空间离散化\\
+
+     \qquad\\
+     \item 守恒律\\
+原NLSE的守恒律\\
+NLSE(2)的两个不变量\\
+     \qquad\\
+     \item 常用辛格式\\
+欧拉中点格式\\
+四阶龙格库塔格式\\
+     \qquad\\
+ \item 致谢\\
+%   \item \href{./figure/Boris.pdf}{Boris algorithm 数值算例}\\%3
+%     \qquad\\  
+%     \item Boris algorithm 是否是共轭辛的\\%1：系统本身的稳定性：研究系统本身的性质，找出稳定的区域 
+%数值格式的稳定性：有效控制计算过程中数据大小，使其再有限步计算中范数相对有界\\
+     \end{enumerate}
+%     \tableofcontents
+    \end{frame}
+
+
+
+\frame { \frametitle{非线性薛定谔方程(NLSE)} 
+\normalsize
+~~~~~~我们考虑{\color{red}
+非线性薛定谔方程(NLSE)}
+\begin{equation}
+\left\{
+\begin{aligned}
+&iW_t=W_{xx}+a|W|^2W=0 \\
+&W(x,0)=W_0(x) ,
+\end{aligned}
+\right.
+\end{equation}
+其中$x\in R, a>0$且$a$为常数. 该方程是孤立子理论中完全可积模型中最重要的方程之一, 它在物理学中的很多领域像非线性光学和等离子物理中有着广泛的应用.
+
+~~~~~~在上次报告中我给大家简单介绍过{\color{red}辛算法}的一些基本概念, 我们也知道辛算法能保持连续的Hamilton流的内在的一些典则特征. 保结构、稳定性强、不含人为耗散, 是目前最稳定高效的计算方法. 大量的数值实验也表明辛积分优于非辛积分, 特别是对于长期模拟和保持不变量的特征方面.
+
+
+}
+\frame{\frametitle{NLSE的空间离散化}
+\normalsize
+~~~~~~下面我们考虑{\color{red}NLSE(1)}的空间离散化:
+\begin{equation}
+\left\{
+\begin{aligned}
+&iW_t^{(l)}+\frac{1}{h^2}\Big[W^{(l+1)}-2W^{(l)}+W^{(l-1)}\Big]+a|W^{(l)}|^2W^{(l)}=0 \\
+&W^{(l)}(0)=W_0(lh) ,
+\end{aligned}
+\right.
+\end{equation}
+其中$h$是空间步长, 且$W^{(l)}\equiv W^{(l)}(t)=W(lh,t).$
+
+~~~~~~我们就会得到下面的定理:
+
+~~~~~~{\color{red}定理 1:}假设初始条件$W_0(x)$是平方可积的, 即$\int_{-\infty}^{+\infty}|W_0(x)|^2dx<+\infty$. 那么当$h \rightarrow0$时, 空间离散化方程(2)的解收敛到原始的$NLSE(1)(a>0)$的解.
+
+~~~~~~{\color{red}证明:}不妨设$w(x,t)$是方程(1)的解, 且设$w^{(l)}=w(lh,t)$, 则
+\begin{equation*}
+\begin{aligned}
+&iw_t^{(l)}+w_{xx}^{(l)}+a|w^{(l)}|^2w^{(l)}=0 ,
+\end{aligned}
+\end{equation*}
+\begin{equation}
+\begin{aligned}
+&iw_t^{(l)}+\frac{w^{(l+1)}-2w^{(l)}+w^{(l-1)}}{h^2}+a|w^{(l)}|^2w^{(l)}=M_l ,
+\end{aligned}
+\end{equation}
+}
+\frame{
+\normalsize
+其中$M_l=(w^{(l+1)}-2w^{(l)}+w^{(l-1)})/h^2-W_{xx}^{(l)}$, $M_l(t)=h^2B_l(t)$.
+(3)-(2)得:
+\begin{equation*}
+\begin{aligned}
+i(w_t^{(l)}-W_t^{(l)})+\frac{w^{(l+1)}-W^{(l+1)}-2(w^{(l)}-W^{(l)})+w^{(l-1)}-W^{(l-1)}}{h^2}
+\\+a(|w^{(l)}|^2w^{(l)}-|W^{l)}|^2W^{(l)})=M_l
+\end{aligned}
+\end{equation*}
+令$\varepsilon_l=w^{(l)}-W^{(l)}$, 则有
+\begin{equation}
+\begin{aligned}
+&i\frac{d\varepsilon_l}{dt}+\frac{\varepsilon_{l+1}-2\varepsilon_l+\varepsilon_{l-1}}{h^2}
+\\&~~~~~~~~~~~~~~~~~+a\bigg\{\Big[|w^{(l)}|^2+|W^{(l)}|^2\Big]\varepsilon_l+w^{(l)}W^{(l)}\bar{\varepsilon}_l\bigg\}=M_l
+\end{aligned}
+\end{equation}
+(4)两边乘以$\bar{\varepsilon}_l$, 并对$l$求和取虚部得:
+}
+
+\frame{
+\normalsize
+\begin{equation}
+\frac{1}{2}\frac{d}{dt}\sum\limits_t|\varepsilon_l|^2+aIm\Big[\sum\limits_lw^{(l)}W^{(l)}\bar{\varepsilon}_l^2\Big]=Im\Big[\sum\limits_lM_l\bar{\varepsilon}_l\Big]
+\end{equation}
+\begin{equation}
+\begin{aligned}
+\therefore
+\frac{1}{2}\frac{d}{dt}\|\varepsilon\|^2&\leq h^2\|B\|\|\varepsilon\|+a\frac{1}{2}(\|w\|^2+\|W\|^2)\|\varepsilon\|^2\\
+&\leq\frac{1}{2}h^4c_1^2+\frac{1}{2}(1+2ac_2^2)\|\varepsilon\|^2,
+\end{aligned}
+\end{equation}
+其中$c_1$, $c_2$为常数, $\|\cdot\|$定义为$\|\varepsilon(t)\|^2=h\sum\limits_l|\varepsilon_l|^2$.
+\begin{equation}
+\therefore
+\|\varepsilon(T)\|^2\leq e^{(1+2ac_2^2)\cdot T}\cdot(\frac{c_1^2h^4}{1+2ac_2^2}),
+\end{equation}
+也即是给定一个T, 当h充分小时方程(2)的解足够接近方程(1)的解, 故定理得证.
+}
+\frame{\normalsize
+设$W^{(l)}=p^{(l)}+iq^{(l)}$, 方程(2)可分解为
+\begin{equation}
+\left\{
+\begin{aligned}
+&p_t^{(l)}+\frac{q^{(l+1)}-2q^{(l)}+q^{(l-1)}}{h^2}+a\big[(p^{(l)})^2+(q^{(l)})^2\big]q^{(l)}=0 \\
+&q_t^{(l)}-\frac{p^{(l+1)}-2p^{(l)}+p^{(l-1)}}{h^2}-a\big[(p^{(l)})^2+(q^{(l)})^2\big]p^{(l)}=0 ,
+\end{aligned}
+\right.
+\end{equation}
+假设边界条件$W(N_1h,t)=W(N_2h,t)=0$, $[N_1h, N_2h]$是总的区间. (8)也可以写成下面的Hamilton系统的形式:
+\begin{equation}
+\frac{d}{dt}z=\frac{1}{h^2}\begin{pmatrix} 0 & -B \\ B &  0 \end{pmatrix}z+a\begin{pmatrix} 0 & -D \\ D &  0 \end{pmatrix}z,
+\end{equation}
+其中
+\begin{equation*}
+z=\begin{pmatrix} p \\ q \end{pmatrix}, p=\begin{pmatrix} p^{(1)}\\\vdots\\p^{(n)} \end{pmatrix},q=\begin{pmatrix} q^{(1)}\\\vdots\\q^{(n)} \end{pmatrix}.
+\end{equation*}}
+
+\frame{\normalsize
+而\begin{equation*}
+B=\begin{pmatrix} -2 & 1& & & & &\\
+1&-2&1& & &\\
+&\ldots&\ldots&\ldots&&\\
+&&\ldots&\ldots&\ldots&\\
+&&&1&-2&1\\
+&&&&1&-2\end{pmatrix},
+\end{equation*}
+\begin{equation*}
+D=diag\Big\{(p^{(1)})^2+(q^{(1)})^2,\ldots,(p^{(n)})^2+(q^{(n)})^2\Big\}.
+\end{equation*}
+这时Hamilton函数为:
+\begin{equation}
+\begin{aligned}
+H(p,q)=\frac{1}{2h^2}[p^TBP+q^TBq]+\frac{a}{4}\sum_{k=1}^n[(p^{(k)})^2+(q^{(k)})^2]^2
+\end{aligned}
+\end{equation}
+此因
+\begin{equation*}
+\begin{aligned}
+\frac{\partial H}{\partial p}=\frac{1}{h^2}\cdot Bp+a\cdot \sum_{i=1}^np^{(k)}=\frac{dz}{dp}\\
+\frac{\partial H}{\partial q}=\frac{1}{h^2}\cdot Bq+a\cdot \sum_{i=1}^nq^{(k)}=-\frac{dz}{dq}
+\end{aligned}
+\end{equation*}
+}
+\frame
+{\frametitle{原NLSE的守恒律}
+\normalsize
+原NLSE有无限多个守恒律. 我们现在来考虑以下几个:\\
+\vskip 1cm
+
+\begin{itemize}
+   \item{电荷~~~~~~~~~~~~~~~~~~~~~     $Q=\int_{-\infty}^{+\infty}|W|^2dx$}\\
+\vskip 1cm
+   \item{能量~~~~~~~~~~~~~~~~~~~~~     $E=\int_{-\infty}^{+\infty}(\frac{a}{2}|W|^4-|W_x|^2)dx$   }\\
+\vskip 1cm
+   \item{动量~~~~~~~~~~~~~~~~~~~~~     $P=\int_{-\infty}^{+\infty}W\cdot\overline{W}_xdx$ }\\
+\end{itemize}
+
+}
+
+\frame
+{\normalsize
+我们选其中两个证明一下.
+\begin{equation*}
+\begin{aligned}
+\because iW_t+W_{xx}+a|W^2|\cdot W=0,
+\end{aligned}
+\end{equation*}
+\begin{equation*}
+\begin{aligned}
+\therefore\frac{dQ}{dt}&=\int_{-\infty}^{+\infty}\frac{dW\cdot \overline{W}}{dt}dx\\
+&=\int_{-\infty}^{+\infty}(W_t\cdot \overline {W}+W\cdot \overline {W_t})dx\\
+&=\int_{-\infty}^{+\infty}(\frac{-a|W^2|\cdot W-W_{xx}}{i} \overline {W}+W\cdot\frac{a|\overline{W}|^2\cdot W+\overline{W_{xx}}}{i})dx\\
+&=i\int_{-\infty}^{+\infty}(a|W^2|\cdot W+W_{xx}) \overline {W}-W\cdot(a|\overline{W}|^2\cdot W+\overline{W_{xx})}dx\\
+&=0
+\end{aligned}
+\end{equation*}
+故电荷守恒.
+}
+\frame{\normalsize
+动量: $P=\int_{-\infty}^{+\infty}W\cdot\overline{W}_xdx$, 若$\frac{dp}{dt}=0$, 则$\frac{dp'}{dt}=0$. 其中$p'=\int_{-\infty}^{+\infty}(W\cdot\overline{W}_x-\overline{W}\cdot W_x)dx$, 
+又\begin{equation*}
+\begin{aligned}
+\frac{dp'}{dt}&=\int_{-\infty}^{+\infty}(W_t\cdot\overline{W}_x+W\cdot\overline{W}_{xt}-\overline{W_t}\cdot W_x+\overline{W}\cdot W_{xt})dx\\
+&=\int_{-\infty}^{+\infty}\Big[i\overline{W_x}(W_{xx}+a|W|^2\cdot W)
++W\cdot\overline{W}_{xt}\\&~~~~~~~~~~~~~~-
+W_x(-i\overline{W_{xx}}-a|W|^2\overline{W})
++\overline{W}\cdot W_{xt}\Big]dx\\
+&=\int_{-\infty}^{+\infty}id\overline{W_x}\cdot W_x+ia|W|^2d\overline{W}\cdot W\\&~~~~~~~~~~~~~~+\int_{-\infty}^{+\infty}(W\cdot\overline{W}_{xt}+\overline{W}\cdot W_{xt})dx\\
+&=W\cdot\overline{W_t}+\overline{W}\cdot W_t=0
+\end{aligned}
+\end{equation*}
+故动量P也守恒.
+}
+\frame{
+ \frametitle{NLSE(2)的两个不变量}\normalsize
+类似地, 系统(9)也有两个不变量:
+\begin{itemize}
+   \item{能量~~~~~~~~~~~~~~~~~~~~~     $\tilde{E}=H(p,q)$   }
+   \item{电荷~~~~~~~~~~~~~~~~~~~~~     $\tilde{Q}=\frac{1}{2}\sum\limits_{k=1}^n\Big[(p^{(k)})^2+(q^{(k)})^2\Big]$ }
+\end{itemize}
+此因,\begin{equation*}
+\begin{aligned}
+\frac{d\tilde{E}}{dt}=\frac{dH(p,q)}{dt}=\frac{\partial H}{\partial p}\cdot \frac{dp}{dt}+\frac{\partial H}{\partial p}\cdot \frac{dq}{dt}=\frac{dz}{dp}\cdot\frac{dp}{dt}-\frac{dz}{dq}\cdot\frac{dq}{dt}=0
+\end{aligned}
+\end{equation*}
+\begin{equation*}
+\begin{aligned}
+\frac{d\tilde{Q}}{dt}&=\sum\limits_{k=1}^n[p^{(k)}\cdot\frac{dp^{(k)}}{dt}+q^{(k)}\cdot\frac{dq^{(k)}}{dt}]\\&=\frac{1}{h^2}\sum\limits_{k=1}^n\Big[q^{(k+1)}\cdot p^{(k)}+p^{(k)}q^{(k-1)}\\&~~~~~~~~~-[p^{(k+1)}\cdot q^{(k)}-p^{(k-1)}\cdot q^{(k)}\Big]=0
+\end{aligned}
+\end{equation*}
+故$\tilde{E}$, $\tilde{Q}$均守恒.同时我们会发现仅有这两个不变量.
+}
+\frame
+{\frametitle{欧拉中点格式}
+\normalsize
+中点格式:   $G^z: \tilde{z}=z+\tau J\nabla H(\frac{ \tilde{z}+z}{2})$, 其中$\tau$为步长.
+
+我们之前已经验证过该格式为二阶可逆的. 下面我们验证一下它是H的二次不变量.
+\begin{equation}
+\begin{aligned}
+\tilde{z}^Ts\tilde{z}&=\tilde{z}^Ts\Big[z+\tau J\nabla H(\frac{ \tilde{z}+z}{2})\Big]\\
+&=\tilde{z}^Tsz+(\tilde{z}+z)^T\cdot s\tau J\nabla H(\frac{ \tilde{z}+z}{2})-z^Ts\Big[\tau J\nabla H(\frac{ \tilde{z}+z}{2})\Big]\\&=\tilde{z}^Tsz-z^Ts\Big[\tau J\nabla H(\frac{ \tilde{z}+z}{2})\Big]\\
+&=\tilde{z}^Tsz+\Big[\tau J\nabla H(\frac{ \tilde{z}+z}{2})\Big]^Tsz-z^Ts\Big[\tau J\nabla H(\frac{ \tilde{z}+z}{2})\Big]\\
+&=\tilde{z}^Tsz
+\end{aligned}
+\end{equation}
+也即中点格式能保持电荷守恒.(因为Hamilton系统(9)只有一个二次不变量)
+}
+\frame{\normalsize
+数值格式(11)有如下的形式能量:
+\begin{equation}
+\begin{aligned}
+&\tilde{H}=H-\frac{\tau^2}{24}H_{z^2}(z^{[1]})^2+\frac{7\tau^4}{5760}H_{z^4}(z^{[1]})^4\\&~~~~~~~~~~~~~~~~~~~~~~~~~~+\frac{\tau^4}{480}H_{z^3}(z^{[1]})^2z^{[2]}+\frac{\tau^4}{160}H_{z^2}(z^{[2]})^2+O(\tau^6)
+\end{aligned}
+\end{equation}
+其中$z^{[1]}=J\nabla H, z^{[2]}=(z^{[1]})_z\cdot z^{[1]}=JH_{zz}J=\nabla H;$
+
+$z\in R^{2p}, H_{z^q}(*)$定义为$\forall q\geq0$的$q$线性形式. 例如:
+\begin{equation*}
+H_{z^2}(z^{[1]})^2=(J\nabla H)^TH_{zz}(J\nabla H)=\sum\limits_{i,j=1}^{2p}H_{z_jz_i}\cdot z_i^{[1]}z_j^{[1]}
+\end{equation*}
+}
+\frame{\frametitle{四阶龙格库塔格式}
+\normalsize
+四阶龙格库塔格式:
+\begin{equation*}
+\left\{
+\begin{aligned}
+&\tilde{z}=z+\frac{\tau}{2}J\big[\nabla H(k_1)+\nabla H(k_2)\big] \\
+&k_1=z+\frac{\tau}{12}J\big[3\nabla H(k_1)+(3-2\sqrt{3}\nabla H(k_2)\big] \\ 
+&k_2=z+\frac{\tau}{12}J\big[(3+2\sqrt{3})\nabla H(k_1)+3\nabla H(k_2)\big]
+\end{aligned}
+\right.
+\end{equation*}
+四阶的龙格库塔也是可逆的, 它的形式能量如下:
+\begin{equation}
+\begin{aligned}
+&\tilde{H}=H-\frac{\tau^4}{4320}H_{z^4}(z^{[1]})^4-\frac{\tau^4}{720}H_{z^3}(z^{[1]})^2z^{[2]}\\&~~~~~~~~~~~~~~~~~~~~~~~~~~-\frac{\tau^4}{1440}H_{z^2}(z^{[2]})^2+O(\tau^6)
+\end{aligned}
+\end{equation}
+}
+
+
+
+
+
+
+
+
+
+
+
+\frame{
+\begin{center}
+\chuhao\fontspec[Variant = 2]{Silent Reaction}{Thank You}
+\end{center}
+}
+\end{document}
+
