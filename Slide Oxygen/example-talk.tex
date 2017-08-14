@@ -1,0 +1,208 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+\documentclass[aspectratio=43,11pt,unknownkeysallowed,UTF8]{beamer}
+
+\usepackage{graphicx}
+\graphicspath{{figure/}} % 图片路径
+
+\usetheme{Oxygen}
+\useinnertheme[shadow]{rounded} 
+\setbeamertemplate{items}[square]
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\setbeamercovered{transparent}
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Sans CJK SC} % Source Han Sans CN  % Source Han Serif SC
+\renewcommand{\appendixname}{附录}
+
+\title{空间广义线性混合效应模型}
+\subtitle{硕士学位论文答辩}
+\author{黄湘云}
+\institute[CUMTB]{ 计算数学与统计系\\ 理学院}
+\date{2018年5月}
+% \date[CUMTB 2018]{China University of Mining \& Technology, Beijing}
+
+\subject{Thesis Defense for Master Degree}
+
+\pgfdeclareimage[height=1.5cm]{university-logo}{cumtb_logo}
+% \logo{\pgfuseimage{university-logo}}
+\titlegraphic{\pgfuseimage{university-logo}}
+
+\begin{document}
+
+\begin{frame}
+  \vskip-5.45cm
+\titlepage
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Outline}
+  \tableofcontents
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Content starts here %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{介绍}
+
+\begin{frame}
+  \frametitle{Prerequisites \& Goals}
+  \framesubtitle{Knowledge is a brick wall that you raise line by line forever}
+ \begin{columns}
+  \begin{column}{11cm}
+   \begin{block}{LaTeX}
+   \begin{itemize}
+     \item Obviously some basic LaTeX knowledge is necessary
+     \item Some more features will be provided here
+   \end{itemize}
+   \end{block}
+
+   \begin{block}{Beamer}
+   \begin{itemize}
+     \item You'll learn them by looking at this presentation source
+   \end{itemize}
+   \end{block}
+
+   \begin{block}{Goal}
+   \begin{itemize}
+     \item Learn how to make well structured slides
+     \item Using a beautiful theme (congrats to the Oxygen team!)
+     \item Take over the world
+     \item Relax...
+   \end{itemize}
+   \end{block}
+  \end{column}
+ \end{columns}
+\end{frame}
+
+\section{算法}
+\begin{frame}
+  \frametitle{Sections, Frames and Blocks}
+  \framesubtitle{Put everything into boxes}
+
+  The current section is "Basic structuring". And the current frame
+  is what you have on the screen right now.
+
+  \begin{block}{A beautiful block}
+  A block has a title, and some content. You can put in a block
+  almost everything you want that is provided by LaTeX. For example
+  math works as usual:
+    \begin{equation}
+    \sum_{i=1}^n i = \frac{n \times (n+1)}{2}
+    \end{equation}
+  \end{block}
+
+  Also works outside a block:
+  \begin{equation}
+  \sum_{i=1}^n i^2 = \frac{n \times (n+1) \times (2n+1)}{6}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Different type of blocks}
+  \framesubtitle{Weeeee! Colors!!}
+  \begin{block}{Standard block}
+  \begin{itemize}
+    \item A standard block, used for grouping
+    \item Obviously can contain itemizes too...
+        \begin{itemize}
+         \item And nested itemizes...
+         \item of course!
+        \end{itemize}
+  \end{itemize}
+  \end{block}
+  \begin{alertblock}{Alert block}
+  WARNING: Something very important inside this block!
+  \end{alertblock}
+  \begin{example}
+  Note that examples are displayed as a special block...
+  \end{example}
+\end{frame}
+
+\section{模拟结果}
+\begin{frame}
+  \frametitle{Highlighting}
+  \framesubtitle{Hey! Look here! here!}
+
+  \begin{block}{A regular block}
+  \begin{itemize}
+    \item Normal text
+    \item \alert{"Alert'ed" text} to spot very important information
+    \item Alternatively you can
+    \begin{itemize}
+      \alert{\item "Alert" the item itself}
+    \end{itemize}
+  \end{itemize}
+  \end{block}
+  \begin{alertblock}{If it's very very important...}
+  \alert{... you can "alert" in an "alertblock"}\\
+  Ewww, nasty, heh?
+  \end{alertblock}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Overlay effects}
+  \framesubtitle{Keep the suspense!}
+  \begin{block}{Time bomb}
+  \begin{enumerate}
+    \item<2-> Two more to go
+    \item<3-> One more to go
+    \item<4-> Last chance...
+    \item<5-> BOOM!
+  \end{enumerate}
+  \end{block}
+\end{frame}
+
+
+
+\begin{frame}
+  \frametitle{Contributing to this beamer style}
+  \framesubtitle{We want you !}
+
+  \begin{block}{Why?}
+  \begin{itemize}
+    \item Beamer is hot!
+    \item This style deserves to be improved
+  \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Questions}
+
+  \vspace{6.3cm}
+  \begin{flushright}
+    黄湘云
+
+    \structure{\href{mailto:xiangyunfaith@gmail.com}{\footnotesize{xiangyunfaith@gmail.com}}}
+  \end{flushright}
+\end{frame}
+
+\appendix
+
+\begin{frame}[allowframebreaks]
+  \frametitle{Some references}
+  \begin{thebibliography}{10}
+    
+  \beamertemplatebookbibitems
+
+  \bibitem{Diggle2007Model}
+    Peter J. Diggle and Paulo J. {Ribeiro Jr}.
+    \newblock {\em Model-based Geostatistics}.
+    \newblock Springer-Verlag New York, 2007.
+ 
+  \beamertemplatearticlebibitems
+
+  \bibitem{Diggle2000Childhood}
+    Peter Diggle, Rana Moyeed, Barry Rowlingson and Madeleine Thomson
+    \newblock Childhood malaria in the Gambia: a case-study in model-based geostatistics.
+    \newblock {\em Journal of the Royal Statistical Society: Series C}, 51(4):493--506,
+    2002.
+  \end{thebibliography}
+\end{frame}
+
+
+
+\end{document}

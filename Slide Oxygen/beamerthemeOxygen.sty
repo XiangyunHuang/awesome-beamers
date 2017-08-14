@@ -1,0 +1,67 @@
+\usetheme{Rochester}
+
+\RequirePackage{pgf}
+% 插入oxygen 风格logo  此外, width=1.0\paperwidth 适合aspectratio=169
+\pgfdeclareimage[width=1.0\paperwidth]{oxygen-header}{oxygen-header} 
+
+
+\beamer@headheight=0.65\paperwidth
+
+\definecolor{oxygenorange}{HTML}{F7800A}
+\definecolor{oxygengray}{HTML}{686868}
+\definecolor{oxygenlightgray}{HTML}{EEEEEE}
+\definecolor{oxygenblue}{HTML}{236EAF}
+\setbeamercolor*{Title bar}{fg=white}
+\setbeamercolor*{Location bar}{fg=oxygenorange,bg=oxygenlightgray}
+\setbeamercolor*{frametitle}{parent=Title bar}
+\setbeamercolor*{block title}{bg=oxygenblue,fg=white}
+\setbeamercolor*{block body}{bg=oxygenlightgray,fg=oxygengray}
+\setbeamercolor*{normal text}{bg=white,fg=oxygengray}
+\setbeamercolor*{section in head/foot}{bg=oxygenblue,fg=white}
+
+\usecolortheme[named=oxygenorange]{structure}
+
+\setbeamerfont{section in head/foot}{size=\tiny,series=\normalfont}
+\setbeamerfont{frametitle}{size=\Large}
+
+\setbeamertemplate{frametitle}
+{
+  \vskip-0.53\beamer@headheight
+  \vskip-\baselineskip
+  \vskip-0.45cm
+  \hskip0.65cm\usebeamerfont*{frametitle}\insertframetitle %
+%  \vskip-0.10em
+%  \hskip0.75cm\usebeamerfont*{framesubtitle}\insertframesubtitle% 
+}
+
+\setbeamertemplate{headline}
+{
+  \pgfuseimage{oxygen-header}
+  \vskip -1.46cm
+  \linethickness{0pt} %
+
+  \framelatex{
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.048\beamer@headheight]{Title bar}
+    \usebeamerfont{section in head/foot}%
+    \insertsectionnavigationhorizontal{0pt}{\hskip0.22cm}{}%
+  \end{beamercolorbox}}
+
+  \framelatex{
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.674\beamer@headheight]{Title bar}
+  \end{beamercolorbox}}
+}
+
+\setbeamertemplate{footline}
+{
+  \linethickness{0pt} %
+  \framelatex{
+	\begin{beamercolorbox}[leftskip=.3cm,wd=\paperwidth,ht=0.05\beamer@headheight,sep=0.08cm]{Location bar}
+    \usebeamerfont{section in head/foot}%
+    \insertshortauthor~|~\insertshorttitle    
+	\usebeamerfont{date in head/foot}\hspace*{30em} \insertshortdate{} %\hspace*{2em}
+	\hfill
+    \insertframenumber/\inserttotalframenumber
+  \end{beamercolorbox}}
+}
+
+
