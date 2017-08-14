@@ -1,0 +1,110 @@
+% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass{beamer}
+\definecolor{GreenDarkFaded}{rgb}{0,0.6,0}
+\definecolor{SpringGreenDark}{rgb}{0.2,0.6,0}
+\definecolor{GreenObscureWeak}{rgb}{0,0.2,0}
+\definecolor{GreenDarkDull}{rgb}{0.2,0.6,0.2}
+\mode<presentation>
+{
+ % \usetheme{PaloAlto}
+ \usetheme{Berkeley}
+ % \usetheme{Darmstadt}
+ % \usetheme{Boadilla}
+ \usecolortheme{spruce}
+ \usecolortheme[named=GreenDarkDull]{structure}
+ % \usecolortheme{orchid}
+ % \usecolortheme{whale}
+ % \usecolortheme{default}
+ % \usecolortheme{wolverine}
+ % \usecolortheme{crane}
+ % \usecolortheme{rose}
+ \setbeamercovered{transparent}
+}
+
+% \usepackage{pdfpages}
+% \includepdf{demo.pdf}  % 插入pdf文件 
+% \usepackage{navigator}
+% \embeddedfile[TeX code]{\jobname}{\jobname.tex}  % 插入tex文件
+% \usepackage{attachfile}
+% \attachfile{demo.pdf}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+
+\title[Model-Based Geostatistics]
+{Generalized Linear Geostatistical Models and Its Applications}
+
+\subtitle{Thesis Defense for Master Degree}
+
+\author[X.Y. Huang]{Xiang-Yun Huang\inst{1} \and Zai-Xing Li\inst{2}}
+
+\institute[CUMTB] % (optional, but mostly needed)
+{
+  \inst{1-2}%
+  Department of Mathematics\\
+  School of Science
+}
+
+\date[CUMTB 2018]{China University of Mining \& Technology, Beijing}
+
+\subject{Thesis Defense for Master Degree}
+
+\pgfdeclareimage[height=1.5cm]{university-logo}{cumtb}
+\logo{\pgfuseimage{university-logo}}
+% \titlegraphic{\pgfuseimage{university-logo}}
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+\end{frame}
+
+\section{Motivation}
+
+\subsection{The Basic Problem That We Studied}
+
+\begin{frame}{Make Titles Informative. }{Subtitles are optional.}
+  \begin{itemize}
+  \item
+    Use \texttt{itemize} a lot.
+  \item
+    Use very short sentences or short phrases.
+  \end{itemize}
+\end{frame}
+
+
+% All of the following is optional and typically not needed. 
+\appendix
+
+\begin{frame}[allowframebreaks]
+  \frametitle{Some references}
+  \begin{thebibliography}{10}
+    
+  \beamertemplatebookbibitems
+
+  \bibitem{Diggle2007Model}
+    Peter J. Diggle and Paulo J. {Ribeiro Jr}.
+    \newblock {\em Model-based Geostatistics}.
+    \newblock Springer-Verlag New York, 2007.
+ 
+  \beamertemplatearticlebibitems
+
+  \bibitem{Diggle2000Childhood}
+    Peter Diggle, Rana Moyeed, Barry Rowlingson and Madeleine Thomson
+    \newblock Childhood malaria in the Gambia: a case-study in model-based geostatistics.
+    \newblock {\em Journal of the Royal Statistical Society: Series C}, 51(4):493--506,
+    2002.
+  \end{thebibliography}
+\end{frame}
+
+\end{document}
+
+
