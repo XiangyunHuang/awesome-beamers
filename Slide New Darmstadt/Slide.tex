@@ -1,5 +1,5 @@
 % !TEX TS-program = LuaLaTeX
-\documentclass[11pt,compress,xcolor=x11names,UTF8]{beamer}
+\documentclass[9pt,compress,xcolor=x11names,UTF8]{beamer}
 \usetheme{Boadilla}
 \usecolortheme{seahorse}
 \useinnertheme[shadow]{rounded}  
@@ -11,23 +11,24 @@
 \usecolortheme{rose}
 \usepackage{pifont}
 \usepackage{iitem}
-\setbeamertemplate{itemize item}{\ding{108}}
-\setbeamertemplate{itemize subitem}{\ding{109}}
-\setbeamertemplate{navigation symbols}{}
+% \setbeamertemplate{itemize item}{\ding{108}}
+% \setbeamertemplate{itemize subitem}{\ding{109}}
+% \setbeamertemplate{navigation symbols}{}
 
 \graphicspath{{figure/}} % 图片路径
 \usepackage{calligra} % Thank you
 
 \usepackage{ctex} % 加入中文
-\setCJKsansfont[BoldFont={SimHei}, ItalicFont={KaiTi}, BoldItalicFont = {FangSong}]{SimSun}
-% \setCJKsansfont{Noto Sans CJK SC}
-\setsansfont{Roboto}	
-\usepackage{url}					
+% \setCJKsansfont[BoldFont={SimHei}, ItalicFont={KaiTi}, BoldItalicFont = {FangSong}]{SimSun}
+\setCJKsansfont{Source Han Serif CN}
+\setsansfont{TeX Gyre Heros}
+	
+% \usepackage{url}					
 \usepackage{natbib} % 参考文献
 
 \title[Spatial Generalized Linear Mixed Models]{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
 \subtitle{空间广义线性混合模型及其在预测流行病中的应用\\ 2015级硕士学位论文答辩}
-\author[黄湘云]{学生：黄湘云 \\ 导师：李再兴 \\ 专业：统计学 \\ 方向：数据分析与统计计算}
+\author[黄湘云]{学生：黄湘云 \newline 导师：李再兴 \newline 专业：统计学 \newline 方向：数据分析与统计计算}
 \institute[中国矿业大学（北京）]{理学院\\ 计算数学与统计系}
 \date{\today}
 % \includegraphics[width=6ex,interpolate=true]{logo} 
@@ -122,7 +123,7 @@ $$ \mathsf{\log} \{p_{ij}/(1-p_{ij})\} =\alpha + \beta'z_{ij} + U_{i} + S(x_{i})
 \section{结论与展望}
 
 \begin{frame}
-\centering {\zihao{0} \color{red} \calligra{Thank You}}
+\centering {\zihao{0} \color{green} \calligra{Thank You}}
 
 \end{frame}
 
