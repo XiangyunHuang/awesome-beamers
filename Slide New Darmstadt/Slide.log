@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.5)  8 NOV 2017 23:21
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.11.13)  19 NOV 2017 10:12
  restricted system commands enabled.
 **Slide.tex
 (./Slide.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.176 seconds
+luaotfload | main : initialization completed in 0.169 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (d:/Program/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2017/01/23 v3.41 A class for typesetting presentations
@@ -513,6 +513,11 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(d:/Program/texlive/2017/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2013/03/28
+(d:/Program/texlive/2017/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
 )))
 (d:/Program/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
 (d:/Program/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator.sty
@@ -903,6 +908,20 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \AtBeginShipoutBox=\box70
+
+(d:/Program/texlive/2017/texmf-dist/tex/latex/everyhook/everyhook.sty
+(d:/Program/texlive/2017/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
+)
+Package: everyhook 2014/11/26 v1.2 (SVN Rev: 12)\ Hooks for low level TeX everyX
+ primitives.
+\everypar=\toks46
+\frozen@everymath=\toks47
+\frozen@everydisplay=\toks48
+\everyhbox=\toks49
+\everyvbox=\toks50
+\everycr=\toks51
+)
 \ltjlineendcomment=\count267
 \ltj@zw=\dimen276
 \ltj@zh=\dimen277
@@ -1041,8 +1060,6 @@ Package: ltj-base 2017/05/05
 \ltj@@group@level=\count272
 \ltjsetkanjiskip@inner=\luafunction10
 \ltjsetxkanjiskip@inner=\luafunction11
-\ltj@@i@everyhbox=\toks46
-\ltj@@i@everyvbox=\toks47
 \ltj@@box@dirhook=\luafunction12
 \ltj@@reset@badness@inner=\luafunction13
 \ltj@temp@cctb=\catcodetable8
@@ -1270,8 +1287,8 @@ ther characters in Unicode lower plane
 File: t3enc.def 2001/12/31 T3 encoding
 )
 \tipaTiiicode=\count283
-\tipasavetokens=\toks48
-\tipachecktokens=\toks49
+\tipasavetokens=\toks52
+\tipachecktokens=\toks53
 )
 .................................................
 . LaTeX info: "xparse/redefine-command"
@@ -1935,12 +1952,12 @@ LaTeX Font Info:    ... okay on input line 35.
 \scratchbox=\box74
 \nofMPsegments=\count291
 \nofMParguments=\count292
-\everyMPshowfont=\toks50
+\everyMPshowfont=\toks54
 \MPscratchCnt=\count293
 \MPscratchDim=\dimen286
 \MPnumerator=\count294
 \makeMPintoPDFobject=\count295
-\everyMPtoPDFconversion=\toks51
+\everyMPtoPDFconversion=\toks55
 ) (d:/Program/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -2188,14 +2205,9 @@ luaotfload | aux : font no 53 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 53 [3
 
-]
-
-Package natbib Warning: Citation `Diggle2002' on page 4 undefined on input line 
-78.
-
-(load luc: C:/Users/XiangYun/.texlive2017/texmf-var/luatex-cache/generic/fonts/o
-tl/lmroman6-regular.luc)(load luc: C:/Users/XiangYun/.texlive2017/texmf-var/luat
-ex-cache/generic/fonts/otl/lmroman5-regular.luc)
+](load luc: C:/Users/XiangYun/.texlive2017/texmf-var/luatex-cache/generic/fonts/
+otl/lmroman6-regular.luc)(load luc: C:/Users/XiangYun/.texlive2017/texmf-var/lua
+tex-cache/generic/fonts/otl/lmroman5-regular.luc)
 LaTeX Font Info:    Try loading font information for U+msa on input line 78.
 
 (d:/Program/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -2208,7 +2220,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [4
 
 ]
-<figure/demo04.pdf, id=225, 578.16pt x 433.62pt>
+<figure/demo04.pdf, id=265, 578.16pt x 433.62pt>
 File: figure/demo04.pdf Graphic file (type pdf)
  <use figure/demo04.pdf>
 Package luatex.def Info: figure/demo04.pdf used on input line 87.
@@ -2217,7 +2229,7 @@ Package luatex.def Info: figure/demo04.pdf used on input line 87.
 [5
 
 <./figure/demo04.pdf>]
-<figure/loaloa_ratio.pdf, id=274, 469.755pt x 361.35pt>
+<figure/loaloa_ratio.pdf, id=313, 469.755pt x 361.35pt>
 File: figure/loaloa_ratio.pdf Graphic file (type pdf)
 
 <use figure/loaloa_ratio.pdf>
@@ -2226,7 +2238,7 @@ Package luatex.def Info: figure/loaloa_ratio.pdf used on input line 105.
  [6
 
 <./figure/loaloa_ratio.pdf>]
-<figure/demo02.pdf, id=325, 289.08pt x 289.08pt>
+<figure/demo02.pdf, id=359, 289.08pt x 289.08pt>
 File: figure/demo02.pdf Graphic file (type pdf)
  <use figure/demo02.pdf>
 Package luatex.def Info: figure/demo02.pdf used on input line 112.
@@ -2234,7 +2246,7 @@ Package luatex.def Info: figure/demo02.pdf used on input line 112.
 
 [7
 
-<./figure/demo02.pdf>] <figure/demo03.pdf, id=372, 450.68375pt x 315.1775pt>
+<./figure/demo02.pdf>] <figure/demo03.pdf, id=406, 450.68375pt x 315.1775pt>
 File: figure/demo03.pdf Graphic file (type pdf)
 
 <use figure/demo03.pdf>
@@ -2254,14 +2266,14 @@ LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 ] (./Slide.bbl) [10
 
 ]
-<figure/software/r.pdf, id=499, 545.03625pt x 422.32782pt>
+<figure/software/r.pdf, id=531, 545.03625pt x 422.32782pt>
 File: figure/software/r.pdf Graphic file (type pdf)
 
 <use figure/software/r.pdf>
 Package luatex.def Info: figure/software/r.pdf used on input line 154.
 (luatex.def)             Requested size: 69.238pt x 53.64792pt.
 
-<figure/software/stan.pdf, id=500, 62.9853pt x 56.40211pt>
+<figure/software/stan.pdf, id=532, 62.9853pt x 56.40211pt>
 File: figure/software/stan.pdf Graphic file (type pdf)
 
 <use figure/software/stan.pdf>
@@ -2279,7 +2291,7 @@ r-eps-converted-to.pdf figure/software/bioconductor.eps>
 (epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure/software/bioconductor-eps-converted-to.pdf, id=501, 324.21124pt x 93.34
+<figure/software/bioconductor-eps-converted-to.pdf, id=533, 324.21124pt x 93.34
 875pt>
 File: figure/software/bioconductor-eps-converted-to.pdf Graphic file (type pdf)
  <use figure/software/bioconductor-eps-converted-to.pdf>
@@ -2287,7 +2299,7 @@ Package luatex.def Info: figure/software/bioconductor-eps-converted-to.pdf used
 on input line 154.
 (luatex.def)             Requested size: 155.78685pt x 44.8553pt.
 
-<figure/software/PyMC3.pdf, id=502, 420.06938pt x 150.26138pt>
+<figure/software/PyMC3.pdf, id=534, 420.06938pt x 150.26138pt>
 File: figure/software/PyMC3.pdf Graphic file (type pdf)
 
 <use figure/software/PyMC3.pdf>
@@ -2309,7 +2321,7 @@ onverted-to.pdf figure/software/GeoDa.eps>
 (epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure/software/GeoDa-eps-converted-to.pdf, id=563, 256.96pt x 256.96pt>
+<figure/software/GeoDa-eps-converted-to.pdf, id=595, 256.96pt x 256.96pt>
 File: figure/software/GeoDa-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure/software/GeoDa-eps-converted-to.pdf>
@@ -2345,47 +2357,32 @@ on input line 178.
 \tf@snm=\write8
 
 \openout8 = Slide.snm
-
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
-(./Slide.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+ (./Slide.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
+Package rerunfilecheck Info: File `Slide.out' has not changed.
+(rerunfilecheck)             Checksum: AA4E3C3EAB47F5285D1715FE24965C7E;834.
 
-
-Package rerunfilecheck Warning: File `Slide.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Slide.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  AA4E3C3EAB47F5285D1715FE24965C7E;834.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 38318 strings out of 494481
- 125008,953878 words of node,token memory allocated
+ 38585 strings out of 494481
+ 125007,953878 words of node,token memory allocated
  26639 words of node memory still in use:
    93 hlist, 13 vlist, 22 rule, 8 local_par, 117 glue, 20 kern, 21 penalty, 26 g
 lyph, 10009 attribute, 414 glue_spec, 555 attribute_list, 3 write, 99 user_defin
 ed, 84 pdf_literal, 10 pdf_start_link, 10 pdf_end_link, 10 pdf_action, 54 pdf_co
 lorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
-   avail lists: 1:1,2:32176,3:753,4:918,5:156,6:1351,7:995,8:350,9:605,10:21,11:
-105
- 40546 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:32676,3:753,4:918,5:156,6:1408,7:1004,8:350,9:605,10:21,11
+:108
+ 40783 multiletter control sequences out of 65536+600000
  84 fonts using 79854895 bytes
- 55i,20n,79p,789b,955s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 57i,20n,81p,789b,971s stack positions out of 5000i,500n,10000p,200000b,100000s
 <d:/program/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.ot
 f><d:/Program/texlive/2017/texmf-dist/fonts/opentype/public/tex-gyre/texgyrehero
 s-italic.otf><c:/Windows/fonts/simfang.ttf><d:/Program/texlive/2017/texmf-dist/f
@@ -2403,10 +2400,10 @@ pfb><d:/Program/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
 /Program/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/Pr
 ogram/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><d:/Progr
 am/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Slide.pdf (12 pages, 1436689 bytes).
+Output written on Slide.pdf (12 pages, 1437523 bytes).
 
-PDF statistics: 666 PDF objects out of 1000 (max. 8388607)
- 576 compressed objects within 6 object streams
+PDF statistics: 699 PDF objects out of 1000 (max. 8388607)
+ 608 compressed objects within 7 object streams
  38 named destinations out of 1000 (max. 131072)
- 70 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 150 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,0 +1,9 @@
+\begin{thebibliography}{1}
+
+\bibitem{label}
+Author.
+\newblock Title.
+\newblock In {\em Booktitle}, Series, page Pages, Address, Month Year.
+  Organization, Publisher.
+
+\end{thebibliography}

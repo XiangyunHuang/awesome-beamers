@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: resume-zh.aux
+The style file: unsrt.bst
+Database file #1: resume.bib
+You've used 1 entry,
+            1791 wiz_defined-function locations,
+            455 strings with 3590 characters,
+and the built_in function-call counts, 324 in all, are:
+= -- 35
+> -- 4
+< -- 1
++ -- 2
+- -- 1
+* -- 15
+:= -- 47
+add.period$ -- 4
+call.type$ -- 1
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 1
+duplicate$ -- 23
+empty$ -- 30
+format.name$ -- 1
+if$ -- 82
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 8
+num.names$ -- 1
+pop$ -- 3
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 17
+stack$ -- 0
+substring$ -- 10
+swap$ -- 12
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 2
+width$ -- 2
+write$ -- 17
