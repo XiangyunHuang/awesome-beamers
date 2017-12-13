@@ -1,17 +1,17 @@
 \documentclass[10pt,UTF8]{beamer}
 \usepackage{xeCJK}
-
+\usepackage[fontset = fandol]{ctex}
 \usetheme{AUTheme}
 \usefonttheme[onlymath]{serif}
 \usecolortheme{rose}
-% \setCJKmainfont{STKaiti} 
-\setCJKmainfont{KaiTi} 
 
-\punctstyle{banjiao} % 半角标点符号
+\setmainfont[Ligatures=TeX,Path=fonts/,BoldFont=NotoSans-Bold,ItalicFont=NotoSans-Italic,BoldItalicFont=NotoSans-BoldItalic,SmallCapsFont=AlegreyaSansSC-Regular]{NotoSans-Regular}
+\setsansfont[Ligatures=TeX,Path=fonts/,BoldFont=NotoSans-Bold,ItalicFont=NotoSans-Italic,BoldItalicFont=NotoSans-BoldItalic,SmallCapsFont=AlegreyaSansSC-Regular]{NotoSans-Regular}
+\setmonofont[Ligatures=TeX,Path=fonts/,SmallCapsFont=AlegreyaSansSC-Regular]{Inconsolata}
 
 \title{优化建模与开源工具}
 \author{黄湘云}
-\institute{Department of Statistics}
+\institute{计算数学与统计系，理学院}
 \date{\today}
 
 <<include=FALSE>>=
