@@ -1,47 +1,25 @@
-% pdfLaTeX 编译两次才能解决书签中文乱码
-% !TEX TS-program = pdfLaTeX+MakeIndex+BibTeX
-% !TEX encoding = UTF-8
+% xeLaTeX 编译两次才能解决书签中文乱码
 
-\documentclass[CJKutf8,xcolor=x11names]{beamer}
 
-\usecolortheme{seahorse}
-\useinnertheme[shadow]{rounded}  
-\useoutertheme[subsection=false]{smoothbars}
+\documentclass[xcolor=x11names,UTF8]{ctexbeamer}
 
-\usepackage{CJKutf8}
-\usepackage{times} % Times New Roman
 \graphicspath{{figures/}} % 图片路径
 \usepackage{ragged2e}
 \renewcommand{\raggedright}{\leftskip=0pt \rightskip=0pt plus 0cm} % 对齐
 \usepackage{calligra} % Thank you
-\usepackage{fontawesome} % 图标
-\usepackage{natbib} % 参考文献
 
-\renewcommand\contentsname{目录}
-\renewcommand\listfigurename{插图列表}
-\renewcommand\listtablename{表格列表}
-\renewcommand\refname{参考文献}
-\renewcommand\indexname{索引}
-\renewcommand\figurename{图}
-\renewcommand\tablename{表}
-\renewcommand\partname{部分}
-\renewcommand\appendixname{附录}
-\renewcommand\abstractname{摘要}
+\usepackage{natbib} % 参考文献
 
 \title{空间广义线性混合效应模型及其应用}
 
 \subtitle{毕业答辩}
-\author{导师：李再兴\\学生：黄湘云}
+\author{导师：李再兴 \and 学生：黄湘云}
 \institute{\includegraphics[width=10ex,interpolate=true]{logo} \\~~ \\ 
 理学院\\ 计算数学与统计系 \\ 中国矿业大学（北京）}
 \date{ 2018年6月}
 
-\keywords{广义线性模型，空间过程}
-\subject{毕业答辩}
-
 
 \begin{document}
-\begin{CJK*}{UTF8}{gkai}  
 
 \maketitle
 
@@ -63,7 +41,7 @@
 \section{介绍}
 
 \begin{frame}
-\textbf{Outline 目录}
+\textbf{背景}
 \begin{enumerate}
   \item Introduction (Motivations and goals)
   \item Literature reviews  
@@ -124,8 +102,8 @@ such as winBUGS, OpenBUGS
 \bigskip
 \color{Blue4}
 \normalsize
-\faEnvelope{} \href{mailto:me@somewhere.com}{xiangyunfaith@outlook.com} \\
-\faGithub{} \href{https://github.com/Cloud2016}{https://github.com/Cloud2016} \\
+\href{mailto:me@somewhere.com}{xiangyunfaith@outlook.com} \\
+\href{https://github.com/Cloud2016}{https://github.com/Cloud2016} \\
 \bigskip
 \includegraphics[width=10ex,interpolate=true]{me}
 \end{frame}
@@ -136,7 +114,6 @@ such as winBUGS, OpenBUGS
 \bibliography{R-GLMM-pkgs}
 \end{frame}
 
-\end{CJK*}
 \end{document} 
 
 

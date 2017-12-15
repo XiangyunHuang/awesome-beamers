@@ -1,5 +1,0 @@
-https://plot.ly/~empet
-
-Coauthorship network of scientists working on network theory and experiment
-
-数据源 https://networkdata.ics.uci.edu/
