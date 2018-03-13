@@ -1,0 +1,144 @@
+\ProvidesPackage{config/presento}
+\mode<presentation>
+
+% removing navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+% packages
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{enumitem}
+
+% colors
+\definecolor{colororange}{HTML}{E65100} % orange
+\definecolor{colordgray}{HTML}{795548} % dark gray for note
+\definecolor{colorhgray}{HTML}{212121} % heavy dark gray for normal text
+\definecolor{colorgreen}{HTML}{009688} % green
+\definecolor{colorlgray}{HTML}{FAFAFA} % background light gray
+\definecolor{colorblue}{HTML}{0277BB} % blue
+
+% font sizes
+\newcommand{\fontsizeone}{2.292em}
+\newcommand{\fontsizetwo}{1.217em}
+\newcommand{\fontsizethree}{0.875em}
+% line spaces
+\newcommand{\linespaceone}{1}
+
+% font families
+\newfontfamily{\montserratfont}[Path=fonts/,BoldFont=Montserrat-Bold]{Montserrat-Regular}
+\newfontfamily{\notosansfont}[Path=fonts/,BoldFont=NotoSans-Bold,ItalicFont=NotoSans-Italic,BoldItalicFont=NotoSans-BoldItalic,SmallCapsFont=AlegreyaSansSC-Regular]{NotoSans-Regular}
+\newfontfamily{\latolightfont}[Path=fonts/]{Lato-Lig}
+\newfontfamily{\inconsolatafont}[Path=fonts/]{Inconsolata}
+
+% \pgfdeclareimage[width=.05\paperwidth]{logo}{images/cumtb} 
+\pgfdeclareimage[width=1.22em]{logo}{images/cumtb} 
+
+% beamer template changes
+\setbeamertemplate{frametitle}{
+ \vspace{0.40em}
+ \noindent
+ \hspace{-1.22em}
+ \tikz[overlay,remember picture,baseline=0.3em]{\fill[fill=colororange]  (-0.3,0.05) rectangle (0,0.9); }\latolightfont\color{colororange}~~\insertframetitle\hfill \pgfuseimage{logo}  %
+}
+
+\setmainfont[Ligatures=TeX,Path=fonts/,BoldFont=NotoSans-Bold,ItalicFont=NotoSans-Italic,BoldItalicFont=NotoSans-BoldItalic,SmallCapsFont=AlegreyaSansSC-Regular]{NotoSans-Regular}
+\setsansfont[Ligatures=TeX,Path=fonts/,BoldFont=NotoSans-Bold,ItalicFont=NotoSans-Italic,BoldItalicFont=NotoSans-BoldItalic,SmallCapsFont=AlegreyaSansSC-Regular]{NotoSans-Regular}
+\setmonofont[Ligatures=TeX,Path=fonts/,SmallCapsFont=AlegreyaSansSC-Regular]{Inconsolata}
+
+% frame counter
+\newcounter{totalfr}
+\setbeamertemplate{footline}{
+  \ifnum\inserttotalframenumber=1
+    \setcounter{totalfr}{2}
+  \else
+     \setcounter{totalfr}{\inserttotalframenumber}
+  \fi
+  \hfill{
+    \tikz{
+      \filldraw[fill=colorblue!40, draw=colorblue!50]  (0,0) -- (0.2,0) arc (0:{\value{framenumber}*(360/(\value{totalfr}-1))}:0.2) -- (0,0); 
+      \node at (0,0) {\normalsize \color{colororange}\tiny{\insertframenumber}};
+    }
+  }
+  \hspace{2em}
+  \vspace*{1em}
+}
+
+% custom commands
+\newcommand{\hugetext}[1]{
+  {
+  \begin{spacing}{\linespaceone}
+   \fontsize{\fontsizeone}{\fontsizeone}{\montserratfont #1}
+  \end{spacing}
+  }
+}
+
+\newcommand{\largetext}[1]{
+ {\fontsize{\fontsizetwo}{\fontsizeone}\selectfont{#1}}
+}
+
+\newcommand{\setnote}[1]{
+ {\fontsize{\fontsizethree}{\fontsizeone}\selectfont\color{colordgray}{#1}}
+}
+
+\newcommand{\rtarrow}{$\color{colororange}{\rightarrow}$}
+
+\newcommand{\itemR}{
+ \item[\rtarrow]
+}
+
+\newcommand{\framecard}[2][colorgreen]{
+  {\setbeamercolor{background canvas}{bg=#1}
+    \begin{frame}[plain]
+    \vfill
+    \begin{center}
+     {#2}
+    \end{center}
+    \vfill
+    \end{frame}
+  }
+}
+\newcommand{\framepic}[3][1]{
+  {
+    \usebackgroundtemplate{%
+    \tikz[overlay,remember picture] \node[opacity=#1, at=(current page.center)] {
+      \includegraphics[width=\paperwidth]{#2}};
+    }
+    \begin{frame}
+    #3
+    \end{frame}
+  }
+}
+
+\newenvironment{baseitemize}
+  {\itemize[leftmargin=*]}
+  {\enditemize}
+
+\newenvironment{fullpageitemize}
+  {\itemize[nolistsep,itemsep=\fill,leftmargin=*]}
+  {\vfill\enditemize}
+  
+  
+% Sets the background color to be light gray and the default text color to be heavy dark gray.
+% Recommended for presenting with high quality projectors, since the high contrast of black-white is not advisable
+\setbeamercolor{background canvas}{bg=colorlgray} % colorlgray
+\setbeamercolor{normal text}{fg=colorhgray}
+\setbeamercolor{title}{fg=colororange}
+\setbeamercolor{subtitle}{fg=colororange}
+\setbeamerfont{subtitle}{family=\montserratfont}
+\setbeamercolor{author}{fg=colorgreen}
+
+% \defbeamertemplate*{title page}{customized}[1][]
+%{
+%  \vfill
+%  {\usebeamercolor[fg]{title}\largetext{\inserttitle}}
+%  \par
+%  {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\largetext{\insertsubtitle}\par}
+%  \vfill
+%  {\usebeamercolor[fg]{author}\largetext{\insertauthor}}\\
+%  {\setnote{\insertinstitute}\par}
+%  \vfill
+%  {\setnote{\insertdate}\par}
+%  \vfill
+%}

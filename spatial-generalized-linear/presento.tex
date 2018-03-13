@@ -1,0 +1,68 @@
+% !TEX TS-program = XeLaTeX
+% !TEX encoding = UTF-8 Unicode
+\documentclass[12pt,aspectratio=43]{beamer}
+
+% Presento style file
+\usepackage{config/presento}
+\usepackage[fontset = none]{ctex}
+\ctexset{fontset = fandol, space = false}
+
+% custom command and packages
+\input{config/custom-command}
+
+% \logo{\includegraphics[height=0.09\textwidth]{images/cumtb}} 
+
+% Information
+\title{Spatial Generalized Linear Mixed Model and Its Applications}
+\subtitle{毕业答辩}
+\author{黄湘云}
+\institute{中国矿业大学（北京）}
+\date{\today}
+
+\begin{document}
+
+% Title page
+\begin{frame}[plain]
+\maketitle
+\end{frame}
+
+% sections in the presentation
+\begin{frame}{Presento}
+ \begin{fullpageitemize}
+  \item \begin{center}\largetext{The design is \underline{clean}}\end{center}
+  \item \begin{center}\largetext{The rules are \underline{simple}}\end{center}
+  \item \begin{center}\largetext{The code is \underline{extensible}}\end{center}
+ \end{fullpageitemize}
+\end{frame}
+
+\begin{frame}{Open Source Fonts}
+ \begin{fullpageitemize}
+  \item {\montserratfont This is Montserrat}
+  \item {\notosansfont This is Noto Sans}
+  \item {\latolightfont This is Lato (light)}
+  \item {\inconsolatafont This is inconsolata}
+  \item \textsc{This is Alegreya Sans small caps}
+  \item $\log \{p_{ij}/(1-p_{ij})\} =\alpha + \beta'z_{ij} + U_{i} + S(x_{i})$
+ \end{fullpageitemize}
+\end{frame}
+
+\begin{frame}{Color Palette}
+ \begin{center}
+  \crule[colordgray] \crule[colorhgray] \crule[colorblue] \crule[colorgreen] \crule[colororange]
+ \end{center}
+\end{frame}
+
+\begin{frame}[plain]
+\tiny
+\begin{equation*}\begin{cases} \frac{1}{2} \begin{cases} 2 x & \text{for}\: \frac{1}{4} \left(2 x - 2\right)^{2} < 1 \\0 & \text{for}\: \frac{4}{\left(2 x - 2\right)^{2}} < 1 \\{G_{4, 4}^{3, 1}\left(\begin{matrix} \frac{1}{2} & 1, 1, \frac{3}{2} \\\frac{1}{2}, 1, 0 & \frac{1}{2} \end{matrix} \middle| {\frac{1}{4} \operatorname{polar\_lift}^{2}{\left (- 2 x + 2 \right )}} \right)} & \text{otherwise} \end{cases} & \text{for}\: \left|{\operatorname{periodic_{argument}}{\left (\operatorname{polar\_lift}^{2}{\left (- 2 x + 2 \right )},\infty \right )}}\right| = 0 \\\int\limits_{0}^{\infty} \frac{2}{\pi t^{2}} \sin^{2}{\left (t \right )} \cos{\left (2 t \left(- x + 1\right) \right )}\, dt & \text{otherwise} \end{cases}\end{equation*}
+\end{frame}
+
+
+\framecard[colorgreen]{{\color{white}\hugetext{BIG BOLD TEXT}}}
+
+\framepic[0.8]{images/bg}{
+ \begin{textblock}{7}(7,2.5)
+    {\color{colorblue}\hugetext{\textbf{RUN!}}}
+ \end{textblock}
+}
+\end{document}

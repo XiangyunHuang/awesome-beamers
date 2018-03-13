@@ -1,76 +1,16 @@
-% !TEX TS-program = LuaLaTeX
+% !TEX TS-program = pdfLaTeX
 \documentclass[10pt,aspectratio=43,compress,xcolor=x11names,UTF8]{beamer}
 \usepackage{xcolor-material}
-
-%% 主题1
-\usecolortheme[named=GoogleRed]{structure} 
-\useoutertheme{infolines}
 \usetheme{Darmstadt}
-
-% GoogleBlue GoogleYellow Green Red
-% MaterialGreen  MaterialTeal MaterialGrey MaterialBlueGrey
-% \usecolortheme[named=SpringGreen4]{structure}
-% \usecolortheme[cautious]{owl} % cautious snowy
-% 主题2
-% \usetheme[secheader]{Boadilla}
-% \usecolortheme{spruce}
-% \usecolortheme[named=SpringGreen4]{structure}
-% \useinnertheme{circles}
-% 主题3
-% \usetheme{Boadilla}
-% \usecolortheme[named=MaterialBlueGrey]{structure}
-% \useinnertheme{circles}
-% 主题4
-% \useinnertheme[shadow=true]{rounded}
-% \usecolortheme{orchid}
-% \usecolortheme{whale}
-% \useoutertheme{infolines}
-% \useoutertheme{smoothbars}
-% 主题5
-% \usecolortheme{seahorse}
-% \useinnertheme[shadow]{rounded}  
-% \useoutertheme[subsection=false]{smoothbars}
-% 主题6
-% \usecolortheme[named=GoogleYellow]{structure} 
-% \useinnertheme{circles}
-% 主题7
-% \usecolortheme{spruce}
-% \usecolortheme[named=MaterialGreen]{structure} 
-% \useinnertheme{circles}
-
-\usepackage{iitem}
-
+\usecolortheme{seahorse}
 \graphicspath{{figure/}} % 图片路径
 \usepackage{calligra} % Thank you
-\usepackage{ragged2e}
-\renewcommand{\raggedright}{\leftskip=0pt \rightskip=0pt plus 0cm} % 对齐
-\renewcommand{\figurename}{图}
-\renewcommand{\contentsname}{目录}
-\renewcommand{\abstractname}{摘要}
-\renewcommand{\appendixname}{附录}
-\renewcommand{\refname}{参考文献}
-\renewcommand{\tablename}{表}
-
-\usepackage[fontset = fandol, scheme = chinese, heading = true]{ctex} 
-
-\ctexset{today = small,  % big
-	space = auto,
-	abstractname = {本文概要},
-	bibname = {文\quad 献},
-    punct = banjiao
-}
-% \setCJKsansfont{Source Han Serif CN}
-\setmainfont{DejaVu Sans}
-\setsansfont{Lato}
-\setmonofont{DejaVu Sans Mono}
-
-				
+\usepackage{ctex} 
 \usepackage{natbib} % 参考文献
 
 \title[Spatial Generalized Linear Mixed Models]{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
 \subtitle{空间广义线性混合模型及其在预测流行病中的应用\\ 2015级硕士学位论文答辩}
 \author[黄湘云 \and 李再兴]{学生：黄湘云 \and 导师：李再兴}
-
 
 \institute[中国矿业大学（北京）] 
 {
@@ -83,10 +23,7 @@
 {\includegraphics[width=38ex,interpolate=true]{cumtb} \\ ~~\\
 \today / 逸夫楼}
 
-% \includegraphics[width=6ex,interpolate=true]{logo} 
-
 \begin{document}
-\raggedright
 
 \maketitle
 
