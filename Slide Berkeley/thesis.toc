@@ -1,3 +1,0 @@
-\select@language {english}
-\beamer@sectionintoc {1}{Motivation}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{The Basic Problem That We Studied}{3}{0}{1}

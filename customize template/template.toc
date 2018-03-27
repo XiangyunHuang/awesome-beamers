@@ -1,4 +1,0 @@
-\beamer@sectionintoc {1}{Literal Translation}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{直译}{3}{0}{1}
-\beamer@sectionintoc {2}{Creative Translation}{8}{0}{2}
-\beamer@subsectionintoc {2}{1}{改译}{9}{0}{2}

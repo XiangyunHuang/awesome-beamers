@@ -1,2 +1,0 @@
-\beamer@sectionintoc {1}{非线性规划}{2}{0}{1}
-\beamer@sectionintoc {2}{Tools for Optimization}{2}{0}{2}
