@@ -1,0 +1,190 @@
+% !TEX TS-program = XeLaTeX+MakeIndex+BibTeX
+% !TEX encoding = UTF-8
+
+\documentclass[10pt]{beamer}
+\usetheme{Feather}
+
+%-------------------------------------------------------
+% INCLUDE PACKAGES
+%-------------------------------------------------------
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+
+
+%-------------------------------------------------------
+% DEFFINING AND REDEFINING COMMANDS
+%-------------------------------------------------------
+
+% colored hyperlinks
+\newcommand{\chref}[2]{
+  \href{#1}{{\usebeamercolor[bg]{Feather}#2}}
+}
+
+\title{ 
+\textbf{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
+}
+\subtitle{Thesis proposal}
+\author[Xiangyun Huang]
+{      Xiang-Yun Huang \\
+      {\ttfamily xiangyunfaith@gmail.com}
+}
+
+\institute
+{	  \vspace{15mm}
+      Department of Mathematics \\ School of Science\\
+      China University of Mining and Technology,Beijing \\
+}
+
+\date{\today}
+
+\begin{document}
+
+\begin{frame}[noframenumbering] 
+  \titlepage 
+\end{frame}
+
+
+\begin{frame}{Content}{}
+\tableofcontents
+\end{frame}
+
+%-------------------------------------------------------
+\section{Introduction}
+%-------------------------------------------------------
+\subsection{License}
+\begin{frame}{Introduction}{License}
+%-------------------------------------------------------
+
+  \begin{itemize}
+    \item<1-> The Feather image is not covered by copyright rules. I have used the image from \chref{http://www.vectors-free.com/}{http://www.vectors-free.com/}. You are allowed to use the Feather image for any purposes.
+    \item<2-> The rest of the theme is provided under the GNU General Public License v. 3 (GPLv3) \chref{http://www.gnu.org/licenses/}{http://www.gnu.org/licenses/}. This means that you can redistribute it and/or modify it under the same license. 
+  \end{itemize}
+\end{frame}
+
+%-------------------------------------------------------
+\section{Installation}
+%-------------------------------------------------------
+\subsection{Source files}
+\begin{frame}{Installation}{Source files}
+%-------------------------------------------------------
+
+\begin{block}{}
+The theme contains 4 source files:
+  \begin{itemize}
+    \item {\tt beamercolorthemeFeather.sty}
+    \item {\tt beamerouterthemeFeather.sty}
+    \item {\tt beamerinnerthemeFeather.sty}
+    \item {\tt beamerthemeFeather.sty}
+  \end{itemize}
+\end{block}
+\end{frame}
+
+%-------------------------------------------------------
+\subsection{Local and Global installation}
+\begin{frame}{Installation}{Local and Global installation}
+%-------------------------------------------------------
+  The theme can be installed for \textbf{local} or \textbf{global} use.
+  \pause
+  \begin{block}{Local Installation}
+  \begin{itemize}    
+    \item Local installation is the simplest way of installing the theme. 
+    \item You need to placing the 4 source files in the same folder as your presentation. When you download the theme, the 4 theme files are located in the {\tt local} folder.
+  \end{itemize}
+  \end{block}
+
+  \begin{block}{Global Installation}
+  \begin{itemize}
+     \item If you wish to make the theme globally available, you must put the files in your local latex directory tree. The location of the root of the local directory tree depends on your operating system and the latex distribution. 
+     \item Detailed steps on how to proceed installation under various operating systems can be found at Beamer documentation.
+  \end{itemize}
+  \end{block}
+\end{frame}
+     
+
+%-------------------------------------------------------
+\subsection{Required Packages}
+\begin{frame}{Installation}{Required Packages}
+%-------------------------------------------------------
+
+  For using the Feather Theme you will need the Bemaer class installed and the following 2 packages
+  \begin{itemize}
+    \item TikZ\footnote{TikZ is a package for creating beautiful graphics. Have a look at these \chref{http://www.texample.net/tikz/examples/}{online examples} or the \chref{http://tug.ctan.org/tex-archive/graphics/pgf/base/doc/generic/pgf/pgfmanual.pdf}{pgf user manual}.}
+    \item calc
+  \end{itemize}
+  Due to the fact that the packages are very common they should be included in your latex distribution in the first place.
+\end{frame}
+
+%-------------------------------------------------------
+\section{User Interface}
+\subsection{Loading the Theme and Theme Options}
+\begin{frame}{User Interface}
+%-------------------------------------------------------
+
+  \begin{block}{The Presentation Theme}
+    The Feather Theme can be loaded in a familiar way. In the reamble of your {\tt tex} file you must type\\ \vspace{5pt} 
+    {\tt \textbackslash usetheme[<options>]\{Feather\}}\\ \vspace{5pt} 
+    The presentation theme loads the inner, outer and color Feather theme files and passes the {\tt <options>} on to these files.
+  \end{block}
+  \begin{block}{The Inner and Outher Themes}
+    If you wish you can load only the inner, or the outher theme directly by\\ \vspace{5pt} 
+    {\tt \textbackslash useinnertheme\{Feather\}} (and it has no options)\\ \vspace{5pt} 
+    {\tt \textbackslash useoutertheme[<options>]\{Feather\}} (it has one option)\\
+    \hspace{20pt}{\tt progressstyle=\{fixedCircCnt or movingCircCnt\}} \\
+    \begin{itemize}
+    \item which set how the progress is illustrated;
+    \item the value {\tt movingCircCnt} is the default.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{User Interface}
+
+  \begin{block}{The Color Theme}
+    Also you can load only the color theme by writing in the preamble of the {\tt tex} file 
+    
+    \vspace{5pt} 
+    
+    \begin{itemize}
+    \item {\tt \textbackslash usecolortheme\{Feather\}}
+    \end{itemize}
+    
+    \vspace{5pt}
+    
+    ...or to change the colors of the various elements in the theme
+    
+    \vspace{5pt} 
+    \begin{itemize}
+    \item Change the bar colors: \\    
+    {\tt \textbackslash setbeamercolor \{Feather\}\{fg=<color>, bg=<color>\}}
+   
+    \vspace{2pt} 
+    
+    \item Change the normal text color background:    
+    {\tt \textbackslash setbeamercolor\{normal text\}\{fg=<color>, bg=<color>\}}
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+
+%-------------------------------------------------------
+\subsection{Feather image}
+\begin{frame}{User Interface}
+
+\begin{block}{The Feather Background Image}
+    \begin{itemize}
+    \item In Feather theme, the title page frame and the last frame have the Feather image as the background image. 
+    \item The Feather background image can be produced to any frame by wrating on the begining at the choosen frame the following
+    \end{itemize} 
+\end{block}
+\end{frame}
+
+
+
+\begin{frame}[noframenumbering]
+  \finalpage{Thank you for using Feather Beamer Theme!}
+\end{frame}
+
+\end{document}

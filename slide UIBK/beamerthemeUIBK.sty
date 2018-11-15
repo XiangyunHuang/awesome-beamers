@@ -1,0 +1,171 @@
+%-------------------------------------------------------%
+%							%
+%	Template: University of Innsbruck (UIBK)	%
+%							%
+%	Author: Martin Pfeifhofer			%
+%							%
+%	Date: 15th November 2016			%
+%							%
+%							%
+%-------------------------------------------------------%
+
+
+% -----------------------------------
+%DEFINE COLORS
+\definecolor{UIBK ORANGE}{RGB}{243,146,0}
+\definecolor{UIBK BLUE}{RGB}{0,51,97}
+\definecolor{BLACK}{RGB}{0,0,0}
+\definecolor{WHITE}{RGB}{255,255,255}
+\definecolor{LIGHT BLUE GREY}{RGB}{239,238,225}
+
+
+% -----------------------------------
+% SET COLORS FOR ITEMS
+\setbeamercolor*{title page header}{}
+\setbeamercolor*{final slide}{fg=WHITE, bg=UIBK BLUE}
+\setbeamercolor*{title}{fg=WHITE,bg=UIBK BLUE}
+\setbeamercolor*{frametitle}{fg=WHITE, bg=WHITE}
+
+\setbeamercolor*{institute}{fg=BLACK}
+\setbeamercolor*{author}{fg=BLACK}
+\setbeamercolor*{date}{fg=BLACK}
+
+\setbeamercolor*{item}{fg=UIBK BLUE}
+
+\setbeamercolor*{block title}{fg=WHITE, bg=UIBK BLUE}
+\setbeamercolor*{block title example}{fg=WHITE, bg=UIBK BLUE}
+\setbeamercolor*{block body}{bg=LIGHT BLUE GREY}
+\setbeamercolor*{block body example}{bg=LIGHT BLUE GREY}
+
+\setbeamercolor*{section in toc}{fg=BLACK}
+\setbeamercolor*{section page}{fg=WHITE}
+\setbeamercolor*{subsection}{fg=WHITE}
+
+\setbeamercolor*{title page footer}{fg=WHITE, bg=UIBK ORANGE}
+\setbeamercolor*{footer}{fg=WHITE, bg=UIBK BLUE}
+\setbeamercolor*{header}{fg=WHITE, bg=UIBK ORANGE}
+ 
+\newcommand*{\bluebullet}{\textcolor{UIBK BLUE}{\textbullet}}
+
+
+% -----------------------------------
+% SET FONTS
+\setbeamerfont{title}{size=\Large}
+
+
+% -----------------------------------
+% CONFIGURE TEMPLATE COMPONENTS
+
+%remove navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+%set itemize shape to circle
+\setbeamertemplate{items}[circle]
+
+%set block shape to rounded and toggled shadows
+\setbeamertemplate{blocks}[rounded][shadow=true]
+% --TITLE-PAGE----------------------
+%set custom title page with university logo in headline
+\defbeamertemplate*{title page}{logo}[1][colsep=-4bp,rounded=true,shadow=true]
+{
+\setbeamercolor*{header}{fg=WHITE, bg=WHITE}
+  \vbox{}
+  \vspace*{7.5ex}
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2ex,dp=1ex,left]{header}%
+    \includegraphics[width=6cm,height=1.5cm]{logo/CUMTB_Logo}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2ex,dp=1ex,right]{header}%
+   % \includegraphics[width=0.8cm,height=1.6cm]{logo/CUMTB_Badge}
+   % \includegraphics[width=1.3cm,height=1.3cm]{logo/CUMTB_Badge}
+    \hspace*{2.1cm}
+    \end{beamercolorbox}%
+  }
+  \vskip 0.5em%
+  \begin{centering}
+  
+    \begin{beamercolorbox}[sep=8pt,center,#1]{title}
+      \usebeamerfont{title}\inserttitle\newline
+      \usebeamerfont{subtitle}\insertsubtitle\par%
+    \end{beamercolorbox}%
+    \vskip 2em%
+    \begin{beamercolorbox}[sep=8pt,center,#1]{author}
+    \usebeamerfont{author}\insertauthor
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[sep=8pt,center,#1]{institute}
+    \usebeamerfont{institute}\insertinstitute\par\medskip
+    \end{beamercolorbox}
+     \begin{beamercolorbox}[sep=8pt,center,#1]{date}
+      \usebeamerfont{date}\insertdate
+    \end{beamercolorbox}
+  \end{centering}   
+ \vskip 4.1em%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.05\textheight,dp=1ex,right]{title page footer}%
+  \end{beamercolorbox}%
+}
+
+%--FRAMETITLE-----------------------
+\setbeamertemplate{frametitle}
+{
+   \setbeamercolor{frametitle}{bg=UIBK BLUE} 
+    \begin{beamercolorbox}[wd=\paperwidth,ht=2.50ex,dp=1.25ex,rounded=true,shadow=true]{frametitle}
+       \vspace*{0.01cm} \insertframetitle
+    \end{beamercolorbox}
+}
+%--TABLE-OF-CONTENTS----------------
+%set sections to bullets with numbers and simple bullets for subsections
+\setbeamertemplate{section in toc}
+{\leavevmode\leftskip=2ex%
+  \llap{%
+    \usebeamerfont*{section number projected}%
+    \usebeamercolor{section number projected}%
+    \begin{pgfpicture}{-1ex}{0ex}{1ex}{2ex}
+      \color{bg}
+      \pgfpathcircle{\pgfpoint{0pt}{.75ex}}{1.7ex}
+      \pgfusepath{fill}
+      \pgftext[base]{\color{fg}\inserttocsectionnumber}
+    \end{pgfpicture}\kern1.25ex%
+  }%
+  \vspace*{0.02cm}
+  \inserttocsection\par}
+  
+\setbeamertemplate{subsection in toc}
+{\leavevmode\leftskip=2em\bluebullet\hskip0.211em\inserttocsubsection\par}
+
+%--HEADER--------------------------
+%header contains actual section on the left, and subsection on the right
+\setbeamertemplate{headline}
+{%
+\leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,left]{header}%
+    \hspace*{0.01cm} \insertsection
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,right]{header}%
+    \insertsubsection \hspace*{0.09cm}
+    \end{beamercolorbox}%
+  }
+}
+
+%--FOOTER-------------------------
+%footer displays author, theme, date and framenumber
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.3333\paperwidth,ht=2.25ex,dp=1ex,center]{footer}%
+    \insertshortauthor
+    \hspace*{0.1cm} (ICS @ UIBK)
+  \end{beamercolorbox}%
+  
+  \begin{beamercolorbox}[wd=.3333\paperwidth,ht=2.25ex,dp=1ex,center]{footer}%
+    \insertshorttitle
+  \end{beamercolorbox}%
+  
+  \begin{beamercolorbox}[wd=.3333\paperwidth,ht=2.25ex,dp=1ex,right]{footer}%
+  \insertdate \hspace*{0.8cm}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{0.2cm}
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}

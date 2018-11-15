@@ -1,0 +1,120 @@
+
+% !TEX TS-program = pdfLaTeX+MakeIndex+BibTeX
+% !TEX encoding = UTF-8 Unicode
+\documentclass{beamer}
+\usetheme{UIBK} %Standard UIBK Template
+
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage{fontenc}
+%\usepackage[default]{comfortaa}
+
+\author{Student Name}
+\title{Stunning Title}
+\subtitle{This is a short sample presentation}
+\institute{Insitute of Computer Science \\ University of Innsbruck}
+\date{\today}
+
+\begin{document}
+
+%titlepage without header/footer and framenumbering
+\begin{frame}[plain,noframenumbering]
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+	\tableofcontents
+\end{frame}
+
+
+%show table of contents at the beginning of every section
+\AtBeginSection[]{
+\begin{frame}<beamer>
+ \frametitle{Outline}
+ \tableofcontents[currentsection]
+\end{frame}
+}
+
+
+\section{Items}
+\begin{frame}{Itemize}
+\begin{itemize}
+\item Here you can see an itemization
+\item Here you can see an itemization
+\item Here you can see an itemization
+\begin{itemize}
+\item It has items
+\item It has items
+\begin{itemize}
+\item It has items
+\item The items are below each other
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+
+\section{Subsections}
+\subsection{Subsection 1}
+\begin{frame}{Subsections}
+\begin{center}
+ {Top right of the slide shows subsections\huge }
+\end{center}
+\end{frame}
+
+
+\subsection{Subsection 2}
+\begin{frame}{Enumerate}
+\begin{enumerate}
+\item Here you can see an enumeration
+\item It has items
+\item The items are numbered
+\end{enumerate}
+\[
+	f(x)=\sum_{i=0}^\infty \frac{f^{(i)}(x_0)}{i!}(x-x_0)^i
+\]
+\end{frame}
+
+
+\section{Blocks}
+\begin{frame}{Blocks}
+\begin{block}{Lorem Ipsum}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+\end{block}
+\begin{block}{Observation}
+Simmons Dormitory is composed of brick.
+\end{block} 
+\end{frame}
+
+
+\section{Code}
+\begin{frame}{OCaml Code}
+\begin{center}
+\begin{block}{Paragraph function}
+ Write a function 'paragraph' that constructs a picture of width w of some text t, such that the content splits into as many lines as needed to fit into a paragraph of w columns. 
+\end{block}
+\begin{block}{paragraph.ml}
+{\small  \lstinputlisting[language=ml]{src/paragraph.ml}  }
+\end{block}
+\end{center}
+\end{frame}
+
+
+%final slide
+\begin{frame}[plain,noframenumbering]
+ \begin{beamercolorbox}[wd=\paperwidth, ht=1.4cm,rounded=true,shadow=true]{final slide}
+      \begin{center}
+	{\huge Thank you for your attention!}
+      \end{center}
+ \end{beamercolorbox}
+\end{frame}
+
+\section*{Backup Slides}
+\begin{frame}[noframenumbering]{Backup-Slide}
+\end{frame}
+
+
+\end{document}
+
