@@ -42,13 +42,13 @@
 
   ![thesis-3](Slide-Berkeley/thesis-3.png)
 
-1. `Slide-Cuerna/`
+1. `slide-Cuerna/`
 
-  ![](Slide-Cuerna/slide-0.png)
+  ![](slide-Cuerna/slide-0.png)
 
-  ![slide-1](Slide-Cuerna/slide-1.png)
+  ![slide-1](slide-Cuerna/slide-1.png)
 
-  ![slide-2](Slide-Cuerna/slide-2.png)
+  ![slide-2](slide-Cuerna/slide-2.png)
 
-  ![slide-3](Slide-Cuerna/slide-3.png)
+  ![slide-3](slide-Cuerna/slide-3.png)
 
