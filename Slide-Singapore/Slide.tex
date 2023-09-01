@@ -3,12 +3,12 @@
 \usetheme{Singapore}
 \usefonttheme{structurebold}
 \usecolortheme[named=SpringGreen4]{structure}
-\usepackage{gradientframe} % 图片立体感
+% \usepackage{gradientframe} % 图片立体感
 \graphicspath{{figure/}} % 图片路径
 %% 加入中文
-\usepackage{ctex}
-\setCJKsansfont[BoldFont=Noto Sans CJK SC, ItalicFont=Adobe Kaiti Std]{Source Han Serif SC}
-\setsansfont{Roboto}
+\usepackage[fontset=fandol]{ctex}
+% \setCJKsansfont[BoldFont=Noto Sans CJK SC, ItalicFont=Adobe Kaiti Std]{Source Han Serif SC}
+% \setsansfont{Roboto}
 \usepackage{natbib} % 参考文献
 % 数学字体
 % \usepackage{mathptm}
@@ -16,7 +16,7 @@
 
 \title{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
 \subtitle{空间广义线性混合模型及其在预测流行病中的应用}
-\author{黄湘云 \and 李再兴}
+\author{黄湘云 \and XXX}
 \institute{\includegraphics[width=10ex,interpolate=true]{logo} \\~~ \\ 理学院 \\ 中国矿业大学（北京）}
 \date{\today}
 % \logo{\includegraphics[width=.15\textwidth]{CUMTB}}
@@ -57,8 +57,10 @@
 \item separate components for residual spatial
 \item non-spatial extrabinomial variation
 \end{itemize}
+
 $\mathbb{R}^{n}$
-$$ \log \{p_{ij}/(1-p_{ij})\} =\alpha + \beta'z_{ij} + U_{i} + S(x_{i})$$
+
+$$\log \{p_{ij}/(1-p_{ij})\} =\alpha + \beta'z_{ij} + U_{i} + S(x_{i})$$
 
 \end{frame}
 

@@ -1,4 +1,4 @@
-\select@language {german}
+\babel@toc {german}{}\relax 
 \beamer@sectionintoc {1}{引言}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{研究意义}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{文献综述}{5}{0}{1}

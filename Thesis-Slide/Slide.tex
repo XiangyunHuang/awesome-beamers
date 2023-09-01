@@ -21,15 +21,15 @@
 \renewcommand\abstractname{摘要}
 \graphicspath{{figure/}} % 图片路径
 \usepackage{calligra} % Thank you
-\usepackage{ctex} % 加入中文
-\setCJKsansfont{Noto Sans CJK SC}
-\setsansfont{Lato} % Lato Roboto Fira Sans
+\usepackage[fontset=fandol]{ctex} % 加入中文
+% \setCJKsansfont{Noto Sans CJK SC}
+% \setsansfont{Noto Sans} % Lato Roboto Fira Sans
 
 \usepackage{url}					
 \usepackage{natbib} % 参考文献
 \title[Spatial Generalized Linear Mixed Models]{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
 \subtitle{空间广义线性混合模型及其在预测流行病中的应用}
-\author[黄湘云]{学生：黄湘云 \and 导师：李再兴 } % \\ 专业：统计学 \\ 方向：数据分析与统计计算
+\author[黄湘云]{学生：黄湘云 \and 导师：XXX } % \\ 专业：统计学 \\ 方向：数据分析与统计计算
 \institute[中国矿业大学（北京）]{理学院 \and 计算数学与统计系\and 2015级硕士学位论文答辩} % 理学院\\
 \date[\today]{\includegraphics[width=.5\textwidth]{logo}}
 
@@ -77,7 +77,7 @@
 \item non-spatial extrabinomial variation
 \end{itemize}
 $\mathbb{R}^{n}$
-$$ \mathsf{\log} \{p_{ij}/(1-p_{ij})\} =\alpha + \beta'z_{ij} + U_{i} + S(x_{i})$$
+$$\mathsf{\log} \{p_{ij}/(1-p_{ij})\} =\alpha + \beta'z_{ij} + U_{i} + S(x_{i})$$
 
 \end{frame}
 
@@ -127,7 +127,7 @@ $$ \mathsf{\log} \{p_{ij}/(1-p_{ij})\} =\alpha + \beta'z_{ij} + U_{i} + S(x_{i})
 \section{结论与展望}
 
 \begin{frame}
-\centering {\zihao{0} \color{red} \calligra{Thank You}}
+% \centering {\zihao{0} \color{red} \calligra{Thank You}}
 
 \end{frame}
 
@@ -148,10 +148,10 @@ $$ \mathsf{\log} \{p_{ij}/(1-p_{ij})\} =\alpha + \beta'z_{ij} + U_{i} + S(x_{i})
 \begin{figure}
 
 \centering
-\includegraphics[width=.2\textwidth]{software/r}\qquad
-\includegraphics[width=.16\textwidth]{software/stan} \\ 
-\includegraphics[width=.45\textwidth]{software/bioconductor}
-\includegraphics[width=.45\textwidth]{software/PyMC3} 
+\includegraphics[width=.2\textwidth]{figure/r}\qquad
+\includegraphics[width=.16\textwidth]{figure/stan} \\ 
+\includegraphics[width=.45\textwidth]{figure/bioconductor}
+\includegraphics[width=.45\textwidth]{figure/PyMC3} 
 \caption{{\color{OrangeRed1} GNU R} {\color{SpringGreen4} INLA}  {\color{OrangeRed1} Stan} {\color{SpringGreen4} PyMC3}}
 
 \end{figure}
@@ -175,8 +175,8 @@ $$ \mathsf{\log} \{p_{ij}/(1-p_{ij})\} =\alpha + \beta'z_{ij} + U_{i} + S(x_{i})
 
 \begin{figure}
 \centering
-\includegraphics[width=.3\textwidth]{software/GeoDa}\\
-\includegraphics[width=.8\textwidth]{software/bioconductor}
+\includegraphics[width=.3\textwidth]{figure/GeoDa}\\
+\includegraphics[width=.8\textwidth]{figure/bioconductor}
 \end{figure}
 
 \end{frame}
@@ -184,7 +184,7 @@ $$ \mathsf{\log} \{p_{ij}/(1-p_{ij})\} =\alpha + \beta'z_{ij} + U_{i} + S(x_{i})
 
 \begin{frame}{Ack}
 \begin{itemize}
-\item[\faGithub] \href{https://github.com/Cloud2016}{Cloud2016} \faAt Github
+\item[\faGithub] \href{https://github.com/XiangyunHuang}{XiangyunHuang} \faAt Github
 \item[\aiOverleaf] \href{https://www.overleaf.com/}{Xiangyun} \faAt Overleaf
 \item[\aiarXiv] \href{https://arxiv.org/}{arXiv}
 \end{itemize}

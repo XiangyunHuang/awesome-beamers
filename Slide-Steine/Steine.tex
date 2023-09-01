@@ -1,5 +1,4 @@
-
-% !TEX TS-program = xeLaTeX
+% !TEX TS-program = XeLaTeX
 \documentclass[11pt,compress,xcolor=x11names,UTF8]{ctexbeamer}
 % \usetheme{Ulm}
 \usetheme{Bayreuth}
@@ -9,9 +8,9 @@
 \usepackage[T1]{fontenc}
 \usepackage{xeCJK}
 \defaultfontfeatures{Mapping=tex-text}
-\setCJKmainfont[BoldFont=Noto Sans CJK SC, ItalicFont=Adobe Kaiti Std]{Source Han Serif SC}
-\setCJKmonofont[Scale=0.9]{Adobe Kaiti Std}
-\setCJKfamilyfont{song}[BoldFont=Noto Sans CJK SC]{Source Han Serif SC}
+\setCJKmainfont[BoldFont=Noto Sans CJK SC, ItalicFont=Kaiti SC]{Noto Serif CJK SC}
+\setCJKmonofont[Scale=0.9]{Kaiti SC}
+\setCJKfamilyfont{song}[BoldFont=Noto Sans CJK SC]{Noto Serif CJK SC}
 \setCJKfamilyfont{sf}[BoldFont=Noto Sans CJK SC]{Noto Sans CJK SC}
 
 \usepackage{appendixnumberbeamer}
@@ -33,7 +32,7 @@
 \title{空间广义线性混合模型及其在预测流行病中的应用}
 \subtitle{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
 
-\author{黄湘云\and 李再兴}
+\author{黄湘云\and XXX}
 \institute[CUMTB]{理学院\\ 中国矿业大学（北京）}
 \date{2018年5月}
 
@@ -71,7 +70,7 @@
 \item non-spatial extrabinomial variation
 \end{itemize}
 $\mathbb{R}^{n}$
-$$ \log \{p_{ij}/(1-p_{ij})\} =\alpha + \beta'z_{ij} + U_{i} + S(x_{i})$$
+$$\log \{p_{ij}/(1-p_{ij})\} =\alpha + \beta'z_{ij} + U_{i} + S(x_{i})$$
 
 \end{frame}
 

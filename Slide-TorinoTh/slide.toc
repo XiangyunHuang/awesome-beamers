@@ -1,3 +1,4 @@
-\select@language {english}
+\xpginauxfiletrue 
+\selectlanguage *[variant=british]{english}
 \beamer@sectionintoc {1}{Intro}{3}{0}{1}
 \beamer@sectionintoc {2}{refs}{7}{0}{2}

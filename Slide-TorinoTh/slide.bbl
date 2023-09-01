@@ -1,6 +1,6 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citename{Bob {\em et~al.\ }\relax, }2017]{Stan2017}
+\bibitem[\protect\citename{Bob {\em et~al.}, }2017]{Stan2017}
 Bob, Carpenter, Andrew, Gelman, Matthew, Hoffman, \& et~al. 2017.
 \newblock Stan: A Probabilistic Programming Language.
 \newblock {\em Journal of Statistical Software}, {\bf 76}(1), 1--32.
@@ -10,12 +10,10 @@ Christensen, Ole~F., \& {Ribeiro Jr}, Paulo~J. 2015.
 \newblock {\em geoRglm: A Package for Generalised Linear Spatial Models}.
 \newblock R package version 0.9-8.
 
-\bibitem[\protect\citename{Gelman {\em et~al.\ }\relax, }2015]{Stan2015}
+\bibitem[\protect\citename{Gelman {\em et~al.}, }2015]{Stan2015}
 Gelman, Andrew, Lee, Daniel, Guo, Jiqiang, \& et~al. 2015.
-\newblock Stan: A Probabilistic Programming Language for Bayesian Inference and
-  Optimization.
-\newblock {\em Journal of Educational and Behavioral Statistics}, {\bf 40}(5),
-  837--840.
+\newblock Stan: A Probabilistic Programming Language for Bayesian Inference and Optimization.
+\newblock {\em Journal of Educational and Behavioral Statistics}, {\bf 40}(5), 837--840.
 
 \bibitem[\protect\citename{Giorgi \& Diggle, }2016]{Giorgi2016}
 Giorgi, Emanuele, \& Diggle, Peter~J. 2016.
@@ -24,8 +22,7 @@ Giorgi, Emanuele, \& Diggle, Peter~J. 2016.
 
 \bibitem[\protect\citename{{G{\'o}mez-Rubio} \& Rue, }2017]{Rue2017arXiv}
 {G{\'o}mez-Rubio}, Virgilio, \& Rue, H{\aa}vard. 2017.
-\newblock Markov Chain Monte Carlo with the Integrated Nested Laplace
-  Approximation.
+\newblock Markov Chain Monte Carlo with the Integrated Nested Laplace Approximation.
 \newblock {\em ArXiv e-prints}.
 
 \bibitem[\protect\citename{{Ribeiro Jr} \& Diggle, }2016]{R-geoR}
@@ -38,22 +35,17 @@ Ripley, Brian. 2015.
 \newblock {\em spatial: Functions for Kriging and Point Pattern Analysis}.
 \newblock R package version 7.3-11.
 
-\bibitem[\protect\citename{Rue {\em et~al.\ }\relax, }2009]{Rue2009}
+\bibitem[\protect\citename{Rue {\em et~al.}, }2009]{Rue2009}
 Rue, H{\aa}vard, Martino, Sara, Chopin, Nicolas, \& et~al. 2009.
-\newblock Approximate Bayesian inference for latent Gaussian models by using
-  integrated nested Laplace approximations.
-\newblock {\em Journal of the Royal Statistical Society: Series B (Statistical
-  Methodology)}, {\bf 71}(2), 319--392.
+\newblock Approximate Bayesian inference for latent Gaussian models by using integrated nested Laplace approximations.
+\newblock {\em Journal of the Royal Statistical Society: Series B (Statistical Methodology)}, {\bf 71}(2), 319--392.
 
-\bibitem[\protect\citename{Rue {\em et~al.\ }\relax, }2016]{R-INLA}
-Rue, H{\aa}vard, Martino, Sara, Lindgren, Finn, Simpson, Daniel, \& et~al.
-  2016.
-\newblock {\em INLA: Functions which Allow to Perform Full Bayesian Analysis of
-  Latent Gaussian Models using Integrated Nested Laplace Approximations}.
+\bibitem[\protect\citename{Rue {\em et~al.}, }2016]{R-INLA}
+Rue, H{\aa}vard, Martino, Sara, Lindgren, Finn, Simpson, Daniel, \& et~al. 2016.
+\newblock {\em INLA: Functions which Allow to Perform Full Bayesian Analysis of Latent Gaussian Models using Integrated Nested Laplace Approximations}.
 \newblock R package version 0.0-1468872408.
 
-\bibitem[\protect\citename{Salvatier {\em et~al.\ }\relax,
-  }2016]{Salvatier2016}
+\bibitem[\protect\citename{Salvatier {\em et~al.}, }2016]{Salvatier2016}
 Salvatier, John, Wiecki, Thomas~V., \& Fonnesbeck, Christopher. 2016.
 \newblock Probabilistic programming in Python using PyMC3.
 \newblock {\em PeerJ Computer Science}, {\bf 2}(55).
